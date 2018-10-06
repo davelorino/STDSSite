@@ -22,3 +22,826 @@ Untracked files:
 nothing added to commit but untracked files present
 ]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git add *
 ]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git add .
+]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git commit -m "new layout"
+[master (root-commit) 370949e] new layout
+ 566 files changed, 89305 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 .Rproj.user/5FC0E2E2/console06/1A293535
+ create mode 100644 .Rproj.user/5FC0E2E2/console06/1A293535.env
+ create mode 100644 .Rproj.user/5FC0E2E2/console06/INDEX001
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/prop/21914062
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/prop/363DDDA1
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/prop/424B6934
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/prop/82924525
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/prop/941B819E
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/prop/A4306656
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/prop/BDCF3BEF
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/prop/FAA18FB9
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/prop/INDEX
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/2EA12B11
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/2EA12B11-contents
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/64C06FB3
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/64C06FB3-contents
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/6D541E06
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/6D541E06-contents
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/ABC00C7E
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/ABC00C7E-contents
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/C6B8D188
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/C6B8D188-contents
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/CC0C1FA
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/CC0C1FA-contents
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/DCEE8506
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/DCEE8506-contents
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/E1F4FB14
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/E1F4FB14-contents
+ create mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/8953EB2E-2015-07-23-r-rmarkdown/1/5FC0E2E275488D4D/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/8953EB2E-2015-07-23-r-rmarkdown/1/s/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 STDS Orianna.Rproj
+ create mode 100644 config.toml
+ create mode 100644 content/about/_index.md
+ create mode 100644 content/blog/2015-07-23-r-rmarkdown.Rmd
+ create mode 100644 content/blog/2015-07-23-r-rmarkdown.html
+ create mode 100644 "content/blog/2018-01/mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\2601-\345\237\272\346\234\254\350\256\276\347\275\256\344\270\216\345\270\270\347\224\250\350\275\257\344\273\266.md"
+ create mode 100644 "content/blog/2018-01/mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\2602-finder\350\256\276\347\275\256.md"
+ create mode 100644 "content/blog/2018-03/blog\345\205\273\346\210\220\350\256\2607-hugo\345\244\232\347\272\247\345\210\227\350\241\250\346\227\240\346\263\225\346\230\276\347\244\272--markdown\347\232\204bug\345\220\210\351\233\206.md"
+ create mode 100644 "content/blog/2018-05/\344\270\255\346\226\207\347\211\210\351\237\263\344\271\220\345\211\247\351\225\277\350\205\277\345\217\224\345\217\224repo.md"
+ create mode 100644 "content/blog/2018-05/\347\210\261\345\260\224\345\205\260\350\270\242\350\270\217\350\210\236\347\216\213\350\200\205\344\271\213\350\210\236\345\215\261\351\231\251\346\270\270\346\210\217.md"
+ create mode 100644 "content/blog/2018-05/\347\216\260\345\256\236\344\270\216\345\271\273\346\203\263\347\232\204\350\267\235\347\246\273\350\247\202\346\267\261\345\244\234\345\260\217\347\213\227\347\246\273\345\245\207\344\272\213\344\273\266repo\346\204\237\346\203\263.md"
+ create mode 100644 "content/blog/2018-08/blog\345\205\273\346\210\220\350\256\26011-\347\273\231\347\275\221\347\253\231\345\212\240\344\270\252\345\260\217icon.md"
+ create mode 100644 "content/blog/2018-08/blog\345\205\273\346\210\220\350\256\26014-\350\256\251\345\220\214\351\241\265\346\273\232\345\212\250\346\233\264\345\271\263\346\273\221.md"
+ create mode 100644 "content/blog/2018-08/\345\211\215\347\253\257\350\257\225\346\260\2641-\345\211\215\347\253\257\346\212\200\346\234\257\350\267\257\347\272\277.md"
+ create mode 100644 "content/blog/2018-08/\345\211\215\347\253\257\350\257\225\346\260\2642-\344\275\277\347\224\250docker\351\225\234\345\203\217\347\232\204sass\351\205\215\347\275\256.md"
+ create mode 100644 "content/blog/2018-08/\351\237\263\344\271\220\345\211\247catrepo.md"
+ create mode 100644 content/blog/_index.md
+ create mode 100644 content/moment/_index.md
+ create mode 100644 content/moment/test.md
+ create mode 100644 data/series.toml
+ create mode 100644 index.Rmd
+ create mode 100644 layouts/shortcodes/bgstyle.html
+ create mode 100644 layouts/shortcodes/color.html
+ create mode 100644 public/.DS_Store
+ create mode 100644 public/404.html
+ create mode 100644 public/about/index.html
+ create mode 100644 public/about/index.xml
+ create mode 100644 public/about/page/1/index.html
+ create mode 100644 public/blog/2015-07-23-r-rmarkdown.Rmd
+ create mode 100644 public/blog/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
+ create mode 100644 public/blog/2015-07/hello-r-markdown/index.html
+ create mode 100644 "public/blog/2018-01/mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\2601-\345\237\272\346\234\254\350\256\276\347\275\256\344\270\216\345\270\270\347\224\250\350\275\257\344\273\266/index.html"
+ create mode 100644 "public/blog/2018-01/mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\2602-finder\350\256\276\347\275\256/index.html"
+ create mode 100644 "public/blog/2018-03/blog\345\205\273\346\210\220\350\256\2607-hugo\345\244\232\347\272\247\345\210\227\350\241\250\346\227\240\346\263\225\346\230\276\347\244\272--markdown\347\232\204bug\345\220\210\351\233\206/index.html"
+ create mode 100644 "public/blog/2018-05/\344\270\255\346\226\207\347\211\210\351\237\263\344\271\220\345\211\247\351\225\277\350\205\277\345\217\224\345\217\224repo/index.html"
+ create mode 100644 "public/blog/2018-05/\347\210\261\345\260\224\345\205\260\350\270\242\350\270\217\350\210\236\347\216\213\350\200\205\344\271\213\350\210\236\345\215\261\351\231\251\346\270\270\346\210\217/index.html"
+ create mode 100644 "public/blog/2018-05/\347\216\260\345\256\236\344\270\216\345\271\273\346\203\263\347\232\204\350\267\235\347\246\273\350\247\202\346\267\261\345\244\234\345\260\217\347\213\227\347\246\273\345\245\207\344\272\213\344\273\266repo\346\204\237\346\203\263/index.html"
+ create mode 100644 "public/blog/2018-08/blog\345\205\273\346\210\220\350\256\26011-\347\273\231\347\275\221\347\253\231\345\212\240\344\270\252\345\260\217icon/index.html"
+ create mode 100644 "public/blog/2018-08/blog\345\205\273\346\210\220\350\256\26014-\350\256\251\345\220\214\351\241\265\346\273\232\345\212\250\346\233\264\345\271\263\346\273\221/index.html"
+ create mode 100644 "public/blog/2018-08/\345\211\215\347\253\257\350\257\225\346\260\2641-\345\211\215\347\253\257\346\212\200\346\234\257\350\267\257\347\272\277/index.html"
+ create mode 100644 "public/blog/2018-08/\345\211\215\347\253\257\350\257\225\346\260\2642-\344\275\277\347\224\250docker\351\225\234\345\203\217\347\232\204sass\351\205\215\347\275\256/index.html"
+ create mode 100644 "public/blog/2018-08/\351\237\263\344\271\220\345\211\247catrepo/index.html"
+ create mode 100644 public/blog/index.html
+ create mode 100644 public/blog/index.xml
+ create mode 100644 public/blog/page/1/index.html
+ create mode 100644 public/blog/page/2/index.html
+ create mode 100644 public/blog/page/3/index.html
+ create mode 100644 public/blog/page/4/index.html
+ create mode 100644 public/categories/index.html
+ create mode 100644 public/categories/index.xml
+ create mode 100644 public/categories/r/index.html
+ create mode 100644 public/categories/r/index.xml
+ create mode 100644 public/categories/test/index.html
+ create mode 100644 public/categories/test/index.xml
+ create mode 100644 "public/categories/\345\223\201\351\211\264\350\257\204\350\256\272/index.html"
+ create mode 100644 "public/categories/\345\223\201\351\211\264\350\257\204\350\256\272/index.xml"
+ create mode 100644 "public/categories/\346\235\202\346\212\200\346\265\205\345\260\235/index.html"
+ create mode 100644 "public/categories/\346\235\202\346\212\200\346\265\205\345\260\235/index.xml"
+ create mode 100644 public/css/font.css
+ create mode 100644 public/css/main.css
+ create mode 100644 public/css/vendors-extensions/fontawesome/all.min.css
+ create mode 100644 public/css/vendors-extensions/mdb/mdb.css
+ create mode 100644 public/css/vendors-extensions/mdb/mdb.min.css
+ create mode 100644 public/css/vendors/bootstrap4/bootstrap.min.css
+ create mode 100644 public/css/vendors/highlight/github-gist.css
+ create mode 100644 public/css/vendors/mdb/mdb.min.css
+ create mode 100644 public/css/vendors/mdb/style.min.css
+ create mode 100644 public/fonts/fontawesome/fa-brands-400.eot
+ create mode 100644 public/fonts/fontawesome/fa-brands-400.svg
+ create mode 100644 public/fonts/fontawesome/fa-brands-400.ttf
+ create mode 100644 public/fonts/fontawesome/fa-brands-400.woff
+ create mode 100644 public/fonts/fontawesome/fa-brands-400.woff2
+ create mode 100644 public/fonts/fontawesome/fa-regular-400.eot
+ create mode 100644 public/fonts/fontawesome/fa-regular-400.svg
+ create mode 100644 public/fonts/fontawesome/fa-regular-400.ttf
+ create mode 100644 public/fonts/fontawesome/fa-regular-400.woff
+ create mode 100644 public/fonts/fontawesome/fa-regular-400.woff2
+ create mode 100644 public/fonts/fontawesome/fa-solid-900.eot
+ create mode 100644 public/fonts/fontawesome/fa-solid-900.svg
+ create mode 100644 public/fonts/fontawesome/fa-solid-900.ttf
+ create mode 100644 public/fonts/fontawesome/fa-solid-900.woff
+ create mode 100644 public/fonts/fontawesome/fa-solid-900.woff2
+ create mode 100644 public/images/blog/2018-08/photo-1525625412553-5cc3e63bbc32.jpeg
+ create mode 100644 public/images/blog/2018-08/test1.jpg
+ create mode 100644 public/images/blog/2018-08/test10.jpeg
+ create mode 100644 public/images/blog/2018-08/test11.jpg
+ create mode 100644 public/images/blog/2018-08/test12.jpg
+ create mode 100644 public/images/blog/2018-08/test3.jpg
+ create mode 100644 public/images/blog/2018-08/test4.jpg
+ create mode 100644 public/images/blog/2018-08/test5.jpg
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Amphetamine.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Cheatsheet.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Code.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Docker.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Little-Snitch.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/NoSleep.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/PyCharm.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/SPlayerX.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Spectacle.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Sublime-Text.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Windscribe.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/config-privacy-source.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/open-emoji-view.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/touchbar-config.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/unarchiver.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/vlc.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/vuze.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/Automator.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/Go2Shell.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/add-app.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/application.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/change-icon.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/finder-toolbox.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/finder-view.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/go2shell-finder.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/go2shell-toolbox.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/new-application.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/open-terminal.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/run-script.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/save-script.jpg"
+ create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/service-open-terminal.jpg"
+ create mode 100644 public/img/.DS_Store
+ create mode 100644 public/img/Profile2.jpg
+ create mode 100644 public/img/default.jpg
+ create mode 100644 public/img/header-slides/photo-1519630134238-d7a6338ec24b.jpeg
+ create mode 100644 public/img/header-slides/photo-1523608401-53eb5741c1a0.jpeg
+ create mode 100644 public/img/header-slides/photo-1524562865630-b991c6c2f261.jpeg
+ create mode 100644 public/img/header-slides/photo-1526638104077-256f1b33e837.jpeg
+ create mode 100644 public/img/header-slides/photo-1530628815456-c641ebc4dda3.jpeg
+ create mode 100644 public/img/header-slides/photo-1536731578915-ab4e400a6395.jpeg
+ create mode 100644 public/img/header-slides/raw_1515691746.jpg
+ create mode 100644 public/img/header-slides/raw_1515847341.jpg
+ create mode 100644 public/img/mask/circle.svg
+ create mode 100644 public/img/profile.jpg
+ create mode 100644 public/img/svg/arrow_left.svg
+ create mode 100644 public/img/svg/arrow_right.svg
+ create mode 100644 public/img/zheng.png
+ create mode 100644 public/index.html
+ create mode 100644 public/index.xml
+ create mode 100644 public/js/main.js
+ create mode 100644 public/js/vendors-extensions/bootstrap4/bootstrap.js
+ create mode 100644 public/js/vendors/highlight.pack.js
+ create mode 100644 public/js/vendors/holder.min.js
+ create mode 100644 public/js/vendors/jquery/jquery-3.3.1.min.js
+ create mode 100644 public/js/vendors/jquery/jquery.smooth-scroll.min.js
+ create mode 100644 public/js/vendors/katex/contrib/auto-render.js
+ create mode 100644 public/js/vendors/katex/contrib/auto-render.min.js
+ create mode 100644 public/js/vendors/katex/contrib/copy-tex.css
+ create mode 100644 public/js/vendors/katex/contrib/copy-tex.js
+ create mode 100644 public/js/vendors/katex/contrib/copy-tex.min.css
+ create mode 100644 public/js/vendors/katex/contrib/copy-tex.min.js
+ create mode 100644 public/js/vendors/katex/contrib/mathtex-script-type.js
+ create mode 100644 public/js/vendors/katex/contrib/mathtex-script-type.min.js
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_AMS-Regular.ttf
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_AMS-Regular.woff
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_AMS-Regular.woff2
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Caligraphic-Bold.ttf
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Caligraphic-Bold.woff
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Caligraphic-Bold.woff2
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Caligraphic-Regular.ttf
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Caligraphic-Regular.woff
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Caligraphic-Regular.woff2
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Fraktur-Bold.ttf
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Fraktur-Bold.woff
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Fraktur-Bold.woff2
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Fraktur-Regular.ttf
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Fraktur-Regular.woff
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Fraktur-Regular.woff2
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-Bold.ttf
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-Bold.woff
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-Bold.woff2
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-BoldItalic.ttf
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-BoldItalic.woff
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-BoldItalic.woff2
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-Italic.ttf
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-Italic.woff
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-Italic.woff2
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-Regular.ttf
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-Regular.woff
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-Regular.woff2
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Math-Italic.ttf
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Math-Italic.woff
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Math-Italic.woff2
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_SansSerif-Bold.ttf
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_SansSerif-Bold.woff
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_SansSerif-Bold.woff2
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_SansSerif-Italic.ttf
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_SansSerif-Italic.woff
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_SansSerif-Italic.woff2
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_SansSerif-Regular.ttf
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_SansSerif-Regular.woff
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_SansSerif-Regular.woff2
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Script-Regular.ttf
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Script-Regular.woff
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Script-Regular.woff2
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size1-Regular.ttf
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size1-Regular.woff
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size1-Regular.woff2
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size2-Regular.ttf
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size2-Regular.woff
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size2-Regular.woff2
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size3-Regular.ttf
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size3-Regular.woff
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size3-Regular.woff2
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size4-Regular.ttf
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size4-Regular.woff
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size4-Regular.woff2
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Typewriter-Regular.ttf
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Typewriter-Regular.woff
+ create mode 100644 public/js/vendors/katex/fonts/KaTeX_Typewriter-Regular.woff2
+ create mode 100644 public/js/vendors/katex/katex.min.css
+ create mode 100644 public/js/vendors/katex/katex.min.js
+ create mode 100644 public/js/vendors/mdb/mdb.min.js
+ create mode 100644 public/js/vendors/mdb/mdw-search.js
+ create mode 100644 public/js/vendors/popper.min.js
+ create mode 100644 public/moment/index.html
+ create mode 100644 public/moment/index.xml
+ create mode 100644 public/moment/page/1/index.html
+ create mode 100644 public/moment/test/index.html
+ create mode 100644 "public/series/blog\345\205\273\346\210\220\350\256\260/index.html"
+ create mode 100644 "public/series/blog\345\205\273\346\210\220\350\256\260/index.xml"
+ create mode 100644 public/series/index.html
+ create mode 100644 public/series/index.xml
+ create mode 100644 "public/series/mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/index.html"
+ create mode 100644 "public/series/mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/index.xml"
+ create mode 100644 "public/series/\345\211\215\347\253\257\350\257\225\346\260\264/index.html"
+ create mode 100644 "public/series/\345\211\215\347\253\257\350\257\225\346\260\264/index.xml"
+ create mode 100644 "public/series/\350\247\202\345\220\216repo/index.html"
+ create mode 100644 "public/series/\350\247\202\345\220\216repo/index.xml"
+ create mode 100644 public/sitemap.xml
+ create mode 100644 public/tags/blog/index.html
+ create mode 100644 public/tags/blog/index.xml
+ create mode 100644 public/tags/bug/index.html
+ create mode 100644 public/tags/bug/index.xml
+ create mode 100644 public/tags/css/index.html
+ create mode 100644 public/tags/css/index.xml
+ create mode 100644 public/tags/docker/index.html
+ create mode 100644 public/tags/docker/index.xml
+ create mode 100644 public/tags/hugo/index.html
+ create mode 100644 public/tags/hugo/index.xml
+ create mode 100644 public/tags/index.html
+ create mode 100644 public/tags/index.xml
+ create mode 100644 public/tags/js/index.html
+ create mode 100644 public/tags/js/index.xml
+ create mode 100644 public/tags/mac/index.html
+ create mode 100644 public/tags/mac/index.xml
+ create mode 100644 public/tags/markdown/index.html
+ create mode 100644 public/tags/markdown/index.xml
+ create mode 100644 public/tags/musical/index.html
+ create mode 100644 public/tags/musical/index.xml
+ create mode 100644 public/tags/national-theatre/index.html
+ create mode 100644 public/tags/national-theatre/index.xml
+ create mode 100644 public/tags/nested-list/index.html
+ create mode 100644 public/tags/nested-list/index.xml
+ create mode 100644 public/tags/plot/index.html
+ create mode 100644 public/tags/plot/index.xml
+ create mode 100644 public/tags/r-markdown/index.html
+ create mode 100644 public/tags/r-markdown/index.xml
+ create mode 100644 public/tags/regression/index.html
+ create mode 100644 public/tags/regression/index.xml
+ create mode 100644 public/tags/sass/index.html
+ create mode 100644 public/tags/sass/index.xml
+ create mode 100644 public/tags/typora/index.html
+ create mode 100644 public/tags/typora/index.xml
+ create mode 100644 "public/tags/\344\270\255\346\226\207/index.html"
+ create mode 100644 "public/tags/\344\270\255\346\226\207/index.xml"
+ create mode 100644 "public/tags/\345\205\260\345\277\203/index.html"
+ create mode 100644 "public/tags/\345\205\260\345\277\203/index.xml"
+ create mode 100644 "public/tags/\345\211\215\347\253\257/index.html"
+ create mode 100644 "public/tags/\345\211\215\347\253\257/index.xml"
+ create mode 100644 "public/tags/\345\244\247\345\211\247\351\231\242/index.html"
+ create mode 100644 "public/tags/\345\244\247\345\211\247\351\231\242/index.xml"
+ create mode 100644 "public/tags/\346\226\207\345\271\277/index.html"
+ create mode 100644 "public/tags/\346\226\207\345\271\277/index.xml"
+ create mode 100644 "public/tags/\346\234\237\345\276\205\347\232\204show/index.html"
+ create mode 100644 "public/tags/\346\234\237\345\276\205\347\232\204show/index.xml"
+ create mode 100644 "public/tags/\347\216\257\345\242\203\351\205\215\347\275\256/index.html"
+ create mode 100644 "public/tags/\347\216\257\345\242\203\351\205\215\347\275\256/index.xml"
+ create mode 100644 "public/tags/\350\257\235\345\211\247/index.html"
+ create mode 100644 "public/tags/\350\257\235\345\211\247/index.xml"
+ create mode 100644 "public/tags/\350\270\242\350\270\217\350\210\236/index.html"
+ create mode 100644 "public/tags/\350\270\242\350\270\217\350\210\236/index.xml"
+ create mode 100644 "public/tags/\350\275\257\344\273\266\345\256\211\350\243\205/index.html"
+ create mode 100644 "public/tags/\350\275\257\344\273\266\345\256\211\350\243\205/index.xml"
+ create mode 100644 static/blog/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
+ create mode 100644 static/images/blog/2018-08/test1.jpg
+ create mode 100644 static/images/blog/2018-08/test10.jpeg
+ create mode 100644 static/images/blog/2018-08/test11.jpg
+ create mode 100644 static/images/blog/2018-08/test3.jpg
+ create mode 100644 static/images/blog/2018-08/test4.jpg
+ create mode 100644 static/images/blog/2018-08/test5.jpg
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Amphetamine.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Cheatsheet.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Code.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Docker.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Little-Snitch.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/NoSleep.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/PyCharm.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/SPlayerX.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Spectacle.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Sublime-Text.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Windscribe.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/config-privacy-source.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/open-emoji-view.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/touchbar-config.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/unarchiver.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/vlc.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/vuze.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/Automator.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/Go2Shell.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/add-app.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/application.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/change-icon.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/finder-toolbox.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/finder-view.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/go2shell-finder.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/go2shell-toolbox.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/new-application.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/open-terminal.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/run-script.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/save-script.jpg"
+ create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/service-open-terminal.jpg"
+ create mode 100644 static/img/profile.jpg
+ create mode 100644 themes/.DS_Store
+ create mode 100644 themes/AllinOne/.DS_Store
+ create mode 100644 themes/AllinOne/.gitattributes
+ create mode 100644 themes/AllinOne/LICENSE
+ create mode 100644 themes/AllinOne/README.md
+ create mode 100644 themes/AllinOne/archetypes/default.md
+ create mode 100644 themes/AllinOne/data/series.toml
+ create mode 100644 themes/AllinOne/exampleSite/config.toml
+ create mode 100644 themes/AllinOne/exampleSite/content/about/_index.md
+ create mode 100644 "themes/AllinOne/exampleSite/content/blog/2018-01/mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\2601-\345\237\272\346\234\254\350\256\276\347\275\256\344\270\216\345\270\270\347\224\250\350\275\257\344\273\266.md"
+ create mode 100644 "themes/AllinOne/exampleSite/content/blog/2018-01/mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\2602-finder\350\256\276\347\275\256.md"
+ create mode 100644 "themes/AllinOne/exampleSite/content/blog/2018-03/blog\345\205\273\346\210\220\350\256\2607-hugo\345\244\232\347\272\247\345\210\227\350\241\250\346\227\240\346\263\225\346\230\276\347\244\272--markdown\347\232\204bug\345\220\210\351\233\206.md"
+ create mode 100644 "themes/AllinOne/exampleSite/content/blog/2018-05/\344\270\255\346\226\207\347\211\210\351\237\263\344\271\220\345\211\247\351\225\277\350\205\277\345\217\224\345\217\224repo.md"
+ create mode 100644 "themes/AllinOne/exampleSite/content/blog/2018-05/\347\210\261\345\260\224\345\205\260\350\270\242\350\270\217\350\210\236\347\216\213\350\200\205\344\271\213\350\210\236\345\215\261\351\231\251\346\270\270\346\210\217.md"
+ create mode 100644 "themes/AllinOne/exampleSite/content/blog/2018-05/\347\216\260\345\256\236\344\270\216\345\271\273\346\203\263\347\232\204\350\267\235\347\246\273\350\247\202\346\267\261\345\244\234\345\260\217\347\213\227\347\246\273\345\245\207\344\272\213\344\273\266repo\346\204\237\346\203\263.md"
+ create mode 100644 "themes/AllinOne/exampleSite/content/blog/2018-08/blog\345\205\273\346\210\220\350\256\26011-\347\273\231\347\275\221\347\253\231\345\212\240\344\270\252\345\260\217icon.md"
+ create mode 100644 "themes/AllinOne/exampleSite/content/blog/2018-08/blog\345\205\273\346\210\220\350\256\26014-\350\256\251\345\220\214\351\241\265\346\273\232\345\212\250\346\233\264\345\271\263\346\273\221.md"
+ create mode 100644 "themes/AllinOne/exampleSite/content/blog/2018-08/\345\211\215\347\253\257\350\257\225\346\260\2641-\345\211\215\347\253\257\346\212\200\346\234\257\350\267\257\347\272\277.md"
+ create mode 100644 "themes/AllinOne/exampleSite/content/blog/2018-08/\345\211\215\347\253\257\350\257\225\346\260\2642-\344\275\277\347\224\250docker\351\225\234\345\203\217\347\232\204sass\351\205\215\347\275\256.md"
+ create mode 100644 "themes/AllinOne/exampleSite/content/blog/2018-08/\351\237\263\344\271\220\345\211\247catrepo.md"
+ create mode 100644 themes/AllinOne/exampleSite/content/blog/_index.md
+ create mode 100644 themes/AllinOne/exampleSite/content/moment/_index.md
+ create mode 100644 themes/AllinOne/exampleSite/content/moment/test.md
+ create mode 100644 themes/AllinOne/exampleSite/data/series.toml
+ create mode 100644 themes/AllinOne/exampleSite/layouts/shortcodes/bgstyle.html
+ create mode 100644 themes/AllinOne/exampleSite/layouts/shortcodes/color.html
+ create mode 100644 themes/AllinOne/exampleSite/static/images/blog/2018-08/test1.jpg
+ create mode 100644 themes/AllinOne/exampleSite/static/images/blog/2018-08/test3.jpg
+ create mode 100644 themes/AllinOne/exampleSite/static/images/blog/2018-08/test4.jpg
+ create mode 100644 themes/AllinOne/exampleSite/static/images/blog/2018-08/test5.jpg
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Amphetamine.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Cheatsheet.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Code.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Docker.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Little-Snitch.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/NoSleep.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/PyCharm.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/SPlayerX.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Spectacle.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Sublime-Text.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Windscribe.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/config-privacy-source.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/open-emoji-view.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/touchbar-config.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/unarchiver.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/vlc.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/vuze.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/Automator.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/Go2Shell.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/add-app.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/application.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/change-icon.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/finder-toolbox.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/finder-view.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/go2shell-finder.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/go2shell-toolbox.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/new-application.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/open-terminal.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/run-script.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/save-script.jpg"
+ create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/service-open-terminal.jpg"
+ create mode 100644 themes/AllinOne/exampleSite/static/img/profile.jpg
+ create mode 100644 themes/AllinOne/i18n/en.yaml
+ create mode 100644 themes/AllinOne/i18n/zh-Hans.yaml
+ create mode 100644 themes/AllinOne/images/screenshot.png
+ create mode 100644 themes/AllinOne/images/screenshot2.png
+ create mode 100644 themes/AllinOne/images/screenshot3.png
+ create mode 100644 themes/AllinOne/images/tn.png
+ create mode 100644 themes/AllinOne/layouts/404.html
+ create mode 100644 themes/AllinOne/layouts/_default/baseof.html
+ create mode 100644 themes/AllinOne/layouts/_default/list.html
+ create mode 100644 themes/AllinOne/layouts/_default/single.html
+ create mode 100644 themes/AllinOne/layouts/_default/taxonomy.html
+ create mode 100644 themes/AllinOne/layouts/_default/terms.html
+ create mode 100644 themes/AllinOne/layouts/index.html
+ create mode 100644 themes/AllinOne/layouts/partials/footer.html
+ create mode 100644 themes/AllinOne/layouts/partials/head.html
+ create mode 100644 themes/AllinOne/layouts/partials/homepage-header.html
+ create mode 100644 themes/AllinOne/layouts/partials/li.html
+ create mode 100644 themes/AllinOne/layouts/partials/page-header.html
+ create mode 100644 themes/AllinOne/layouts/partials/page-heading.html
+ create mode 100644 themes/AllinOne/layouts/partials/post-card.html
+ create mode 100644 themes/AllinOne/layouts/partials/post-header.html
+ create mode 100644 themes/AllinOne/layouts/partials/sidebar-card.html
+ create mode 100644 themes/AllinOne/layouts/partials/sidebar-categories.html
+ create mode 100644 themes/AllinOne/layouts/partials/sidebar-series.html
+ create mode 100644 themes/AllinOne/layouts/partials/sidebar-tags.html
+ create mode 100644 themes/AllinOne/layouts/partials/site-navbar.html
+ create mode 100644 themes/AllinOne/layouts/partials/site-scripts.html
+ create mode 100644 themes/AllinOne/layouts/partials/tags.html
+ create mode 100644 themes/AllinOne/layouts/partials/toc.html
+ create mode 100644 themes/AllinOne/layouts/robots.txt
+ create mode 100644 themes/AllinOne/layouts/shortcodes/center.html
+ create mode 100644 themes/AllinOne/layouts/shortcodes/img-no-border.html
+ create mode 100644 themes/AllinOne/static/.DS_Store
+ create mode 100644 themes/AllinOne/static/css/font.css
+ create mode 100644 themes/AllinOne/static/css/main.css
+ create mode 100644 themes/AllinOne/static/css/vendors-extensions/fontawesome/all.min.css
+ create mode 100644 themes/AllinOne/static/css/vendors-extensions/mdb/mdb.css
+ create mode 100644 themes/AllinOne/static/css/vendors-extensions/mdb/mdb.min.css
+ create mode 100644 themes/AllinOne/static/css/vendors/bootstrap4/bootstrap.min.css
+ create mode 100644 themes/AllinOne/static/css/vendors/highlight/github-gist.css
+ create mode 100644 themes/AllinOne/static/css/vendors/mdb/mdb.min.css
+ create mode 100644 themes/AllinOne/static/css/vendors/mdb/style.min.css
+ create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-brands-400.eot
+ create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-brands-400.svg
+ create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-brands-400.ttf
+ create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-brands-400.woff
+ create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-brands-400.woff2
+ create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-regular-400.eot
+ create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-regular-400.svg
+ create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-regular-400.ttf
+ create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-regular-400.woff
+ create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-regular-400.woff2
+ create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-solid-900.eot
+ create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-solid-900.svg
+ create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-solid-900.ttf
+ create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-solid-900.woff
+ create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-solid-900.woff2
+ create mode 100644 themes/AllinOne/static/img/.DS_Store
+ create mode 100644 themes/AllinOne/static/img/default.jpg
+ create mode 100644 themes/AllinOne/static/img/header-slides/photo-1519630134238-d7a6338ec24b.jpeg
+ create mode 100644 themes/AllinOne/static/img/header-slides/photo-1523608401-53eb5741c1a0.jpeg
+ create mode 100644 themes/AllinOne/static/img/header-slides/photo-1524562865630-b991c6c2f261.jpeg
+ create mode 100644 themes/AllinOne/static/img/header-slides/photo-1526638104077-256f1b33e837.jpeg
+ create mode 100644 themes/AllinOne/static/img/header-slides/photo-1530628815456-c641ebc4dda3.jpeg
+ create mode 100644 themes/AllinOne/static/img/header-slides/photo-1536731578915-ab4e400a6395.jpeg
+ create mode 100644 themes/AllinOne/static/img/mask/circle.svg
+ create mode 100644 themes/AllinOne/static/img/profile.jpg
+ create mode 100644 themes/AllinOne/static/img/svg/arrow_left.svg
+ create mode 100644 themes/AllinOne/static/img/svg/arrow_right.svg
+ create mode 100644 themes/AllinOne/static/img/zheng.png
+ create mode 100644 themes/AllinOne/static/js/main.js
+ create mode 100644 themes/AllinOne/static/js/vendors-extensions/bootstrap4/bootstrap.js
+ create mode 100644 themes/AllinOne/static/js/vendors/highlight.pack.js
+ create mode 100644 themes/AllinOne/static/js/vendors/holder.min.js
+ create mode 100644 themes/AllinOne/static/js/vendors/jquery/jquery-3.3.1.min.js
+ create mode 100644 themes/AllinOne/static/js/vendors/jquery/jquery.smooth-scroll.min.js
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/contrib/auto-render.js
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/contrib/auto-render.min.js
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/contrib/copy-tex.css
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/contrib/copy-tex.js
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/contrib/copy-tex.min.css
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/contrib/copy-tex.min.js
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/contrib/mathtex-script-type.js
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/contrib/mathtex-script-type.min.js
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_AMS-Regular.ttf
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_AMS-Regular.woff
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_AMS-Regular.woff2
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Caligraphic-Bold.ttf
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Caligraphic-Bold.woff
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Caligraphic-Bold.woff2
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Caligraphic-Regular.ttf
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Caligraphic-Regular.woff
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Caligraphic-Regular.woff2
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Fraktur-Bold.ttf
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Fraktur-Bold.woff
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Fraktur-Bold.woff2
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Fraktur-Regular.ttf
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Fraktur-Regular.woff
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Fraktur-Regular.woff2
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-Bold.ttf
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-Bold.woff
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-Bold.woff2
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-BoldItalic.ttf
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-BoldItalic.woff
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-BoldItalic.woff2
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-Italic.ttf
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-Italic.woff
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-Italic.woff2
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-Regular.ttf
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-Regular.woff
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-Regular.woff2
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Math-Italic.ttf
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Math-Italic.woff
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Math-Italic.woff2
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_SansSerif-Bold.ttf
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_SansSerif-Bold.woff
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_SansSerif-Bold.woff2
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_SansSerif-Italic.ttf
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_SansSerif-Italic.woff
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_SansSerif-Italic.woff2
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_SansSerif-Regular.ttf
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_SansSerif-Regular.woff
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_SansSerif-Regular.woff2
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Script-Regular.ttf
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Script-Regular.woff
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Script-Regular.woff2
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size1-Regular.ttf
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size1-Regular.woff
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size1-Regular.woff2
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size2-Regular.ttf
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size2-Regular.woff
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size2-Regular.woff2
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size3-Regular.ttf
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size3-Regular.woff
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size3-Regular.woff2
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size4-Regular.ttf
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size4-Regular.woff
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size4-Regular.woff2
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Typewriter-Regular.ttf
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Typewriter-Regular.woff
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Typewriter-Regular.woff2
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/katex.min.css
+ create mode 100644 themes/AllinOne/static/js/vendors/katex/katex.min.js
+ create mode 100644 themes/AllinOne/static/js/vendors/mdb/mdb.min.js
+ create mode 100644 themes/AllinOne/static/js/vendors/mdb/mdw-search.js
+ create mode 100644 themes/AllinOne/static/js/vendors/popper.min.js
+ create mode 100644 themes/AllinOne/theme.toml
+]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git push origin master
+Counting objects: 495, done.
+Delta compression using up to 4 threads.
+Compressing objects:   0% (1/446)   Compressing objects:   1% (5/446)   Compressing objects:   2% (9/446)   Compressing objects:   3% (14/446)   Compressing objects:   4% (18/446)   Compressing objects:   5% (23/446)   Compressing objects:   6% (27/446)   Compressing objects:   7% (32/446)   Compressing objects:   8% (36/446)   Compressing objects:   9% (41/446)   Compressing objects:  10% (45/446)   Compressing objects:  11% (50/446)   Compressing objects:  12% (54/446)   Compressing objects:  13% (58/446)   Compressing objects:  14% (63/446)   Compressing objects:  15% (67/446)   Compressing objects:  16% (72/446)   Compressing objects:  17% (76/446)   Compressing objects:  18% (81/446)   Compressing objects:  19% (85/446)   Compressing objects:  20% (90/446)   Compressing objects:  21% (94/446)   Compressing objects:  22% (99/446)   Compressing objects:  23% (103/446)   Compressing objects:  24% (108/446)   Compressing objects:  25% (112/446)   Compressing objects:  26% (116/446)   Compressing objects:  27% (121/446)   Compressing objects:  28% (125/446)   Compressing objects:  29% (130/446)   Compressing objects:  30% (134/446)   Compressing objects:  31% (139/446)   Compressing objects:  32% (143/446)   Compressing objects:  33% (148/446)   Compressing objects:  34% (152/446)   Compressing objects:  35% (157/446)   Compressing objects:  36% (161/446)   Compressing objects:  37% (166/446)   Compressing objects:  38% (170/446)   Compressing objects:  39% (174/446)   Compressing objects:  40% (179/446)   Compressing objects:  41% (183/446)   Compressing objects:  42% (188/446)   Compressing objects:  43% (192/446)   Compressing objects:  44% (197/446)   Compressing objects:  45% (201/446)   Compressing objects:  46% (206/446)   Compressing objects:  47% (210/446)   Compressing objects:  48% (215/446)   Compressing objects:  49% (219/446)   Compressing objects:  50% (223/446)   Compressing objects:  51% (228/446)   Compressing objects:  52% (232/446)   Compressing objects:  53% (237/446)   Compressing objects:  54% (241/446)   Compressing objects:  55% (246/446)   Compressing objects:  56% (250/446)   Compressing objects:  57% (255/446)   Compressing objects:  58% (259/446)   Compressing objects:  59% (264/446)   Compressing objects:  60% (268/446)   Compressing objects:  61% (273/446)   Compressing objects:  62% (277/446)   Compressing objects:  63% (281/446)   Compressing objects:  64% (286/446)   Compressing objects:  65% (290/446)   Compressing objects:  66% (295/446)   Compressing objects:  67% (299/446)   Compressing objects:  68% (304/446)   Compressing objects:  69% (308/446)   Compressing objects:  70% (313/446)   Compressing objects:  71% (317/446)   Compressing objects:  72% (322/446)   Compressing objects:  73% (326/446)   Compressing objects:  74% (331/446)   Compressing objects:  75% (335/446)   Compressing objects:  76% (339/446)   Compressing objects:  77% (344/446)   Compressing objects:  78% (348/446)   Compressing objects:  79% (353/446)   Compressing objects:  80% (357/446)   Compressing objects:  81% (362/446)   Compressing objects:  82% (366/446)   Compressing objects:  83% (371/446)   Compressing objects:  84% (375/446)   Compressing objects:  85% (380/446)   Compressing objects:  86% (384/446)   Compressing objects:  87% (389/446)   Compressing objects:  88% (393/446)   Compressing objects:  89% (397/446)   Compressing objects:  90% (402/446)   Compressing objects:  91% (406/446)   Compressing objects:  92% (411/446)   Compressing objects:  93% (415/446)   Compressing objects:  94% (420/446)   Compressing objects:  95% (424/446)   Compressing objects:  96% (429/446)   Compressing objects:  97% (433/446)   Compressing objects:  98% (438/446)   Compressing objects:  99% (442/446)   Compressing objects: 100% (446/446)   Compressing objects: 100% (446/446), done.
+Writing objects:   0% (1/495)   Writing objects:   1% (5/495)   Writing objects:   2% (10/495)   Writing objects:   3% (15/495)   Writing objects:   4% (20/495)   Writing objects:   5% (25/495)   Writing objects:   6% (30/495)   Writing objects:   7% (35/495)   Writing objects:   8% (40/495)   Writing objects:   9% (45/495)   Writing objects:  10% (50/495)   Writing objects:  11% (55/495)   Writing objects:  12% (60/495)   Writing objects:  13% (65/495)   Writing objects:  14% (70/495)   Writing objects:  15% (75/495)   Writing objects:  16% (80/495)   Writing objects:  17% (85/495)   Writing objects:  18% (90/495)   Writing objects:  19% (95/495)   Writing objects:  20% (99/495)   Writing objects:  21% (104/495)   Writing objects:  22% (109/495)   Writing objects:  23% (114/495)   Writing objects:  24% (119/495)   Writing objects:  25% (125/495)   Writing objects:  26% (129/495)   Writing objects:  27% (134/495)   Writing objects:  28% (139/495)   Writing objects:  29% (144/495)   Writing objects:  30% (149/495)   Writing objects:  31% (154/495)   Writing objects:  32% (159/495)   Writing objects:  33% (164/495)   Writing objects:  34% (169/495)   Writing objects:  35% (174/495)   Writing objects:  36% (179/495)   Writing objects:  36% (183/495), 1.09 MiB | 227.00 KiB/s   Writing objects:  37% (184/495), 1.09 MiB | 227.00 KiB/s   Writing objects:  38% (189/495), 1.27 MiB | 238.00 KiB/s   Writing objects:  38% (190/495), 1.52 MiB | 237.00 KiB/s   Writing objects:  38% (190/495), 1.59 MiB | 136.00 KiB/s   Writing objects:  38% (190/495), 1.84 MiB | 151.00 KiB/s   Writing objects:  38% (190/495), 2.02 MiB | 158.00 KiB/s   Writing objects:  38% (190/495), 2.02 MiB | 117.00 KiB/s   Writing objects:  38% (191/495), 2.34 MiB | 130.00 KiB/s   Writing objects:  38% (191/495), 2.46 MiB | 99.00 KiB/s   Writing objects:  38% (191/495), 2.46 MiB | 70.00 KiB/s   Writing objects:  38% (192/495), 2.77 MiB | 76.00 KiB/s   Writing objects:  38% (192/495), 2.90 MiB | 78.00 KiB/s   Writing objects:  38% (192/495), 3.02 MiB | 106.00 KiB/s   Writing objects:  38% (193/495), 3.09 MiB | 92.00 KiB/s   Writing objects:  38% (193/495), 3.21 MiB | 86.00 KiB/s   Writing objects:  38% (193/495), 3.34 MiB | 101.00 KiB/s   Writing objects:  39% (194/495), 3.34 MiB | 101.00 KiB/s   Writing objects:  39% (194/495), 3.40 MiB | 96.00 KiB/s   Writing objects:  39% (194/495), 3.40 MiB | 96.00 KiB/s   Writing objects:  39% (194/495), 3.52 MiB | 80.00 KiB/s   Writing objects:  39% (194/495), 3.84 MiB | 92.00 KiB/s   Writing objects:  39% (194/495), 3.96 MiB | 95.00 KiB/s   Writing objects:  39% (194/495), 4.09 MiB | 93.00 KiB/s   Writing objects:  39% (194/495), 4.15 MiB | 95.00 KiB/s   Writing objects:  39% (194/495), 4.27 MiB | 96.00 KiB/s   Writing objects:  39% (194/495), 4.40 MiB | 90.00 KiB/s   Writing objects:  39% (194/495), 4.77 MiB | 98.00 KiB/s   Writing objects:  39% (194/495), 4.90 MiB | 93.00 KiB/s   Writing objects:  39% (194/495), 4.96 MiB | 93.00 KiB/s   Writing objects:  39% (195/495), 5.09 MiB | 94.00 KiB/s   Writing objects:  39% (195/495), 5.21 MiB | 159.00 KiB/s   Writing objects:  40% (198/495), 5.21 MiB | 159.00 KiB/s   Writing objects:  40% (201/495), 5.34 MiB | 145.00 KiB/s   Writing objects:  41% (203/495), 5.40 MiB | 114.00 KiB/s   Writing objects:  41% (205/495), 5.46 MiB | 114.00 KiB/s   Writing objects:  42% (208/495), 5.46 MiB | 114.00 KiB/s   Writing objects:  42% (209/495), 5.52 MiB | 66.00 KiB/s   Writing objects:  43% (213/495), 5.65 MiB | 73.00 KiB/s   Writing objects:  43% (216/495), 5.77 MiB | 79.00 KiB/s   Writing objects:  44% (218/495), 5.77 MiB | 79.00 KiB/s   Writing objects:  44% (222/495), 5.96 MiB | 91.00 KiB/s   Writing objects:  45% (223/495), 6.09 MiB | 95.00 KiB/s   Writing objects:  45% (223/495), 6.15 MiB | 94.00 KiB/s   Writing objects:  45% (226/495), 6.34 MiB | 95.00 KiB/s   Writing objects:  46% (228/495), 6.34 MiB | 95.00 KiB/s   Writing objects:  46% (228/495), 6.46 MiB | 97.00 KiB/s   Writing objects:  46% (229/495), 6.52 MiB | 147.00 KiB/s   Writing objects:  46% (229/495), 6.52 MiB | 92.00 KiB/s   Writing objects:  47% (233/495), 6.52 MiB | 92.00 KiB/s   Writing objects:  47% (234/495), 6.84 MiB | 92.00 KiB/s   Writing objects:  47% (234/495), 7.02 MiB | 97.00 KiB/s   Writing objects:  47% (234/495), 7.09 MiB | 97.00 KiB/s   Writing objects:  47% (236/495), 7.21 MiB | 101.00 KiB/s   Writing objects:  47% (236/495), 7.34 MiB | 95.00 KiB/s   Writing objects:  47% (236/495), 7.46 MiB | 154.00 KiB/s   Writing objects:  47% (237/495), 7.52 MiB | 143.00 KiB/s   Writing objects:  47% (237/495), 7.65 MiB | 73.00 KiB/s   Writing objects:  47% (237/495), 7.83 MiB | 87.00 KiB/s   Writing objects:  47% (237/495), 8.02 MiB | 92.00 KiB/s   Writing objects:  47% (237/495), 8.15 MiB | 96.00 KiB/s   Writing objects:  47% (237/495), 8.34 MiB | 97.00 KiB/s   Writing objects:  47% (237/495), 8.40 MiB | 97.00 KiB/s   Writing objects:  47% (237/495), 8.52 MiB | 144.00 KiB/s   Writing objects:  47% (237/495), 8.59 MiB | 87.00 KiB/s   Writing objects:  48% (238/495), 8.59 MiB | 87.00 KiB/s   Writing objects:  48% (238/495), 8.84 MiB | 98.00 KiB/s   Writing objects:  48% (238/495), 8.91 MiB | 98.00 KiB/s   Writing objects:  48% (238/495), 9.03 MiB | 100.00 KiB/s   Writing objects:  48% (238/495), 9.16 MiB | 97.00 KiB/s   Writing objects:  48% (238/495), 9.22 MiB | 96.00 KiB/s   Writing objects:  48% (238/495), 9.28 MiB | 92.00 KiB/s   Writing objects:  48% (238/495), 9.28 MiB | 68.00 KiB/s   Writing objects:  48% (238/495), 9.41 MiB | 95.00 KiB/s   Writing objects:  48% (239/495), 9.59 MiB | 89.00 KiB/s   Writing objects:  48% (239/495), 9.72 MiB | 95.00 KiB/s   Writing objects:  48% (240/495), 9.91 MiB | 91.00 KiB/s   Writing objects:  48% (240/495), 10.03 MiB | 96.00 KiB/s   Writing objects:  48% (240/495), 10.09 MiB | 95.00 KiB/s   Writing objects:  48% (240/495), 10.16 MiB | 99.00 KiB/s   Writing objects:  48% (241/495), 10.28 MiB | 87.00 KiB/s   Writing objects:  48% (241/495), 10.47 MiB | 85.00 KiB/s   Writing objects:  48% (241/495), 10.66 MiB | 91.00 KiB/s   Writing objects:  48% (241/495), 10.78 MiB | 99.00 KiB/s   Writing objects:  48% (241/495), 10.91 MiB | 92.00 KiB/s   Writing objects:  48% (241/495), 10.97 MiB | 92.00 KiB/s   Writing objects:  48% (242/495), 11.09 MiB | 94.00 KiB/s   Writing objects:  48% (242/495), 11.22 MiB | 138.00 KiB/s   Writing objects:  49% (243/495), 11.28 MiB | 116.00 KiB/s   Writing objects:  50% (248/495), 11.28 MiB | 116.00 KiB/s   Writing objects:  51% (253/495), 11.28 MiB | 116.00 KiB/s   Writing objects:  51% (254/495), 11.34 MiB | 104.00 KiB/s   Writing objects:  52% (258/495), 11.34 MiB | 104.00 KiB/s   Writing objects:  52% (259/495), 11.41 MiB | 110.00 KiB/s   Writing objects:  53% (263/495), 11.41 MiB | 110.00 KiB/s   Writing objects:  54% (268/495), 11.41 MiB | 110.00 KiB/s   Writing objects:  55% (273/495), 11.47 MiB | 109.00 KiB/s   Writing objects:  55% (275/495), 11.47 MiB | 109.00 KiB/s   Writing objects:  56% (278/495), 11.47 MiB | 109.00 KiB/s   Writing objects:  57% (283/495), 11.59 MiB | 110.00 KiB/s   Writing objects:  58% (288/495), 11.72 MiB | 112.00 KiB/s   Writing objects:  58% (289/495), 11.72 MiB | 112.00 KiB/s   Writing objects:  59% (293/495), 11.84 MiB | 117.00 KiB/s   Writing objects:  60% (297/495), 11.97 MiB | 122.00 KiB/s   Writing objects:  60% (297/495), 12.03 MiB | 78.00 KiB/s   Writing objects:  60% (299/495), 12.03 MiB | 78.00 KiB/s   Writing objects:  61% (302/495), 12.03 MiB | 78.00 KiB/s   Writing objects:  62% (307/495), 12.22 MiB | 89.00 KiB/s   Writing objects:  63% (312/495), 12.22 MiB | 89.00 KiB/s   Writing objects:  63% (315/495), 12.22 MiB | 89.00 KiB/s   Writing objects:  64% (317/495), 12.22 MiB | 89.00 KiB/s   Writing objects:  65% (322/495), 12.22 MiB | 89.00 KiB/s   Writing objects:  66% (327/495), 12.41 MiB | 101.00 KiB/s   Writing objects:  67% (332/495), 12.41 MiB | 101.00 KiB/s   Writing objects:  67% (332/495), 12.53 MiB | 106.00 KiB/s   Writing objects:  68% (337/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  69% (342/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  70% (349/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  71% (352/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  72% (357/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  73% (362/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  74% (367/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  75% (372/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  76% (378/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  77% (382/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  78% (387/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  79% (392/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  80% (396/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  81% (401/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  82% (406/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  83% (411/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  84% (416/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  85% (421/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  86% (426/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  87% (431/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  88% (436/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  89% (441/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  90% (446/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  91% (451/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  91% (452/495), 12.66 MiB | 81.00 KiB/s   Writing objects:  91% (452/495), 12.97 MiB | 91.00 KiB/s   Writing objects:  91% (452/495), 13.09 MiB | 129.00 KiB/s   Writing objects:  91% (452/495), 13.22 MiB | 122.00 KiB/s   Writing objects:  91% (452/495), 13.34 MiB | 96.00 KiB/s   Writing objects:  91% (452/495), 13.41 MiB | 71.00 KiB/s   Writing objects:  91% (452/495), 13.53 MiB | 101.00 KiB/s   Writing objects:  91% (452/495), 13.84 MiB | 94.00 KiB/s   Writing objects:  91% (452/495), 13.97 MiB | 96.00 KiB/s   Writing objects:  91% (452/495), 14.03 MiB | 97.00 KiB/s   Writing objects:  91% (454/495), 14.16 MiB | 97.00 KiB/s   Writing objects:  92% (456/495), 14.16 MiB | 97.00 KiB/s   Writing objects:  92% (459/495), 14.28 MiB | 148.00 KiB/s   Writing objects:  92% (459/495), 14.34 MiB | 138.00 KiB/s   Writing objects:  92% (459/495), 14.53 MiB | 115.00 KiB/s   Writing objects:  92% (459/495), 14.59 MiB | 112.00 KiB/s   Writing objects:  92% (459/495), 14.78 MiB | 114.00 KiB/s   Writing objects:  92% (459/495), 14.97 MiB | 117.00 KiB/s   Writing objects:  92% (459/495), 15.09 MiB | 127.00 KiB/s   Writing objects:  92% (459/495), 15.28 MiB | 82.00 KiB/s   Writing objects:  92% (459/495), 15.47 MiB | 93.00 KiB/s   Writing objects:  92% (459/495), 15.72 MiB | 106.00 KiB/s   Writing objects:  92% (459/495), 15.91 MiB | 106.00 KiB/s   Writing objects:  92% (460/495), 15.91 MiB | 106.00 KiB/s   Writing objects:  92% (460/495), 16.03 MiB | 101.00 KiB/s   Writing objects:  92% (460/495), 16.03 MiB | 69.00 KiB/s   Writing objects:  92% (460/495), 16.22 MiB | 77.00 KiB/s   Writing objects:  92% (460/495), 16.41 MiB | 118.00 KiB/s   Writing objects:  92% (460/495), 16.53 MiB | 109.00 KiB/s   Writing objects:  92% (460/495), 16.72 MiB | 97.00 KiB/s   Writing objects:  92% (460/495), 16.78 MiB | 96.00 KiB/s   Writing objects:  93% (461/495), 16.78 MiB | 96.00 KiB/s   Writing objects:  93% (461/495), 16.91 MiB | 70.00 KiB/s   Writing objects:  93% (461/495), 17.09 MiB | 116.00 KiB/s   Writing objects:  93% (461/495), 17.28 MiB | 98.00 KiB/s   Writing objects:  93% (461/495), 17.41 MiB | 94.00 KiB/s   Writing objects:  93% (461/495), 17.53 MiB | 100.00 KiB/s   Writing objects:  93% (461/495), 17.66 MiB | 95.00 KiB/s   Writing objects:  93% (461/495), 17.72 MiB | 153.00 KiB/s   Writing objects:  93% (461/495), 17.90 MiB | 112.00 KiB/s   Writing objects:  93% (461/495), 17.91 MiB | 68.00 KiB/s   Writing objects:  93% (462/495), 18.03 MiB | 74.00 KiB/s   Writing objects:  93% (462/495), 18.22 MiB | 86.00 KiB/s   Writing objects:  93% (462/495), 18.40 MiB | 89.00 KiB/s   Writing objects:  93% (462/495), 18.53 MiB | 93.00 KiB/s   Writing objects:  93% (462/495), 18.65 MiB | 96.00 KiB/s   Writing objects:  93% (462/495), 18.78 MiB | 97.00 KiB/s   Writing objects:  93% (462/495), 18.91 MiB | 100.00 KiB/s   Writing objects:  94% (466/495), 18.91 MiB | 100.00 KiB/s   Writing objects:  95% (471/495), 18.91 MiB | 100.00 KiB/s   Writing objects:  96% (476/495), 18.91 MiB | 100.00 KiB/s   Writing objects:  97% (481/495), 18.91 MiB | 100.00 KiB/s   Writing objects:  98% (486/495), 18.91 MiB | 100.00 KiB/s   Writing objects:  99% (491/495), 18.91 MiB | 100.00 KiB/s   Writing objects: 100% (495/495), 18.91 MiB | 100.00 KiB/s   Writing objects: 100% (495/495), 18.93 MiB | 100.00 KiB/s, done.
+Total 495 (delta 108), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/108)   [Kremote: Resolving deltas:   4% (5/108)   [Kremote: Resolving deltas:   5% (6/108)   [Kremote: Resolving deltas:   8% (9/108)   [Kremote: Resolving deltas:   9% (10/108)   [Kremote: Resolving deltas:  10% (11/108)   [Kremote: Resolving deltas:  11% (12/108)   [Kremote: Resolving deltas:  27% (30/108)   [Kremote: Resolving deltas:  39% (43/108)   [Kremote: Resolving deltas:  41% (45/108)   [Kremote: Resolving deltas:  68% (74/108)   [Kremote: Resolving deltas:  75% (81/108)   [Kremote: Resolving deltas:  77% (84/108)   [Kremote: Resolving deltas:  80% (87/108)   [Kremote: Resolving deltas:  81% (88/108)   [Kremote: Resolving deltas:  83% (90/108)   [Kremote: Resolving deltas:  84% (91/108)   [Kremote: Resolving deltas:  86% (93/108)   [Kremote: Resolving deltas:  87% (94/108)   [Kremote: Resolving deltas:  88% (96/108)   [Kremote: Resolving deltas:  89% (97/108)   [Kremote: Resolving deltas:  92% (100/108)   [Kremote: Resolving deltas:  93% (101/108)   [Kremote: Resolving deltas:  94% (102/108)   [Kremote: Resolving deltas:  97% (105/108)   [Kremote: Resolving deltas:  98% (106/108)   [Kremote: Resolving deltas:  99% (107/108)   [Kremote: Resolving deltas: 100% (108/108)   [Kremote: Resolving deltas: 100% (108/108), done.[K
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:[K
+remote:      https://github.com/davelorino/STDSSite/pull/new/master[K
+remote: 
+To https://github.com/davelorino/STDSSite.git
+ * [new branch]      master -> master
+]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git push origin mastercommit -m "new layout"add .[K*commit -m "new layout"remote add origin https://github.com/davelorino/STDSSiite.git[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K https://github.com/davelorino/densi te2.git
+fatal: remote origin already exists.
+]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ 
+]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ brew install hugo
+Updating Homebrew...
+[34m==>[0m [1mAuto-updated Homebrew![0m
+Updated 1 tap (homebrew/core).
+[34m==>[0m [1mNew Formulae[0m
+aravis            hyperkit          nwchem            picat             vfuse
+bundletool        i2pd              oclgrind          smimesign
+carla             llvm@6            opensubdiv        stanford-corenlp
+diceware          mallet            opentracing-cpp   tdlib
+geant4            nng               peru              ucloud
+[34m==>[0m [1mUpdated Formulae[0m
+[1mgit-lfs [32m✔[0m[0m                                     libcouchbase
+abcde                                         libdazzle
+abyss                                         libepoxy
+ace                                           libetpan
+activemq                                      libgda
+afflib                                        libimobiledevice
+aircrack-ng                                   libiscsi
+alexjs                                        libopkele
+ammonite-repl                                 libphonenumber
+angular-cli                                   libsoup
+anjuta                                        libspectre
+annie                                         libssh
+ansible                                       libuv
+apache-drill                                  libvirt
+apache-flink                                  libwbxml
+apache-geode                                  links
+app-engine-java                               llnode
+apr                                           llvm
+arangodb                                      lnav
+aria2                                         logentries
+ark                                           logstash
+arp-scan                                      luaradio
+arpack                                        lxc
+at-spi2-atk                                   lynis
+atk                                           lz4
+atomicparsley                                 mame
+aurora-cli                                    mariadb
+avfs                                          mariadb@10.1
+avrdude                                       mariadb@10.2
+avro-c                                        mbedtls
+awk                                           mdcat
+aws-okta                                      mdds
+aws-shell                                     media-info
+awscli                                        megatools
+azure-cli                                     menhir
+babel                                         meson
+ballerina                                     metabase
+bat                                           micronaut
+bazel                                         mkvtoolnix
+bcal                                          mmark
+bettercap                                     mongodb@3.4
+bind                                          mongodb@3.6
+bitcoin                                       mosh
+bitrise                                       mosquitto
+black                                         mpd
+brew-gem                                      mpv
+brotli                                        mscgen
+bullet                                        msgpack
+bwfmetaedit                                   mujs
+cabal-install                                 nano
+caffe                                         neko
+cargo-completion                              nginx
+carthage                                      nifi-registry
+cash-cli                                      nim
+cern-ndiff                                    node
+cgal                                          node-build
+chakra                                        node@8
+chapel                                        nodebrew
+checkbashisms                                 nomad
+chronograf                                    ntopng
+circleci                                      numpy
+clamav                                        ocamlbuild
+clang-format                                  opam
+clipper                                       openapi-generator
+clojure                                       opencv
+cmake                                         opensc
+cmark-gfm                                     openssl@1.1
+cmocka                                        orc-tools
+cnats                                         ortp
+codequery                                     packer
+coffeescript                                  paket
+commandbox                                    pandoc
+compcert                                      pandoc-citeproc
+conan                                         pandoc-crossref
+consul                                        parallel
+container-diff                                pass
+convox                                        pcre2
+cpmtools                                      pdftoedn
+cpprestsdk                                    pdftoipe
+cromwell                                      pegtl
+crowdin                                       pgbadger
+crystal                                       pgrouting
+darksky-weather                               phoronix-test-suite
+dbhash                                        php
+dependency-check                              php@5.6
+diff-pdf                                      php@7.0
+diffoscope                                    php@7.1
+digdag                                        phpunit
+dita-ot                                       pixz
+dnscrypt-proxy                                pmd
+docker-machine-nfs                            poppler
+doctl                                         postgis
+double-conversion                             povray
+dub                                           pqiv
+duck                                          pre-commit
+duplicity                                     presto
+elasticsearch                                 prettier
+elasticsearch@5.6                             profanity
+erlang                                        proj
+erlang@19                                     prometheus
+erlang@20                                     protobuf
+eslint                                        protobuf-c
+evince                                        protobuf-swift
+exercism                                      prototool
+exiftool                                      pulumi
+faas-cli                                      puzzles
+fabric                                        pybind11
+fail2ban                                      pygobject3
+ffmbc                                         pyinvoke
+file-roller                                   pyside
+flatbuffers                                   qcachegrind
+flow                                          qd
+fmsx                                          qt
+fn                                            quicktype
+folly                                         rabbitmq
+fonttools                                     rakudo-star
+fortio                                        ranger
+fossil                                        rebar3
+fpc                                           rom-tools
+freetds                                       root
+freexl                                        roswell
+frugal                                        rtags
+futhark                                       rust
+fzy                                           rustup-init
+gdb                                           safe
+geckodriver                                   saxon
+gedit                                         sbcl
+geoipupdate                                   sbt
+ghostscript                                   scala
+git                                           selenium-server-standalone
+git-archive-all                               serverless
+git-cola                                      shellharden
+git-credential-manager                        shpotify
+git-sizer                                     simutrans
+gjs                                           skaffold
+gjstest                                       skafos
+glances                                       smlnj
+glib                                          snapcraft
+glide                                         solr
+glm                                           sops
+gloox                                         sourcery
+go                                            sphinx-doc
+gocr                                          spotbugs
+godep                                         sqldiff
+goenv                                         sqlite
+golang-migrate                                sqlite-analyzer
+goreleaser                                    stellar-core
+gradle                                        stlink
+grakn                                         strongswan
+grpc                                          stunnel
+grunt-cli                                     supersonic
+grunt-completion                              suricata
+grv                                           svgo
+gst-editing-services                          swift-protobuf
+gst-libav                                     swiftformat
+gst-plugins-bad                               swiftgen
+gst-plugins-base                              syncthing
+gst-plugins-good                              tcpflow
+gst-plugins-ugly                              telegraf
+gst-python                                    terragrunt
+gst-rtsp-server                               tgui
+gst-validate                                  the_platinum_searcher
+gstreamer                                     tiger-vnc
+gtk-mac-integration                           tippecanoe
+gutenberg                                     tomcat
+hapi-fhir-cli                                 tomcat@7
+haproxy                                       tomcat@8
+harfbuzz                                      topgrade
+hcloud                                        tor
+helmfile                                      tox
+help2man                                      ttyd
+heroku                                        twarc
+highlight                                     typescript
+hlint                                         uhd
+homebank                                      unp64
+httpd                                         unrar
+hugo                                          upx
+hwloc                                         urh
+i2p                                           v8
+iamy                                          vagrant-completion
+ice                                           vala
+imagemagick                                   vegeta
+imagemagick@6                                 vert.x
+immortal                                      vice
+influxdb                                      vim
+iperf                                         vips
+ipv6calc                                      vnu
+ipython                                       vorbis-tools
+jenkins                                       vte3
+jenkins-lts                                   watchexec
+jerasure                                      wdiff
+jetty                                         weaver
+jetty-runner                                  webpack
+jfrog-cli-go                                  wireguard-go
+jhipster                                      wireguard-tools
+jmeter                                        wskdeploy
+joplin                                        wtf
+json-glib                                     xcodegen
+jump                                          xerces-c
+kerl                                          xmount
+kibana                                        xonsh
+kibana@5.6                                    xtensor
+kotlin                                        yamllint
+krakend                                       yarn
+kubernetes-cli                                yelp-tools
+kubernetes-helm                               ykman
+kubernetes-service-catalog-client             youtube-dl
+kumo                                          yubico-piv-tool
+kustomize                                     zbackup
+landscaper                                    zenity
+languagetool                                  zig
+ldc                                           zpython
+lean-cli                                      zsh
+[34m==>[0m [1mDeleted Formulae[0m
+asciinema2gif          llvm@3.7               qt@5.5                 sonarlint
+casperjs               mediatomb              redis@2.8              submarine
+
+[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/hugo-0.49.high_sierra.bottle.tar.gz[0m
+                                                                           0.5%                                                                           1.0%#                                                                          1.4%#                                                                          1.8%#                                                                          2.2%##                                                                         2.9%##                                                                         3.8%###                                                                        4.3%###                                                                        4.8%###                                                                        5.4%####                                                                       5.9%####                                                                       6.4%####                                                                       6.9%#####                                                                      7.5%#####                                                                      8.0%######                                                                     8.5%######                                                                     9.0%######                                                                     9.6%#######                                                                   10.1%#######                                                                   10.6%########                                                                  11.2%########                                                                  11.7%########                                                                  12.2%#########                                                                 12.8%#########                                                                 13.3%##########                                                                14.1%##########                                                                14.6%##########                                                                15.1%###########                                                               15.7%###########                                                               16.1%############                                                              16.7%############                                                              17.2%############                                                              17.7%#############                                                             18.2%#############                                                             18.8%#############                                                             19.3%##############                                                            19.8%##############                                                            20.4%###############                                                           20.9%###############                                                           21.4%###############                                                           21.7%################                                                          22.6%################                                                          23.1%#################                                                         23.6%#################                                                         24.1%#################                                                         24.7%##################                                                        25.2%##################                                                        25.7%##################                                                        26.2%###################                                                       26.8%###################                                                       27.3%###################                                                       27.7%####################                                                      28.6%####################                                                      29.1%#####################                                                     29.6%#####################                                                     30.2%######################                                                    30.7%######################                                                    31.2%######################                                                    31.8%#######################                                                   32.5%#######################                                                   33.0%########################                                                  33.6%########################                                                  34.1%########################                                                  34.6%#########################                                                 35.1%#########################                                                 35.7%##########################                                                36.2%##########################                                                36.7%##########################                                                37.2%###########################                                               37.6%###########################                                               38.2%###########################                                               38.5%############################                                              39.3%############################                                              39.8%############################                                              40.3%#############################                                             40.9%#############################                                             41.3%##############################                                            41.9%##############################                                            42.4%##############################                                            42.7%###############################                                           43.3%###############################                                           43.8%###############################                                           44.3%################################                                          44.7%################################                                          45.5%#################################                                         45.9%#################################                                         46.5%#################################                                         47.0%##################################                                        47.5%##################################                                        48.1%##################################                                        48.6%###################################                                       49.1%###################################                                       49.6%####################################                                      50.2%####################################                                      51.0%#####################################                                     51.5%#####################################                                     52.0%#####################################                                     52.6%######################################                                    53.1%######################################                                    53.5%######################################                                    54.1%#######################################                                   54.6%#######################################                                   55.1%########################################                                  55.7%########################################                                  56.3%########################################                                  56.7%#########################################                                 57.3%#########################################                                 57.8%#########################################                                 58.3%##########################################                                58.8%##########################################                                59.0%###########################################                               59.9%###########################################                               60.4%###########################################                               60.9%############################################                              61.5%############################################                              62.0%#############################################                             62.5%#############################################                             63.1%#############################################                             63.6%##############################################                            64.1%##############################################                            64.6%##############################################                            65.1%###############################################                           65.6%###############################################                           66.2%################################################                          66.7%################################################                          67.2%################################################                          67.7%#################################################                         68.3%#################################################                         68.8%#################################################                         69.3%##################################################                        69.8%##################################################                        70.4%###################################################                       70.9%###################################################                       71.1%###################################################                       71.9%####################################################                      72.4%####################################################                      72.9%####################################################                      73.4%#####################################################                     73.9%#####################################################                     74.5%#####################################################                     75.0%######################################################                    75.5%######################################################                    76.0%#######################################################                   76.6%#######################################################                   77.1%#######################################################                   77.5%########################################################                  78.3%########################################################                  78.8%#########################################################                 79.3%#########################################################                 79.8%#########################################################                 80.3%##########################################################                80.8%##########################################################                81.3%##########################################################                81.8%###########################################################               82.4%###########################################################               82.9%############################################################              83.4%############################################################              84.0%############################################################              84.5%############################################################              84.6%#############################################################             85.3%#############################################################             85.8%##############################################################            86.4%##############################################################            86.9%##############################################################            87.5%###############################################################           87.9%###############################################################           88.5%################################################################          89.1%################################################################          89.6%################################################################          90.1%#################################################################         90.7%#################################################################         91.1%##################################################################        92.0%##################################################################        92.5%##################################################################        92.9%###################################################################       93.5%###################################################################       94.0%####################################################################      94.5%####################################################################      95.0%####################################################################      95.6%#####################################################################     96.1%#####################################################################     96.6%#####################################################################     97.1%######################################################################    97.5%######################################################################    98.4%#######################################################################   98.8%#######################################################################   99.3%#######################################################################   99.8%######################################################################## 100.0%
+[34m==>[0m [1mPouring hugo-0.49.high_sierra.bottle.tar.gz[0m
+[34m==>[0m [1mCaveats[0m
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+[34m==>[0m [1mSummary[0m
+🍺  /usr/local/Cellar/hugo/0.49: 32 files, 37.5MB
+]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git add .
