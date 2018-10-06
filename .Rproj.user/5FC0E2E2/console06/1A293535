@@ -1,0 +1,24 @@
+]0;~/Desktop/STDS Orianna[?1034h192-168-1-5:STDS Orianna Davide$ [K192-168-1-5:STDS Orianna Davide$ git init
+Initialized empty Git repository in /Users/Davide/Desktop/STDS Orianna/.git/
+]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git remote add origin https://github.com/davelorino/STDSS ite.git
+]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git commit -m "fir[K[K[Knew layout"
+On branch master
+
+Initial commit
+
+Untracked files:
+	[31m.DS_Store[m
+	[31m.Rproj.user/[m
+	[31mSTDS Orianna.Rproj[m
+	[31mconfig.toml[m
+	[31mcontent/[m
+	[31mdata/[m
+	[31mindex.Rmd[m
+	[31mlayouts/[m
+	[31mpublic/[m
+	[31mstatic/[m
+	[31mthemes/[m
+
+nothing added to commit but untracked files present
+]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git add *
+]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git add .
