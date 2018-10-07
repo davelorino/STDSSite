@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Davide</title>
+    <link>/tags/r/</link>
+    <description>Recent content in R on Davide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Sun, 07 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>STDS Assessment 2C</title>
+      <link>/blog/2018-10/stds-assessment-2c/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018-10/stds-assessment-2c/</guid>
+      <description>Project Review and Contribution to Community   ‘High Voltage’ Group Dynamics   Paul Robertson Edward Truong Mutaz Abu Ghazzaleh Justin White Davide Lorino (myself)  Working with these four individuals in the process of delivering Assessment 2 (and a variety of side projects REFERENCE) was an immense pleasure. Having previously worked with Edward and Paul in Data Science for Innovation and taken Data Algorithms and Meaning with Mutaz (having had many conversations about statistical concepts together) and also working with somebody I hadn’t met yet - Justin White - I was really excited to take on this project together.
+  Group Highlights Working with this group was great because everybody had lots to contribute to the group discussions. Edward was an excellent custodian of our master document and would always keep us on-task with our specific component of the project. Paul had fantastic contributions with his modelling of the data as a timeseries. Mutaz made huge breakthroughs with our analysis when he discovered that our data more closely resembled a polynomial distributions, and Justin acquired the temperature data that would ultimately play a significant role in explaining the variance in energy demand.
+  Individual Contribution Highlights  Reflecting on my overall contribution to the team I can confidently say that I delivered a significant and productive output that was used to support and form a part of the final assessment.</description>
+    </item>
+    
+    <item>
+      <title>Text Analysis with tidytext, ggplot2 and Quanteda </title>
+      <link>/blog/2018-07/text-analysis-with-tidytext-ggplot2-and-quanteda/</link>
+      <pubDate>Sat, 28 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018-07/text-analysis-with-tidytext-ggplot2-and-quanteda/</guid>
+      <description>In this short guide we’ll perform text analysis on a corpus of 34 blog posts from one blog and try to determine what the blog is about, let’s see how much we can find out without going through and reading all 34 blog posts.
+Libraries There are a fair few libraries to load for text analysis;
+library(stringr) library(tidyverse) ## ── Attaching packages ───────────────────────────────────────────────────────────────────────────── tidyverse 1.2.1 ── ## ✔ ggplot2 3.0.0 ✔ readr 1.1.1 ## ✔ tibble 1.4.2 ✔ purrr 0.2.5 ## ✔ tidyr 0.8.1 ✔ dplyr 0.7.5 ## ✔ ggplot2 3.0.0 ✔ forcats 0.3.0 ## ── Conflicts ──────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ── ## ✖ dplyr::filter() masks stats::filter() ## ✖ dplyr::lag() masks stats::lag() library(tidytext) library(readr) library(tidyr) library(igraph) ## ## Attaching package: &amp;#39;igraph&amp;#39; ## The following objects are masked from &amp;#39;package:dplyr&amp;#39;: ## ## as_data_frame, groups, union ## The following objects are masked from &amp;#39;package:purrr&amp;#39;: ## ## compose, simplify ## The following object is masked from &amp;#39;package:tidyr&amp;#39;: ## ## crossing ## The following object is masked from &amp;#39;package:tibble&amp;#39;: ## ## as_data_frame ## The following objects are masked from &amp;#39;package:stats&amp;#39;: ## ## decompose, spectrum ## The following object is masked from &amp;#39;package:base&amp;#39;: ## ## union library(ggraph)  Load the corpus This file is available on my github.</description>
+    </item>
+    
+    <item>
+      <title>Text Analysis with visNetwork</title>
+      <link>/blog/2018-07/text-analysis-with-visnetwork/</link>
+      <pubDate>Sat, 28 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018-07/text-analysis-with-visnetwork/</guid>
+      <description>Text Analysis is growing in popularity just about everywhere - it’s an abundant source of data that until recently most analysts have ignored because of it’s unwieldy structure. Recent developments and packages in the R programming language have made it easy to derive significant meaning from a text corpus.
+Practical Applications of Text Analysis  Analysing email data (e.g. from a customer service inbox to analyze queries and feedback), Web scraping (e.g. Cambridge Analytica, though always consider the ethical implications of such methods even if the data is publicly available or rightfully yours to share), Literary analysis (e.g. poems (Shelley vs Byron) and speeches (Obama vs Trump))  In this post we’ll look at the Australian Election Speeches 1901 - 2016 dataset provided by https://electionspeeches.moadoph.gov.au/speeches - we’ll connect R to their API to read the data, then we’ll clean, analyze and visualize the data with some helpful R packages.
+library(jsonlite) library(readr) library(dplyr) ## ## Attaching package: &amp;#39;dplyr&amp;#39; ## The following objects are masked from &amp;#39;package:stats&amp;#39;: ## ## filter, lag ## The following objects are masked from &amp;#39;package:base&amp;#39;: ## ## intersect, setdiff, setequal, union  Connecting to the API Running the line below will pull the speeches data directly from the API of the Museum of Australian Democracy</description>
+    </item>
+    
+  </channel>
+</rss>

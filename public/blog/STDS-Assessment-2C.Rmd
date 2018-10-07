@@ -1,0 +1,138 @@
+---
+title: "STDS Assessment 2C"
+author: Davide Lorino
+date: '2018-10-07'
+img: "images/blog/2018-08/test14.png"
+slug: "STDS-Assessment-2C"
+categories:
+  - R
+  - Data Science
+  - Reflection
+tags:
+  - R
+  - Reflection
+  - Data Science
+  - STDS
+---
+
+## <b> Project Review and Contribution to Community </b>
+
+### <b> 'High Voltage' Group Dynamics </b>
+
+* Paul Robertson
+* Edward Truong
+* Mutaz Abu Ghazzaleh
+* Justin White
+* Davide Lorino (myself)
+
+Working with these four individuals in the process of delivering Assessment 2 (and a variety of side projects <b>REFERENCE</b>) was an immense pleasure. Having previously worked with Edward and Paul in Data Science for Innovation and taken Data Algorithms and Meaning with Mutaz (having had many conversations about statistical concepts together) and also working with somebody I hadn't met yet - Justin White - I was really excited to take on this project together. 
+
+### <b> Group Highlights</b>
+
+Working with this group was great because everybody had lots to contribute to the group discussions. Edward was an excellent custodian of our master document and would always keep us on-task with our specific component of the project. Paul had fantastic contributions with his modelling of the data as a timeseries. Mutaz made huge breakthroughs with our analysis when he discovered that our data more closely resembled a polynomial distributions, and Justin acquired the temperature data that would ultimately play a significant role in explaining the variance in energy demand.
+
+### <b> Individual Contribution Highlights </b>
+ 
+Reflecting on my overall contribution to the team I can confidently say that I delivered a significant and productive output that was used to support and form a part of the final assessment. 
+
+Areas where I contributed to this assessment were in:
+
+1. <b>Formulating the research question.</b>
+
+This was an area to which we all contributed, though in the early stages of discussion no explicit direction had been taken as to what our research question would be. My contribution in this period of time was to solve the problem of data acquisition and present the suggestion of predicting energy demand based off this particular dataset to the team. Though not an entirely original idea (Kirsty you had informed me that another group had done this before), it was the idea that we chose to stick with. 
+
+2. <b>Acquiring the energy demand data.</b>
+
+I provided the R files to both acquire, clean and perform exploratory data analysis to the team, as well as a file with a title that to this day, still makes me happy - "AEMO CLEAN NO CODE.html" - this was the html output of the exploratory data analysis that I had done on the AEMO data before we all came to the third class of semester <b> appendix </b>
+
+3. <b>Performing Exploratory Data Analysis to support the research question.</b>
+
+My exploratory data analysis files (appendix item <b>REFERENCE</b>) were submitted to the team on the night before our third class of semester - this was before a research question had been formally decided upon and we were not yet sure whether we wanted to pursue within the energy domain at all, though other ideas had been talked about as well such as gas and solar power. This data analysis was a series of graphs modelling energy demand over time for each state, coupled with side-by-side graphs of price of electricity over time in RRP AUD.   
+
+```{r echo = FALSE, message = FALSE, warning = FALSE}
+library(rmarkdown)
+library(htmldeps)
+library(tidyverse)
+library(caret)
+library(gridExtra)
+library(grid)
+library(zoo)
+library(lubridate)
+library(plotly)
+library(ggthemes)
+library(shiny)
+library(shinythemes)
+library(googlesheets)
+library(highcharter)
+library(stringr)
+
+vic_aemo_clean <- read_csv("vic_aemo.csv")
+qld_aemo_clean <- read_csv("qld_aemo.csv")
+nsw_aemo_clean <- read_csv("nsw_aemo.csv")
+tas_aemo_clean <- read_csv("tas_aemo.csv")
+sa_aemo_clean <- read_csv("sa_aemo.csv")
+snowy_aemo_clean <- read_csv("snowy_aemo.csv")
+```
+
+
+```{r echo = FALSE, message = FALSE}
+ggplot(sa_aemo_clean, aes(x = SETTLEMENTDATE)) +
+  geom_smooth(aes(y = sa_aemo_clean$RRP, colour = "RRP $/MWh")) +
+  geom_smooth(aes(y = sa_aemo_clean$TOTALDEMAND, colour = "Total Demand MW")) +
+  ggtitle("South Australia RRP vs Demand") +
+  ggthemes::theme_economist_white()
+
+sa_rrp_plot <- ggplot(sa_aemo_clean, aes(x = SETTLEMENTDATE)) +
+    geom_smooth(aes(y = sa_aemo_clean$RRP), se = FALSE) +
+    xlab("Settlement Date") +
+    ylab("RRP - $/MWh") +
+    ggtitle("SA") +
+  ggthemes::theme_economist_white()
+
+sa_demand_plot <- ggplot(sa_aemo_clean, aes(x = SETTLEMENTDATE)) +
+  geom_smooth(aes(y = sa_aemo_clean$TOTALDEMAND), se = FALSE) +
+  xlab("Settlement Date") +
+  ylab("Demand - MW") +
+  ggtitle("SA") +
+  ggthemes::theme_economist_white()
+
+grid.arrange(sa_rrp_plot + ggtitle("SA Energy RRP"), sa_demand_plot + ggtitle("SA Energy Demand"), nrow = 1)
+
+```
+
+A plot of this nature was produced for all states and we could see that there were some pretty convincing relationships - a clear inverse relationship going on there in South Australia, with RRP going up as Demand goes down. We later found other more convincing ways to explain the Demand data, thanks to the work of 
+
+After it had been settled that we would continue with this research question of forecasting energy demand from the AEMO energy data, other members of the group set about wrangling different datasets (population, weather) as well as examining the distribution of the datasets to determine that our distributions were more polynomial than normal; this would later have an impact on the type of linear model that we fit to the data.
+
+4. <b>Treating the final dataset for outliers - imputing the median</b>
+
+During our on-campus meetup sessions we often thought about ways that we could derive a greater prediction accuracy with a linear model. Several attempts were made to increase the accuracy however the biggest gains were made after two milestones; fitting the model with a polynomial specification, and treating the outliers in the dataset. As demonstrated in the appendix item <b>REFERENCE</b> we can see that the highest adjusted r squared was achieved by the model that fits via polynomial method and imputes the outliers for the mean. 
+
+### <b> Contribution to the Statistical Thinking Community </b>
+
+#### <b>Building Shiny Apps to Perform Statistical Analysis</b>
+
+In addition to posting explorations of data analysis methods with R and Python on this website, I also like to make applications that perform statistical analyses and derive insights from data.  
+
+#### Business User Applications
+
+Below is a testing model for an application I later went on to deploy (though it isn't the same as the one below) for my work.
+
+<b> The app is embedded into this page.</b> You can interact with it right here. Hover-over data points to get insights, change your individual of interest from the dropdown and check the different tabs (Daily1, Daily2 etc...), the numbering of 1 and 2 just denotes whether the sales agent was dialling on line 1 or line 2. 
+<br></br>
+<iframe width="1000" height="1000" scrolling="yes" frameborder="no"  src="https://davelorino.shinyapps.io/OutboundStats/"> </iframe>
+
+<br></br>
+
+#### Apps for Fun
+
+Below is the app that myself and a colleague submitted after a gruelling weekend of the GovHack2018 challenge. This was a lot of a fun and a fantastic learning experience. Myself and my colleague (whom I am sure will not protest to me naming him here, Durand Sinclair) plotted the rental pricing data provided by the ABS with the occupation earnings data provided by the ATO. With this we then created a leaflet map that would render with shading according to the level of rental stress that the person is in if they were to live in a given area according to the amount the ABS believes you will be paying on average. Our definition of "rental stress" was anything over 30% of your income. See the bottom left-hand corner for the map legend re: rental stress. 
+<br></br>
+
+<iframe width="1000" height="1000" scrolling="yes" frameborder="no"  src="https://durandsinclair.shinyapps.io/rentstress/#section-occupation"> </iframe>
+
+
+
+
+
+

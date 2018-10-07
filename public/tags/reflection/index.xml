@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reflection on Davide</title>
+    <link>/tags/reflection/</link>
+    <description>Recent content in Reflection on Davide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Sun, 07 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/reflection/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>STDS Assessment 2C</title>
+      <link>/blog/2018-10/stds-assessment-2c/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018-10/stds-assessment-2c/</guid>
+      <description>Project Review and Contribution to Community   ‘High Voltage’ Group Dynamics   Paul Robertson Edward Truong Mutaz Abu Ghazzaleh Justin White Davide Lorino (myself)  Working with these four individuals in the process of delivering Assessment 2 (and a variety of side projects REFERENCE) was an immense pleasure. Having previously worked with Edward and Paul in Data Science for Innovation and taken Data Algorithms and Meaning with Mutaz (having had many conversations about statistical concepts together) and also working with somebody I hadn’t met yet - Justin White - I was really excited to take on this project together.
+  Group Highlights Working with this group was great because everybody had lots to contribute to the group discussions. Edward was an excellent custodian of our master document and would always keep us on-task with our specific component of the project. Paul had fantastic contributions with his modelling of the data as a timeseries. Mutaz made huge breakthroughs with our analysis when he discovered that our data more closely resembled a polynomial distributions, and Justin acquired the temperature data that would ultimately play a significant role in explaining the variance in energy demand.
+  Individual Contribution Highlights  Reflecting on my overall contribution to the team I can confidently say that I delivered a significant and productive output that was used to support and form a part of the final assessment.</description>
+    </item>
+    
+  </channel>
+</rss>

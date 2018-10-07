@@ -7,15 +7,13 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
   <meta name="author" content="Davide">
-  <meta name="description" content="img1_path &lt;- &quot;~/Downloads/den/public/images/Scrape.png&quot; library(png) img1 &lt;- readPNG(img1_path, native = TRUE, info = TRUE) Scrape
- Q: How do you scrape data off a website that’s rendered in Javascript?  A: The Selenium module in Python. In this post I will go over he can use Selenium in Python to interact with website objects that are rendered in javascript so that we can do things like:
+  <meta name="description" content="Q: How do you scrape data off a website that’s rendered in Javascript?  A: The Selenium module in Python. In this post I will go over he can use Selenium in Python to interact with website objects that are rendered in javascript so that we can do things like:
  Hover-over dropdown menus Select sub-menus Fill in text entry fields such as username and password to perform login operations Basically use the .click() and .find_element_by_xpath() functions to do everything  Building a webscraper/crawler to programmatically pull data from the internet is a really commonly sought after skill. Most businesspeople put together reports that are usually some sort of aggregation on multiple csv files that all need to get pooled together and joined in a summarized form.
 Because of the iterative nature of these reports (daily, weekly, monthly, quarterly) the process of requesting and pooling the data together can be extremely tedious, especially if you have lots of data in different places.
 For this, we need the Selenium module in Python. We can pre-generate a script that will fetch our data each and every time we want to run a report - the only thing that we will change in our script between iterations will be the date variables so that we arent just pulling data for the exact same date or range every time (we will want different data otherwise theres no point doing more than one of the same report).">
   
   <meta property="og:title" content="Automate the Browser with Selenium and Python" />
-<meta property="og:description" content="img1_path &lt;- &quot;~/Downloads/den/public/images/Scrape.png&quot; library(png) img1 &lt;- readPNG(img1_path, native = TRUE, info = TRUE) Scrape
- Q: How do you scrape data off a website that’s rendered in Javascript?  A: The Selenium module in Python. In this post I will go over he can use Selenium in Python to interact with website objects that are rendered in javascript so that we can do things like:
+<meta property="og:description" content="Q: How do you scrape data off a website that’s rendered in Javascript?  A: The Selenium module in Python. In this post I will go over he can use Selenium in Python to interact with website objects that are rendered in javascript so that we can do things like:
  Hover-over dropdown menus Select sub-menus Fill in text entry fields such as username and password to perform login operations Basically use the .click() and .find_element_by_xpath() functions to do everything  Building a webscraper/crawler to programmatically pull data from the internet is a really commonly sought after skill. Most businesspeople put together reports that are usually some sort of aggregation on multiple csv files that all need to get pooled together and joined in a summarized form.
 Because of the iterative nature of these reports (daily, weekly, monthly, quarterly) the process of requesting and pooling the data together can be extremely tedious, especially if you have lots of data in different places.
 For this, we need the Selenium module in Python. We can pre-generate a script that will fetch our data each and every time we want to run a report - the only thing that we will change in our script between iterations will be the date variables so that we arent just pulling data for the exact same date or range every time (we will want different data otherwise theres no point doing more than one of the same report)." />
@@ -399,23 +397,20 @@ For this, we need the Selenium module in Python. We can pre-generate a script th
     
   </ul>
   
+    <div class="view">
+      <img src="/images/blog/2018-08/test13.png" />
+    </div>
+  
 
 </div>
 
 
           <div class="post-content markdown">
-            <pre class="r"><code>img1_path &lt;- &quot;~/Downloads/den/public/images/Scrape.png&quot;
-library(png)
-img1 &lt;- readPNG(img1_path, native = TRUE, info = TRUE)</code></pre>
-<div class="figure">
-<img src="Scrape.jpeg" alt="Scrape" />
-<p class="caption">Scrape</p>
+            <div id="q-how-do-you-scrape-data-off-a-website-thats-rendered-in-javascript" class="section level3">
+<h3>Q: How do you scrape data off a website that’s rendered in Javascript?</h3>
 </div>
-<div id="q-how-do-you-scrape-data-off-a-website-thats-rendered-in-javascript" class="section level1">
-<h1>Q: How do you scrape data off a website that’s rendered in Javascript?</h1>
-</div>
-<div id="a-the-selenium-module-in-python." class="section level1">
-<h1>A: The Selenium module in Python.</h1>
+<div id="a-the-selenium-module-in-python." class="section level3">
+<h3>A: The Selenium module in Python.</h3>
 <p>In this post I will go over he can use Selenium in Python to interact with website objects that are rendered in javascript so that we can do things like:</p>
 <ul>
 <li>Hover-over dropdown menus</li>
@@ -426,6 +421,7 @@ img1 &lt;- readPNG(img1_path, native = TRUE, info = TRUE)</code></pre>
 <p>Building a webscraper/crawler to programmatically pull data from the internet is a really commonly sought after skill. Most businesspeople put together reports that are usually some sort of aggregation on multiple csv files that all need to get pooled together and joined in a summarized form.</p>
 <p>Because of the iterative nature of these reports (daily, weekly, monthly, quarterly) the process of requesting and pooling the data together can be extremely tedious, especially if you have lots of data in different places.</p>
 <p>For this, we need the Selenium module in Python. We can pre-generate a script that will fetch our data each and every time we want to run a report - the only thing that we will change in our script between iterations will be the date variables so that we arent just pulling data for the exact same date or range every time (we will want different data otherwise theres no point doing more than one of the same report).</p>
+</div>
 <div id="load-the-required-python-modules" class="section level3">
 <h3>Load the Required Python Modules</h3>
 <p>from selenium import webdriver
@@ -575,7 +571,6 @@ date_To = “16/08/2018 00:00:00”</p>
 <p>time.sleep(5)</p>
 </div>
 </div>
-</div>
 
           </div>
 
@@ -592,10 +587,10 @@ date_To = “16/08/2018 00:00:00”</p>
           <div class="row pt-3">
             <div class="col-md-6">
               
-                <a href=/blog/2018-07/maps-with-r-and-leaflet/ class="post-meta">Previous
+                <a href=/blog/2018-07/text-analysis-with-tidytext-ggplot2-and-quanteda/ class="post-meta">Previous
                   <div class="pt-2 pb-5 d-flex">
                     <i class="fas fa-angle-left text-grey font-weight-bold mr-2 active-color"></i>
-                    <span>Maps with R and Leaflet</span>
+                    <span>Text Analysis with tidytext, ggplot2 and Quanteda </span>
                   </div>
                 </a>
               

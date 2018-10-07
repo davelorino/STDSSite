@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="zn-Hans">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
+  <meta name="author" content="Davide">
+  <meta name="description" content="In this short guide we’ll perform text analysis on a corpus of 34 blog posts from one blog and try to determine what the blog is about, let’s see how much we can find out without going through and reading all 34 blog posts.
+Libraries There are a fair few libraries to load for text analysis;
+library(stringr) library(tidyverse) ## ── Attaching packages ───────────────────────────────────────────────────────────────────────────── tidyverse 1.2.1 ── ## ✔ ggplot2 3.0.0 ✔ readr 1.1.1 ## ✔ tibble 1.4.2 ✔ purrr 0.2.5 ## ✔ tidyr 0.8.1 ✔ dplyr 0.7.5 ## ✔ ggplot2 3.0.0 ✔ forcats 0.3.0 ## ── Conflicts ──────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ── ## ✖ dplyr::filter() masks stats::filter() ## ✖ dplyr::lag() masks stats::lag() library(tidytext) library(readr) library(tidyr) library(igraph) ## ## Attaching package: &#39;igraph&#39; ## The following objects are masked from &#39;package:dplyr&#39;: ## ## as_data_frame, groups, union ## The following objects are masked from &#39;package:purrr&#39;: ## ## compose, simplify ## The following object is masked from &#39;package:tidyr&#39;: ## ## crossing ## The following object is masked from &#39;package:tibble&#39;: ## ## as_data_frame ## The following objects are masked from &#39;package:stats&#39;: ## ## decompose, spectrum ## The following object is masked from &#39;package:base&#39;: ## ## union library(ggraph)  Load the corpus This file is available on my github.">
+  
+  <meta property="og:title" content="Text Analysis with tidytext, ggplot2 and Quanteda " />
+<meta property="og:description" content="In this short guide we’ll perform text analysis on a corpus of 34 blog posts from one blog and try to determine what the blog is about, let’s see how much we can find out without going through and reading all 34 blog posts.
+Libraries There are a fair few libraries to load for text analysis;
+library(stringr) library(tidyverse) ## ── Attaching packages ───────────────────────────────────────────────────────────────────────────── tidyverse 1.2.1 ── ## ✔ ggplot2 3.0.0 ✔ readr 1.1.1 ## ✔ tibble 1.4.2 ✔ purrr 0.2.5 ## ✔ tidyr 0.8.1 ✔ dplyr 0.7.5 ## ✔ ggplot2 3.0.0 ✔ forcats 0.3.0 ## ── Conflicts ──────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ── ## ✖ dplyr::filter() masks stats::filter() ## ✖ dplyr::lag() masks stats::lag() library(tidytext) library(readr) library(tidyr) library(igraph) ## ## Attaching package: &#39;igraph&#39; ## The following objects are masked from &#39;package:dplyr&#39;: ## ## as_data_frame, groups, union ## The following objects are masked from &#39;package:purrr&#39;: ## ## compose, simplify ## The following object is masked from &#39;package:tidyr&#39;: ## ## crossing ## The following object is masked from &#39;package:tibble&#39;: ## ## as_data_frame ## The following objects are masked from &#39;package:stats&#39;: ## ## decompose, spectrum ## The following object is masked from &#39;package:base&#39;: ## ## union library(ggraph)  Load the corpus This file is available on my github." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/blog/2018-07/text-analysis-with-tidytext-ggplot2-and-quanteda/" />
+
+
+
+<meta property="article:published_time" content="2018-07-28T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2018-07-28T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+  <title>
+  
+       Text Analysis with tidytext, ggplot2 and Quanteda  | Davide 
+  
+  </title>
+
+  <link rel="canonical" href="/blog/2018-07/text-analysis-with-tidytext-ggplot2-and-quanteda/">
+
+  
+  
+
+  
+  <link href="/css/vendors-extensions/fontawesome/all.min.css" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:300,400,500,600">
+  <link href="/css/font.css" rel="stylesheet"> 
+    
+  
+  <link href="/css/vendors/bootstrap4/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/vendors-extensions/mdb/mdb.min.css" rel="stylesheet"> 
+  <link href="/css/vendors/mdb/style.min.css" rel="stylesheet"> 
+  <link href="/css/main.css" rel="stylesheet">
+
+
+  
+  <link rel="shortcut icon"
+  
+      href="/img/zheng.png"
+  
+  >
+
+
+  
+  
+
+  <style type="text/css">
+      @media (min-width: 800px) and (max-width: 850px) {
+              .navbar:not(.top-nav-collapse) {
+                  background: #1C2331!important;
+              }
+          }
+  </style>
+
+
+  
+    
+    <link rel="stylesheet" href="/js/vendors/katex/katex.min.css">
+  
+  
+
+  
+    
+    <link rel="stylesheet" href="/css/vendors/highlight/github-gist.css">
+  
+
+</head>
+
+  <body class="bg-light" data-spy="scroll" data-target="#page-scrollspy" data-offset="90">
+  
+    
+    
+
+    
+      
+
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      
+      <a class="navbar-brand" href="/">
+          
+        <img class="avatar" src="/img/zheng.png" style="width: 40px!important;height: auto;"  class="d-inline-block align-top" alt="" >
+        
+        <strong> Davide</strong>
+      </a>
+
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        
+        <ul class="navbar-nav mr-auto ">
+          <li class="nav-item ">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+             
+            <li class="nav-item ">
+              <a class="nav-link" href="/blog/" >Blog  </a>
+            </li>
+          
+             
+            <li class="nav-item ">
+              <a class="nav-link" href="/moment/" >Moment  </a>
+            </li>
+          
+             
+            <li class="nav-item ">
+              <a class="nav-link" href="/about/" >About  </a>
+            </li>
+          
+          
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  
+ 
+      
+ 
+
+
+
+
+
+
+<div id="site-header" class="carousel slide carousel-fade" data-ride="carousel" style="height: 18rem;" >  
+
+  
+  
+  
+
+  
+  <div class="carousel-inner" role="listbox">
+    
+      
+
+        
+        <div class="carousel-item active">
+          <div class="view" style="background-image: url('/img/header-slides/photo-1519630134238-d7a6338ec24b.jpeg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+              
+              
+              
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+      
+
+        
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('/img/header-slides//photo-1523608401-53eb5741c1a0.jpeg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+      
+
+        
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('/img/header-slides//photo-1524562865630-b991c6c2f261.jpeg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+      
+
+        
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('/img/header-slides//photo-1526638104077-256f1b33e837.jpeg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+      
+
+        
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('/img/header-slides//photo-1530628815456-c641ebc4dda3.jpeg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+      
+
+        
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('/img/header-slides//photo-1536731578915-ab4e400a6395.jpeg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+
+  
+  </div>
+  
+
+  
+  <div class="carousel-content text-center white-text wow fadeIn">
+    <div class="row mx-0 headfont mt-3 pt-4">
+      
+      <div class="col-12 col-sm-5 align-middle">
+        <a href="/">
+          
+            <img class="pull-right avatar avatar-md" src="/img/profile.jpg" alt="" >
+          
+        </a>
+      </div>
+      
+      <div class="col-12 col-sm-7 text-left pl-2">
+        <a href="/">
+          <h1 class="mb-2 h1" style="font-weight: 300;" >
+            <strong>Davide</strong>
+          </h1>
+        </a>
+        
+
+             
+        <div class="mt-2" style="font-size: 1rem; color: white;">
+            
+              <a href="//github.com/davelorino" target="_blank" rel="noopener"><i class="fab fa-github pr-1" aria-hidden="true"></i></a>    
+            
+            
+              <a href="//linkedin.com/in/davide-lorino-73963686/" target="_blank" rel="noopener"><i class="fab fa-linkedin pr-1" aria-hidden="true"></i></a>
+            
+
+            
+              <a href="//facebook.com/davide.lorino" target="_blank" rel="noopener"><i class="fab fa-facebook pr-1" aria-hidden="true"></i></a>
+            
+
+            
+            <a href="//google.com/you" target="_blank" rel="noopener"><i class="fab fa-google-plus pr-1" aria-hidden="true"></i></a>
+            
+
+            
+                <a href="//twitter.com/davide_lorino" target="_blank" rel="noopener"><i class="fab fa-twitter pr-1" aria-hidden="true"></i></a>
+            
+
+            
+                <a href="//instagram.com/dinosaurbossbattle" target="_blank" rel="noopener"><i class="fab fa-instagram pr-1" aria-hidden="true"></i></a>
+            
+    
+            
+                <a href="//px500" target="_blank" rel="noopener"><i class="fab fa-500px pr-1" aria-hidden="true"></i></a>
+            
+    
+        
+            
+                <a href="mailto:davelorino@gmail.com"><i class="far fa-envelope-open pr-1" aria-hidden="true"></i></a>
+            
+    
+            
+
+            
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  
+  
+
+</div>
+  
+    
+
+    
+  
+  <main class="post-main-wrapper">
+    
+    
+    <div class="row">
+
+      
+
+      
+      <div class="container pr-5">
+      
+
+        
+        <div class="z-depth-1  post-wrapper white-bg single-post">
+
+          <div class="post-header text-center" >
+  <ul class="post-meta li-x">
+    
+      
+        <li><a href="/categories/data-science"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> Data Science </a></li>
+      
+        <li><a href="/categories/text-analysis"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> Text Analysis </a></li>
+      
+        <li><a href="/categories/r"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> R </a></li>
+      
+    
+    
+  </ul>
+
+  <div class="px-4 post-heading">Text Analysis with tidytext, ggplot2 and Quanteda </div>
+
+  <ul class="post-meta li-x mt-1">
+    
+      <li>Jul 28, 2018</li>
+    
+
+    
+      <li class="middot"></li>
+      <li>5 minutes read</li>
+    
+  </ul>
+  
+
+</div>
+
+
+          <div class="post-content markdown">
+            <p>In this short guide we’ll perform text analysis on a corpus of 34 blog posts from one blog and try to determine what the blog is about, let’s see how much we can find out without going through and reading all 34 blog posts.</p>
+<div id="libraries" class="section level2">
+<h2>Libraries</h2>
+<p>There are a fair few libraries to load for text analysis;</p>
+<pre class="r"><code>library(stringr)
+library(tidyverse)</code></pre>
+<pre><code>## ── Attaching packages ───────────────────────────────────────────────────────────────────────────── tidyverse 1.2.1 ──</code></pre>
+<pre><code>## ✔ ggplot2 3.0.0     ✔ readr   1.1.1
+## ✔ tibble  1.4.2     ✔ purrr   0.2.5
+## ✔ tidyr   0.8.1     ✔ dplyr   0.7.5
+## ✔ ggplot2 3.0.0     ✔ forcats 0.3.0</code></pre>
+<pre><code>## ── Conflicts ──────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>library(tidytext)
+library(readr)
+library(tidyr)
+library(igraph)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;igraph&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:dplyr&#39;:
+## 
+##     as_data_frame, groups, union</code></pre>
+<pre><code>## The following objects are masked from &#39;package:purrr&#39;:
+## 
+##     compose, simplify</code></pre>
+<pre><code>## The following object is masked from &#39;package:tidyr&#39;:
+## 
+##     crossing</code></pre>
+<pre><code>## The following object is masked from &#39;package:tibble&#39;:
+## 
+##     as_data_frame</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     decompose, spectrum</code></pre>
+<pre><code>## The following object is masked from &#39;package:base&#39;:
+## 
+##     union</code></pre>
+<pre class="r"><code>library(ggraph)</code></pre>
+</div>
+<div id="load-the-corpus" class="section level2">
+<h2>Load the corpus</h2>
+<p>This file is available on my github.</p>
+<pre class="r"><code>mergedcorpus &lt;- &#39;merged-file copy.txt&#39;</code></pre>
+<p>Store stopwords (“to”, “in”, “the” etc.) in a variable to use later</p>
+<pre class="r"><code>data(stop_words)</code></pre>
+<p>Store the corpus as a data.frame</p>
+<pre class="r"><code>mergedcorpus2 &lt;- read_lines(mergedcorpus)
+mergedcorpusdf &lt;- data_frame(line = 1:length(mergedcorpus2), text = mergedcorpus2)</code></pre>
+<p>Tokenize the documents (split them into single words)</p>
+<pre class="r"><code>mergedtokens &lt;- mergedcorpusdf %&gt;% unnest_tokens(word, text)</code></pre>
+<p>Sort the tokens in order of frequency</p>
+<pre class="r"><code>toptokens &lt;- mergedtokens %&gt;%
+  count(word, sort = TRUE)</code></pre>
+<p>Remove stopwords</p>
+<pre class="r"><code>toptokensnostops &lt;- toptokens %&gt;% anti_join(stop_words)</code></pre>
+<pre><code>## Joining, by = &quot;word&quot;</code></pre>
+</div>
+<div id="simple-bar-chart---top-10-words" class="section level2">
+<h2>Simple Bar Chart - Top 10 Words</h2>
+<p>This plot is purely exploratory, we’ll get to the nicer looking visualizations soon. Let’s look at the top 10 words.</p>
+<pre class="r"><code>library(ggplot2)
+
+toptokensnostops %&gt;%
+  filter(n &gt; 120) %&gt;%
+  mutate(word = reorder(word, n)) %&gt;%
+  ggplot(aes(word, n)) +
+  geom_col() +
+  ggtitle(&quot;The Top 10 Words (Minus Stopwords)&quot;) +
+  xlab(&#39;Count&#39;) +
+  coord_flip()</code></pre>
+<p><img src="/blog/2018-07-28-text-analysis-with-tidytext-ggplot2-and-quanteda_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+</div>
+<div id="bigram-network-graph-with-ggplot2-igraph-and-ggraph" class="section level2">
+<h2>Bigram Network Graph with ggplot2, igraph and ggraph</h2>
+<p>This plot will be a little nicer on the eyes, and more informative.</p>
+<p>Let’s prepare the data for the network graph.</p>
+<p>Start by making bigrams:</p>
+<pre class="r"><code>mergedbigrams &lt;- mergedcorpusdf %&gt;%
+  unnest_tokens(bigram, text, token= &quot;ngrams&quot;, n = 2)</code></pre>
+<p>Add a count variable</p>
+<pre class="r"><code>mergedbigrams &lt;- mergedbigrams %&gt;% count(bigram, sort = TRUE)</code></pre>
+<p>Now spread them into “from” and “to” columns:</p>
+<pre class="r"><code>mergedbigrams_sep &lt;- mergedbigrams %&gt;%
+  separate(bigram, c(&quot;word1&quot;, &quot;word2&quot;), sep = &quot; &quot;)</code></pre>
+<p>Take out stopwords</p>
+<pre class="r"><code>mergedbigrams_sep_nostop &lt;- mergedbigrams_sep %&gt;%
+                            filter(!word1 %in% stop_words$word) %&gt;%
+                            filter(!word2 %in% stop_words$word)</code></pre>
+<p>Create a variable that holds the total sum of bigrams</p>
+<pre class="r"><code>sumbigrams &lt;- mergedbigrams_sep_nostop %&gt;%
+  summarize(total = sum(n))
+sumbigrams &lt;- as.integer(sumbigrams)
+sumbigrams &lt;- rep(sumbigrams, dim(mergedbigrams_sep_nostop)[1])
+sumbigrams &lt;- cbind(mergedbigrams_sep_nostop, sumbigrams)</code></pre>
+<p>Add the term frequency for each word pair</p>
+<pre class="r"><code>bigramcount &lt;- sumbigrams %&gt;% mutate(tf = n / sumbigrams)</code></pre>
+</div>
+<div id="making-the-graph" class="section level2">
+<h2>Making the Graph</h2>
+<p>Nearly there! Let’s make the graph variable:</p>
+<pre class="r"><code>docgraph &lt;- bigramcount %&gt;%
+  filter(n &gt; 10) %&gt;%
+  graph_from_data_frame()</code></pre>
+</div>
+<div id="plotting-the-graph-with-ggplot2" class="section level2">
+<h2>Plotting the graph with ggplot2</h2>
+<pre class="r"><code>set.seed(2000)
+arrow &lt;- grid::arrow(type = &quot;closed&quot;, length = unit(.15, &quot;inches&quot;))
+ggraph(docgraph, layout = &quot;fr&quot;) +
+  geom_edge_link(aes(edge_alpha = n), show.legend = FALSE, arrow = arrow) +
+  geom_node_point(color = &quot;blue&quot;, size = 2) +
+  geom_node_text(aes(label = name), vjust = 1, hjust = 1) +
+  theme_void()</code></pre>
+<p><img src="/blog/2018-07-28-text-analysis-with-tidytext-ggplot2-and-quanteda_files/figure-html/unnamed-chunk-16-1.png" width="672" /></p>
+<p>Cool. Play around with the docgraph (n &gt; 10) variable by raising and lowering n to increase or decrease the number of word pairs mapped by the network graph. Here’s one set to n &gt; 5 - it’s pretty cluttered!</p>
+<pre class="r"><code>docgraph2 &lt;- bigramcount %&gt;%
+  filter(n &gt; 9) %&gt;%
+  graph_from_data_frame()
+set.seed(2000)
+arrow &lt;- grid::arrow(type = &quot;closed&quot;, length = unit(.15, &quot;inches&quot;))
+ggraph(docgraph2, layout = &quot;fr&quot;) +
+  geom_edge_link(aes(edge_alpha = n), show.legend = FALSE, arrow = arrow) +
+  geom_node_point(color = &quot;blue&quot;, size = 2) +
+  geom_node_text(aes(label = name), vjust = 1, hjust = 1) +
+  theme_void()</code></pre>
+<p><img src="/blog/2018-07-28-text-analysis-with-tidytext-ggplot2-and-quanteda_files/figure-html/unnamed-chunk-17-1.png" width="672" /></p>
+<p>Fun stuff! See which word pairs you can pick out. Notice that the strength of the arrow denotes the strength of the relationship.</p>
+</div>
+<div id="key-words-in-context-and-lexical-dispersion-charts-with-quanteda" class="section level2">
+<h2>Key Words in Context and Lexical Dispersion Charts with Quanteda</h2>
+<p>Now we’ll switch over to the Quanteda way of doing text analysis.</p>
+<pre class="r"><code>library(quanteda)</code></pre>
+<pre><code>## Package version: 1.3.0</code></pre>
+<pre><code>## Parallel computing: 2 of 4 threads used.</code></pre>
+<pre><code>## See https://quanteda.io for tutorials and examples.</code></pre>
+<pre><code>## 
+## Attaching package: &#39;quanteda&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:utils&#39;:
+## 
+##     View</code></pre>
+<pre class="r"><code>library(readtext)</code></pre>
+<p>Loud the corpus in a way that Quanteda likes to read it.</p>
+<pre class="r"><code>quantedocs &lt;- texts(readtext(&quot;merged-file copy.txt&quot;))</code></pre>
+<p>Make it lower case</p>
+<pre class="r"><code>quantedocs &lt;- tolower(quantedocs)</code></pre>
+<p>Now we can explore some key words in context:</p>
+<pre class="r"><code>head(kwic(quantedocs, &quot;risk&quot;), 5)</code></pre>
+<pre><code>##                                                                       
+##    [merged-file copy.txt, 3]                             in practice |
+##   [merged-file copy.txt, 69] stakeholder perceptions is broader than |
+##  [merged-file copy.txt, 145]   organisational change is fraught with |
+##  [merged-file copy.txt, 164]               . the current paradigm of |
+##  [merged-file copy.txt, 189]               for the wicked aspects of |
+##                                       
+##  risk | management is a rational,     
+##  risk | analysis. the recognition that
+##  risk | . murphy rules; things        
+##  risk | management, which focuses on  
+##  risk | . i had been thinking</code></pre>
+<p>Tokenize for the Lexical Dispersion Chart</p>
+<pre class="r"><code>quantev &lt;- tokens(quantedocs, remove_punct = TRUE) %&gt;% as.character()
+(total_length &lt;- length(quantev))</code></pre>
+<pre><code>## [1] 70769</code></pre>
+<p>Now plot the Lexical Dispersion Chart</p>
+<pre class="r"><code>textplot_xray(
+  kwic(quantedocs, &quot;risk&quot;),
+  kwic(quantedocs, &quot;management&quot;),
+  kwic(quantedocs, &quot;analysis&quot;),
+  kwic(quantedocs, &quot;knowledge&quot;)) + ggtitle(&quot;Lexical Dispersion&quot;)</code></pre>
+<p><img src="/blog/2018-07-28-text-analysis-with-tidytext-ggplot2-and-quanteda_files/figure-html/unnamed-chunk-23-1.png" width="672" /></p>
+<p>Nice, now we have a better idea of when and where certain topics were and wern’t discussed.</p>
+<p>That’s it for now - we covered a lot so play around with these methods. Quanteda, tidytext, tm and ggplot/ggraph/igraph are great packages for doing text analysis in R.</p>
+</div>
+
+          </div>
+
+          
+          <div class="row">
+            <div class="col-md-8">
+            
+              <div class="mb-5">
+                
+<div class="li-x div-x post-meta">
+  <li class="pr-0"><a href="/tags/"><i class="fas fa-tags"></i></a></li>
+  <div class="tags-sm">
+    
+      <li><a href="/tags/r" role="button">R </a></li>
+      
+    
+      <li><a href="/tags/text-analysis" role="button">Text Analysis </a></li>
+      
+    
+      <li><a href="/tags/quanteda" role="button">quanteda </a></li>
+      
+    
+      <li><a href="/tags/tidytext" role="button">tidytext </a></li>
+      
+    
+      <li><a href="/tags/ggplot2" role="button">ggplot2 </a></li>
+      
+    
+  </div>
+</div>
+              </div>
+            
+            </div>
+            
+          </div>
+          
+
+          
+          <div class="row pt-3">
+            <div class="col-md-6">
+              
+                <a href=/blog/2018-07/text-analysis-with-visnetwork/ class="post-meta">Previous
+                  <div class="pt-2 pb-5 d-flex">
+                    <i class="fas fa-angle-left text-grey font-weight-bold mr-2 active-color"></i>
+                    <span>Text Analysis with visNetwork</span>
+                  </div>
+                </a>
+              
+            </div>
+            
+            <div class="col-md-6 text-right" >
+              
+                <a href=/blog/2018-08/automate-the-browser-with-selenium-and-python/ class="post-meta">Next
+                  <div class="pt-2 pb-5 flex-reverse">
+                    <i class="fas fa-angle-right text-grey font-weight-bold ml-2 active-color"></i>
+                    <span>Automate the Browser with Selenium and Python</span>
+                  </div>
+                </a>
+              
+            </div>
+          </div>
+
+          
+
+        </div>
+        
+
+      </div>
+      
+
+      
+
+    </div>
+    
+
+
+  </main>
+  
+
+
+    
+    
+
+<footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+
+  
+  <div class="pb-2 mt-5 pt-5">
+    
+      <a href="//github.com/davelorino " target="_blank" rel="noopener"><i class="fab fa-github mr-3" aria-hidden="true"></i></a>    
+    
+    
+      <a href="//linkedin.com/in/davide-lorino-73963686/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in mr-3" aria-hidden="true"></i></a>
+    
+
+    
+      <a href="//facebook.com/davide.lorino" target="_blank" rel="noopener"><i class="fab fa-facebook-f mr-3" aria-hidden="true"></i></a>
+    
+
+    
+    <a href="//google.com/you" target="_blank" rel="noopener"><i class="fab fa-google-plus-g mr-3" aria-hidden="true"></i></a>
+    
+
+    
+        <a href="//twitter.com/davide_lorino" target="_blank" rel="noopener"><i class="fab fa-twitter mr-3" aria-hidden="true"></i></a>
+    
+
+    
+        <a href="//instagram.com/dinosaurbossbattle" target="_blank" rel="noopener"><i class="fab fa-instagram mr-3" aria-hidden="true"></i></a>
+    
+
+    
+        <a href="//px500" target="_blank" rel="noopener"><i class="fab fa-500px mr-3" aria-hidden="true"></i></a>
+    
+
+
+    
+        <a href="mailto:davelorino@gmail.com"><i class="far fa-envelope-open mr-3" aria-hidden="true"></i></a>
+    
+
+    
+
+    
+
+  </div>
+  
+
+  
+  <div class="copyright py-4">
+    
+    <span>  2016 - 2018 &copy; | Theme <a href='https://github.com/orianna-zzo/AllinOne' target="_blank">AllinOne</a> by <a href='https://github.com/orianna-zzo' target="_blank">Orianna</a>  </span>
+  </div>
+  
+
+</footer>
+
+
+    
+
+
+
+
+
+
+<script type="text/javascript" src="/js/vendors/jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/js/vendors/jquery/jquery.smooth-scroll.min.js"></script>
+
+
+
+<script type="text/javascript" src="/js/vendors/popper.min.js"></script>
+<script type="text/javascript" src="/js/vendors/holder.min.js"></script>
+<script type="text/javascript" src="/js/vendors-extensions/bootstrap4/bootstrap.js" ></script>
+
+<script type="text/javascript" src="/js/vendors/mdb/mdb.min.js"></script>
+
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+
+  
+  <script src="/js/vendors/highlight.pack.js"> </script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+ 
+  <script src="/js/vendors/katex/katex.min.js"> </script>
+  <script src="/js/vendors/katex/contrib/auto-render.min.js"></script>
+
+  <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          renderMathInElement(document.body);
+      });
+  </script>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  
+  new WOW().init();
+</script>
+
+
+
+
+  </body>
+</html>
