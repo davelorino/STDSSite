@@ -6,10 +6,38 @@
     <description>Recent content in R on Davide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 06 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>STDS Reflection - Scraping the Australian Energy Market Operator &#39;Energy Demand&#39; Data</title>
+      <link>/blog/2018-10/scraping-the-australian-energy-market-operator-energy-demand-data/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018-10/scraping-the-australian-energy-market-operator-energy-demand-data/</guid>
+      <description>In this post we will examine how to download all of the data energy demand data available from the Australian Energy Market Operator by using their aemo package in R. This data is displayed via a graphic on their page, however the graphic only allows for a specific timeframe of 5 days to be viewed at a time, and only one state at a time too. Thankfully the aemo package will let us download all of it! Let’s load the necessary libraries.
+library(parsedate) library(aemo) library(tidyverse) library(gridExtra) library(plotly) library(caret) library(htmldeps) The most important function we will use from the aemo package is the collate_aemo_data() function. This will start the process of downloading the data to a directory of your choice.
+collate_aemo_data(path = &amp;quot;~/Downloads/New Folder With Items&amp;quot;, remove_files = FALSE) Unfortunately for us, the function does this in the form of different csv files for every single day within the dataset (there are close to 500 csv files that are downloaded). There is also a remove files argument in the collate_aemo_data call, and this is because there used to be a function in the aemo package that would bind the csv files together into one csv file and then delete all of the smaller ones with remove files = TRUE.</description>
+    </item>
+    
+    <item>
+      <title>Maps with R and Leaflet</title>
+      <link>/blog/2018-07/maps-with-r-and-leaflet/</link>
+      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018-07/maps-with-r-and-leaflet/</guid>
+      <description>Interactive Maps in R with leaflet 2018-07-24
+Plotting interactive maps is easy with the leaflet package in R. In this short guide we’ll use the Launceston Public Seating dataset to plot markers, add pop-ups and freeze the map on an area of interest. Let’s get started.
+Load the leaflet and dplyr libraries:
+library(leaflet) library(dplyr) ## ## Attaching package: &amp;#39;dplyr&amp;#39; ## The following objects are masked from &amp;#39;package:stats&amp;#39;: ## ## filter, lag ## The following objects are masked from &amp;#39;package:base&amp;#39;: ## ## intersect, setdiff, setequal, union Now lets look at our dataset.
+Launceston Seats On the 20th of July, 2018, the City of Launceston, Tasmania released the ‘Public Seating’ dataset containing 1011 public seats complete with geo-coordinates, materials (aluminium, timber, etc.) and type (seat with back, seat without back, bench, etc.)
+The dataset can be found here https://data.gov.au/dataset/public-seating-1c0ab
+Import the data into your R environment:
+seats_data &amp;lt;- read.csv(url(&amp;quot;http://data-launceston.opendata.arcgis.com/datasets/e4c2e98c2aed4be688ccf9e901deb84a_0.csv&amp;quot;)) Call str() on the dataset and take a look and what we’ve got (i’m ommitting the 13th variable in the dataset because it’s an obscurely layered list of metadata - it won’t be useful for our purposes):
+str(seats_data[,1:12]) ## &amp;#39;data.frame&amp;#39;: 990 obs. of 12 variables: ## $ X : num 147 147 147 147 147 .</description>
+    </item>
     
     <item>
       <title>Hello R Markdown</title>
@@ -19,8 +47,7 @@
       <guid>/blog/2015-07/hello-r-markdown/</guid>
       <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.:19.0 3rd Qu.: 56.00 ## Max. :25.0 Max. :120.00 fit &amp;lt;- lm(dist ~ speed, data = cars) fit ## ## Call: ## lm(formula = dist ~ speed, data = cars) ## ## Coefficients: ## (Intercept) speed ## -17.579 3.932  Including Plots You can also embed plots. See Figure 1 for example:
-par(mar = c(0, 1, 0, 1)) pie( c(280, 60, 20), c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;), col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;), init.angle = -50, border = NA )  Figure 1: A fancy pie chart.   </description>
+ </description>
     </item>
     
   </channel>

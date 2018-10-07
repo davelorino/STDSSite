@@ -6,41 +6,37 @@
     <description>Recent content in Blog on Davide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Sat, 18 Aug 2018 20:14:59 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 06 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Blog养成记(14) 让同页滚动更平滑</title>
-      <link>/blog/2018-08/blog%E5%85%BB%E6%88%90%E8%AE%B014-%E8%AE%A9%E5%90%8C%E9%A1%B5%E6%BB%9A%E5%8A%A8%E6%9B%B4%E5%B9%B3%E6%BB%91/</link>
-      <pubDate>Sat, 18 Aug 2018 20:14:59 +0800</pubDate>
+      <title>STDS Reflection - Scraping the Australian Energy Market Operator &#39;Energy Demand&#39; Data</title>
+      <link>/blog/2018-10/scraping-the-australian-energy-market-operator-energy-demand-data/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2018-08/blog%E5%85%BB%E6%88%90%E8%AE%B014-%E8%AE%A9%E5%90%8C%E9%A1%B5%E6%BB%9A%E5%8A%A8%E6%9B%B4%E5%B9%B3%E6%BB%91/</guid>
-      <description>&lt;p&gt;上一期说到增加toc侧边栏，但是直接跳转非常突兀，因此特地找了让同页跳转滚动更平滑的插件。
-&amp;lt;code&amp;gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;配置smooth-scroll插件&#34;&gt;配置smooth-scroll插件&lt;/h2&gt;
-
-&lt;p&gt;首先&lt;a href=&#34;https://github.com/kswedberg/jquery-smooth-scroll/releases&#34;&gt;下载smooth-scroll插件&lt;/a&gt;，将其中&lt;code&gt;jquery.smooth-scroll.js&lt;/code&gt;放入&lt;code&gt;js&lt;/code&gt;文件夹中。&lt;/p&gt;</description>
+      <guid>/blog/2018-10/scraping-the-australian-energy-market-operator-energy-demand-data/</guid>
+      <description>In this post we will examine how to download all of the data energy demand data available from the Australian Energy Market Operator by using their aemo package in R. This data is displayed via a graphic on their page, however the graphic only allows for a specific timeframe of 5 days to be viewed at a time, and only one state at a time too. Thankfully the aemo package will let us download all of it! Let’s load the necessary libraries.
+library(parsedate) library(aemo) library(tidyverse) library(gridExtra) library(plotly) library(caret) library(htmldeps) The most important function we will use from the aemo package is the collate_aemo_data() function. This will start the process of downloading the data to a directory of your choice.
+collate_aemo_data(path = &amp;quot;~/Downloads/New Folder With Items&amp;quot;, remove_files = FALSE) Unfortunately for us, the function does this in the form of different csv files for every single day within the dataset (there are close to 500 csv files that are downloaded). There is also a remove files argument in the collate_aemo_data call, and this is because there used to be a function in the aemo package that would bind the csv files together into one csv file and then delete all of the smaller ones with remove files = TRUE.</description>
     </item>
     
     <item>
-      <title>Blog养成记(11) 给网站加个小icon</title>
-      <link>/blog/2018-08/blog%E5%85%BB%E6%88%90%E8%AE%B011-%E7%BB%99%E7%BD%91%E7%AB%99%E5%8A%A0%E4%B8%AA%E5%B0%8Ficon/</link>
-      <pubDate>Mon, 13 Aug 2018 00:14:19 +0800</pubDate>
+      <title>Maps with R and Leaflet</title>
+      <link>/blog/2018-07/maps-with-r-and-leaflet/</link>
+      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2018-08/blog%E5%85%BB%E6%88%90%E8%AE%B011-%E7%BB%99%E7%BD%91%E7%AB%99%E5%8A%A0%E4%B8%AA%E5%B0%8Ficon/</guid>
-      <description>这部分其实很简单，只需要在index.html的&amp;lt;head&amp;gt;部分增加以下一句话就好： &amp;lt;link rel=&amp;quot;shortcut icon&amp;quot; href=&amp;quot;/img/aviconfile.ico&amp;quot; &amp;gt; 不过，既然是要做主题，肯定是要用模板变量的么。因此，在模板中的增加以下内容： &amp;lt;!-- Icon --&amp;gt; &amp;lt;link rel=&amp;quot;shortcut icon&amp;quot; {{ if .Site.Params.faviconfile }} href=&amp;quot;/{{ .Site.Params.faviconfile }}&amp;quot; {{ else if.Site.Params.avatar}} href=&amp;quot;/{{ .Site.Params.avatar }}&amp;quot; {{ end }} &amp;gt; 其中faviconfile是在config.toml中定义的网站图标的路径，avatar是在其中定义的个人头像照片的路径。这句话就是如果定义了网站图标就使用网站图标，如果不</description>
-    </item>
-    
-    <item>
-      <title>Blog养成记(7) Hugo多级列表无法显示? —— Markdown的bug合集</title>
-      <link>/blog/2018-03/blog%E5%85%BB%E6%88%90%E8%AE%B07-hugo%E5%A4%9A%E7%BA%A7%E5%88%97%E8%A1%A8%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA--markdown%E7%9A%84bug%E5%90%88%E9%9B%86/</link>
-      <pubDate>Tue, 20 Mar 2018 16:46:17 +0800</pubDate>
-      
-      <guid>/blog/2018-03/blog%E5%85%BB%E6%88%90%E8%AE%B07-hugo%E5%A4%9A%E7%BA%A7%E5%88%97%E8%A1%A8%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA--markdown%E7%9A%84bug%E5%90%88%E9%9B%86/</guid>
-      <description>前言 又一次开始折腾Markdown了，不过这一次是因为好好的md文件，在typora中显示的好好的，但在Hugo渲染后格式就不对了，引起我这次探究主要问题在多级列表。考虑到毕竟两个软件的markdown渲染引擎不同，我并没有用到很特别的语法。之前在引用上也碰到了问题，typora中能很好地识别我想要的引用段落，但是Hugo不行。所以这次探究下是哪里出了问题，以及对应的解决方案。 既然已经提到了mar</description>
+      <guid>/blog/2018-07/maps-with-r-and-leaflet/</guid>
+      <description>Interactive Maps in R with leaflet 2018-07-24
+Plotting interactive maps is easy with the leaflet package in R. In this short guide we’ll use the Launceston Public Seating dataset to plot markers, add pop-ups and freeze the map on an area of interest. Let’s get started.
+Load the leaflet and dplyr libraries:
+library(leaflet) library(dplyr) ## ## Attaching package: &amp;#39;dplyr&amp;#39; ## The following objects are masked from &amp;#39;package:stats&amp;#39;: ## ## filter, lag ## The following objects are masked from &amp;#39;package:base&amp;#39;: ## ## intersect, setdiff, setequal, union Now lets look at our dataset.
+Launceston Seats On the 20th of July, 2018, the City of Launceston, Tasmania released the ‘Public Seating’ dataset containing 1011 public seats complete with geo-coordinates, materials (aluminium, timber, etc.) and type (seat with back, seat without back, bench, etc.)
+The dataset can be found here https://data.gov.au/dataset/public-seating-1c0ab
+Import the data into your R environment:
+seats_data &amp;lt;- read.csv(url(&amp;quot;http://data-launceston.opendata.arcgis.com/datasets/e4c2e98c2aed4be688ccf9e901deb84a_0.csv&amp;quot;)) Call str() on the dataset and take a look and what we’ve got (i’m ommitting the 13th variable in the dataset because it’s an obscurely layered list of metadata - it won’t be useful for our purposes):
+str(seats_data[,1:12]) ## &amp;#39;data.frame&amp;#39;: 990 obs. of 12 variables: ## $ X : num 147 147 147 147 147 .</description>
     </item>
     
   </channel>
