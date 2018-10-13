@@ -5,14 +5,4 @@ title = "Blog"
 
 +++
 
-`Blog` is the place to record my life. There are 5 categories in `Blog` section:
-
-- Thoughts: My thoughts and attitude to everything in my life.
-
-- Critique: My reviews, especially to musicals, movies, etc.
-
-- Travel: My travel notes.
-
-- Moment: Some moments that I feel something and eager to write it down. Fragments in my life. Short memos.
-
-- Gallery: Pictures I'd like to share. My favourite ones.
+Davide Lorino is a postgraduate data science student currently working as a data analyst in Sydney, Australia. This blog showcases data analysis methods with R and Python and some academic work.
