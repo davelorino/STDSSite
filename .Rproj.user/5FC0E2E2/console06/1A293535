@@ -1,1151 +1,0 @@
-
- create mode 100644 public/fonts/fontawesome/fa-brands-400.woff
- create mode 100644 public/fonts/fontawesome/fa-brands-400.woff2
- create mode 100644 public/fonts/fontawesome/fa-regular-400.eot
- create mode 100644 public/fonts/fontawesome/fa-regular-400.svg
- create mode 100644 public/fonts/fontawesome/fa-regular-400.ttf
- create mode 100644 public/fonts/fontawesome/fa-regular-400.woff
- create mode 100644 public/fonts/fontawesome/fa-regular-400.woff2
- create mode 100644 public/fonts/fontawesome/fa-solid-900.eot
- create mode 100644 public/fonts/fontawesome/fa-solid-900.svg
- create mode 100644 public/fonts/fontawesome/fa-solid-900.ttf
- create mode 100644 public/fonts/fontawesome/fa-solid-900.woff
- create mode 100644 public/fonts/fontawesome/fa-solid-900.woff2
- create mode 100644 public/images/blog/2018-08/photo-1525625412553-5cc3e63bbc32.jpeg
- create mode 100644 public/images/blog/2018-08/test1.jpg
- create mode 100644 public/images/blog/2018-08/test10.jpeg
- create mode 100644 public/images/blog/2018-08/test11.jpg
- create mode 100644 public/images/blog/2018-08/test12.jpg
- create mode 100644 public/images/blog/2018-08/test3.jpg
- create mode 100644 public/images/blog/2018-08/test4.jpg
- create mode 100644 public/images/blog/2018-08/test5.jpg
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Amphetamine.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Cheatsheet.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Code.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Docker.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Little-Snitch.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/NoSleep.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/PyCharm.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/SPlayerX.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Spectacle.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Sublime-Text.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Windscribe.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/config-privacy-source.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/open-emoji-view.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/touchbar-config.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/unarchiver.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/vlc.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/vuze.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/Automator.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/Go2Shell.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/add-app.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/application.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/change-icon.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/finder-toolbox.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/finder-view.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/go2shell-finder.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/go2shell-toolbox.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/new-application.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/open-terminal.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/run-script.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/save-script.jpg"
- create mode 100644 "public/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/service-open-terminal.jpg"
- create mode 100644 public/img/.DS_Store
- create mode 100644 public/img/Profile2.jpg
- create mode 100644 public/img/default.jpg
- create mode 100644 public/img/header-slides/photo-1519630134238-d7a6338ec24b.jpeg
- create mode 100644 public/img/header-slides/photo-1523608401-53eb5741c1a0.jpeg
- create mode 100644 public/img/header-slides/photo-1524562865630-b991c6c2f261.jpeg
- create mode 100644 public/img/header-slides/photo-1526638104077-256f1b33e837.jpeg
- create mode 100644 public/img/header-slides/photo-1530628815456-c641ebc4dda3.jpeg
- create mode 100644 public/img/header-slides/photo-1536731578915-ab4e400a6395.jpeg
- create mode 100644 public/img/header-slides/raw_1515691746.jpg
- create mode 100644 public/img/header-slides/raw_1515847341.jpg
- create mode 100644 public/img/mask/circle.svg
- create mode 100644 public/img/profile.jpg
- create mode 100644 public/img/svg/arrow_left.svg
- create mode 100644 public/img/svg/arrow_right.svg
- create mode 100644 public/img/zheng.png
- create mode 100644 public/index.html
- create mode 100644 public/index.xml
- create mode 100644 public/js/main.js
- create mode 100644 public/js/vendors-extensions/bootstrap4/bootstrap.js
- create mode 100644 public/js/vendors/highlight.pack.js
- create mode 100644 public/js/vendors/holder.min.js
- create mode 100644 public/js/vendors/jquery/jquery-3.3.1.min.js
- create mode 100644 public/js/vendors/jquery/jquery.smooth-scroll.min.js
- create mode 100644 public/js/vendors/katex/contrib/auto-render.js
- create mode 100644 public/js/vendors/katex/contrib/auto-render.min.js
- create mode 100644 public/js/vendors/katex/contrib/copy-tex.css
- create mode 100644 public/js/vendors/katex/contrib/copy-tex.js
- create mode 100644 public/js/vendors/katex/contrib/copy-tex.min.css
- create mode 100644 public/js/vendors/katex/contrib/copy-tex.min.js
- create mode 100644 public/js/vendors/katex/contrib/mathtex-script-type.js
- create mode 100644 public/js/vendors/katex/contrib/mathtex-script-type.min.js
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_AMS-Regular.ttf
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_AMS-Regular.woff
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_AMS-Regular.woff2
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Caligraphic-Bold.ttf
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Caligraphic-Bold.woff
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Caligraphic-Bold.woff2
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Caligraphic-Regular.ttf
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Caligraphic-Regular.woff
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Caligraphic-Regular.woff2
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Fraktur-Bold.ttf
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Fraktur-Bold.woff
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Fraktur-Bold.woff2
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Fraktur-Regular.ttf
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Fraktur-Regular.woff
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Fraktur-Regular.woff2
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-Bold.ttf
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-Bold.woff
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-Bold.woff2
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-BoldItalic.ttf
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-BoldItalic.woff
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-BoldItalic.woff2
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-Italic.ttf
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-Italic.woff
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-Italic.woff2
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-Regular.ttf
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-Regular.woff
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Main-Regular.woff2
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Math-Italic.ttf
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Math-Italic.woff
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Math-Italic.woff2
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_SansSerif-Bold.ttf
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_SansSerif-Bold.woff
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_SansSerif-Bold.woff2
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_SansSerif-Italic.ttf
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_SansSerif-Italic.woff
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_SansSerif-Italic.woff2
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_SansSerif-Regular.ttf
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_SansSerif-Regular.woff
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_SansSerif-Regular.woff2
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Script-Regular.ttf
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Script-Regular.woff
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Script-Regular.woff2
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size1-Regular.ttf
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size1-Regular.woff
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size1-Regular.woff2
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size2-Regular.ttf
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size2-Regular.woff
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size2-Regular.woff2
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size3-Regular.ttf
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size3-Regular.woff
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size3-Regular.woff2
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size4-Regular.ttf
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size4-Regular.woff
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Size4-Regular.woff2
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Typewriter-Regular.ttf
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Typewriter-Regular.woff
- create mode 100644 public/js/vendors/katex/fonts/KaTeX_Typewriter-Regular.woff2
- create mode 100644 public/js/vendors/katex/katex.min.css
- create mode 100644 public/js/vendors/katex/katex.min.js
- create mode 100644 public/js/vendors/mdb/mdb.min.js
- create mode 100644 public/js/vendors/mdb/mdw-search.js
- create mode 100644 public/js/vendors/popper.min.js
- create mode 100644 public/moment/index.html
- create mode 100644 public/moment/index.xml
- create mode 100644 public/moment/page/1/index.html
- create mode 100644 public/moment/test/index.html
- create mode 100644 "public/series/blog\345\205\273\346\210\220\350\256\260/index.html"
- create mode 100644 "public/series/blog\345\205\273\346\210\220\350\256\260/index.xml"
- create mode 100644 public/series/index.html
- create mode 100644 public/series/index.xml
- create mode 100644 "public/series/mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/index.html"
- create mode 100644 "public/series/mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/index.xml"
- create mode 100644 "public/series/\345\211\215\347\253\257\350\257\225\346\260\264/index.html"
- create mode 100644 "public/series/\345\211\215\347\253\257\350\257\225\346\260\264/index.xml"
- create mode 100644 "public/series/\350\247\202\345\220\216repo/index.html"
- create mode 100644 "public/series/\350\247\202\345\220\216repo/index.xml"
- create mode 100644 public/sitemap.xml
- create mode 100644 public/tags/blog/index.html
- create mode 100644 public/tags/blog/index.xml
- create mode 100644 public/tags/bug/index.html
- create mode 100644 public/tags/bug/index.xml
- create mode 100644 public/tags/css/index.html
- create mode 100644 public/tags/css/index.xml
- create mode 100644 public/tags/docker/index.html
- create mode 100644 public/tags/docker/index.xml
- create mode 100644 public/tags/hugo/index.html
- create mode 100644 public/tags/hugo/index.xml
- create mode 100644 public/tags/index.html
- create mode 100644 public/tags/index.xml
- create mode 100644 public/tags/js/index.html
- create mode 100644 public/tags/js/index.xml
- create mode 100644 public/tags/mac/index.html
- create mode 100644 public/tags/mac/index.xml
- create mode 100644 public/tags/markdown/index.html
- create mode 100644 public/tags/markdown/index.xml
- create mode 100644 public/tags/musical/index.html
- create mode 100644 public/tags/musical/index.xml
- create mode 100644 public/tags/national-theatre/index.html
- create mode 100644 public/tags/national-theatre/index.xml
- create mode 100644 public/tags/nested-list/index.html
- create mode 100644 public/tags/nested-list/index.xml
- create mode 100644 public/tags/plot/index.html
- create mode 100644 public/tags/plot/index.xml
- create mode 100644 public/tags/r-markdown/index.html
- create mode 100644 public/tags/r-markdown/index.xml
- create mode 100644 public/tags/regression/index.html
- create mode 100644 public/tags/regression/index.xml
- create mode 100644 public/tags/sass/index.html
- create mode 100644 public/tags/sass/index.xml
- create mode 100644 public/tags/typora/index.html
- create mode 100644 public/tags/typora/index.xml
- create mode 100644 "public/tags/\344\270\255\346\226\207/index.html"
- create mode 100644 "public/tags/\344\270\255\346\226\207/index.xml"
- create mode 100644 "public/tags/\345\205\260\345\277\203/index.html"
- create mode 100644 "public/tags/\345\205\260\345\277\203/index.xml"
- create mode 100644 "public/tags/\345\211\215\347\253\257/index.html"
- create mode 100644 "public/tags/\345\211\215\347\253\257/index.xml"
- create mode 100644 "public/tags/\345\244\247\345\211\247\351\231\242/index.html"
- create mode 100644 "public/tags/\345\244\247\345\211\247\351\231\242/index.xml"
- create mode 100644 "public/tags/\346\226\207\345\271\277/index.html"
- create mode 100644 "public/tags/\346\226\207\345\271\277/index.xml"
- create mode 100644 "public/tags/\346\234\237\345\276\205\347\232\204show/index.html"
- create mode 100644 "public/tags/\346\234\237\345\276\205\347\232\204show/index.xml"
- create mode 100644 "public/tags/\347\216\257\345\242\203\351\205\215\347\275\256/index.html"
- create mode 100644 "public/tags/\347\216\257\345\242\203\351\205\215\347\275\256/index.xml"
- create mode 100644 "public/tags/\350\257\235\345\211\247/index.html"
- create mode 100644 "public/tags/\350\257\235\345\211\247/index.xml"
- create mode 100644 "public/tags/\350\270\242\350\270\217\350\210\236/index.html"
- create mode 100644 "public/tags/\350\270\242\350\270\217\350\210\236/index.xml"
- create mode 100644 "public/tags/\350\275\257\344\273\266\345\256\211\350\243\205/index.html"
- create mode 100644 "public/tags/\350\275\257\344\273\266\345\256\211\350\243\205/index.xml"
- create mode 100644 static/blog/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
- create mode 100644 static/images/blog/2018-08/test1.jpg
- create mode 100644 static/images/blog/2018-08/test10.jpeg
- create mode 100644 static/images/blog/2018-08/test11.jpg
- create mode 100644 static/images/blog/2018-08/test3.jpg
- create mode 100644 static/images/blog/2018-08/test4.jpg
- create mode 100644 static/images/blog/2018-08/test5.jpg
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Amphetamine.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Cheatsheet.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Code.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Docker.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Little-Snitch.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/NoSleep.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/PyCharm.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/SPlayerX.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Spectacle.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Sublime-Text.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Windscribe.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/config-privacy-source.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/open-emoji-view.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/touchbar-config.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/unarchiver.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/vlc.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/vuze.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/Automator.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/Go2Shell.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/add-app.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/application.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/change-icon.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/finder-toolbox.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/finder-view.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/go2shell-finder.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/go2shell-toolbox.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/new-application.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/open-terminal.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/run-script.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/save-script.jpg"
- create mode 100644 "static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/service-open-terminal.jpg"
- create mode 100644 static/img/profile.jpg
- create mode 100644 themes/.DS_Store
- create mode 100644 themes/AllinOne/.DS_Store
- create mode 100644 themes/AllinOne/.gitattributes
- create mode 100644 themes/AllinOne/LICENSE
- create mode 100644 themes/AllinOne/README.md
- create mode 100644 themes/AllinOne/archetypes/default.md
- create mode 100644 themes/AllinOne/data/series.toml
- create mode 100644 themes/AllinOne/exampleSite/config.toml
- create mode 100644 themes/AllinOne/exampleSite/content/about/_index.md
- create mode 100644 "themes/AllinOne/exampleSite/content/blog/2018-01/mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\2601-\345\237\272\346\234\254\350\256\276\347\275\256\344\270\216\345\270\270\347\224\250\350\275\257\344\273\266.md"
- create mode 100644 "themes/AllinOne/exampleSite/content/blog/2018-01/mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\2602-finder\350\256\276\347\275\256.md"
- create mode 100644 "themes/AllinOne/exampleSite/content/blog/2018-03/blog\345\205\273\346\210\220\350\256\2607-hugo\345\244\232\347\272\247\345\210\227\350\241\250\346\227\240\346\263\225\346\230\276\347\244\272--markdown\347\232\204bug\345\220\210\351\233\206.md"
- create mode 100644 "themes/AllinOne/exampleSite/content/blog/2018-05/\344\270\255\346\226\207\347\211\210\351\237\263\344\271\220\345\211\247\351\225\277\350\205\277\345\217\224\345\217\224repo.md"
- create mode 100644 "themes/AllinOne/exampleSite/content/blog/2018-05/\347\210\261\345\260\224\345\205\260\350\270\242\350\270\217\350\210\236\347\216\213\350\200\205\344\271\213\350\210\236\345\215\261\351\231\251\346\270\270\346\210\217.md"
- create mode 100644 "themes/AllinOne/exampleSite/content/blog/2018-05/\347\216\260\345\256\236\344\270\216\345\271\273\346\203\263\347\232\204\350\267\235\347\246\273\350\247\202\346\267\261\345\244\234\345\260\217\347\213\227\347\246\273\345\245\207\344\272\213\344\273\266repo\346\204\237\346\203\263.md"
- create mode 100644 "themes/AllinOne/exampleSite/content/blog/2018-08/blog\345\205\273\346\210\220\350\256\26011-\347\273\231\347\275\221\347\253\231\345\212\240\344\270\252\345\260\217icon.md"
- create mode 100644 "themes/AllinOne/exampleSite/content/blog/2018-08/blog\345\205\273\346\210\220\350\256\26014-\350\256\251\345\220\214\351\241\265\346\273\232\345\212\250\346\233\264\345\271\263\346\273\221.md"
- create mode 100644 "themes/AllinOne/exampleSite/content/blog/2018-08/\345\211\215\347\253\257\350\257\225\346\260\2641-\345\211\215\347\253\257\346\212\200\346\234\257\350\267\257\347\272\277.md"
- create mode 100644 "themes/AllinOne/exampleSite/content/blog/2018-08/\345\211\215\347\253\257\350\257\225\346\260\2642-\344\275\277\347\224\250docker\351\225\234\345\203\217\347\232\204sass\351\205\215\347\275\256.md"
- create mode 100644 "themes/AllinOne/exampleSite/content/blog/2018-08/\351\237\263\344\271\220\345\211\247catrepo.md"
- create mode 100644 themes/AllinOne/exampleSite/content/blog/_index.md
- create mode 100644 themes/AllinOne/exampleSite/content/moment/_index.md
- create mode 100644 themes/AllinOne/exampleSite/content/moment/test.md
- create mode 100644 themes/AllinOne/exampleSite/data/series.toml
- create mode 100644 themes/AllinOne/exampleSite/layouts/shortcodes/bgstyle.html
- create mode 100644 themes/AllinOne/exampleSite/layouts/shortcodes/color.html
- create mode 100644 themes/AllinOne/exampleSite/static/images/blog/2018-08/test1.jpg
- create mode 100644 themes/AllinOne/exampleSite/static/images/blog/2018-08/test3.jpg
- create mode 100644 themes/AllinOne/exampleSite/static/images/blog/2018-08/test4.jpg
- create mode 100644 themes/AllinOne/exampleSite/static/images/blog/2018-08/test5.jpg
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Amphetamine.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Cheatsheet.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Code.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Docker.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Little-Snitch.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/NoSleep.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/PyCharm.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/SPlayerX.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Spectacle.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Sublime-Text.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/Windscribe.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/config-privacy-source.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/open-emoji-view.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/touchbar-config.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/unarchiver.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/vlc.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/1/vuze.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/Automator.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/Go2Shell.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/add-app.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/application.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/change-icon.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/finder-toolbox.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/finder-view.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/go2shell-finder.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/go2shell-toolbox.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/new-application.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/open-terminal.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/run-script.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/save-script.jpg"
- create mode 100644 "themes/AllinOne/exampleSite/static/images/series/Mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\260/2/service-open-terminal.jpg"
- create mode 100644 themes/AllinOne/exampleSite/static/img/profile.jpg
- create mode 100644 themes/AllinOne/i18n/en.yaml
- create mode 100644 themes/AllinOne/i18n/zh-Hans.yaml
- create mode 100644 themes/AllinOne/images/screenshot.png
- create mode 100644 themes/AllinOne/images/screenshot2.png
- create mode 100644 themes/AllinOne/images/screenshot3.png
- create mode 100644 themes/AllinOne/images/tn.png
- create mode 100644 themes/AllinOne/layouts/404.html
- create mode 100644 themes/AllinOne/layouts/_default/baseof.html
- create mode 100644 themes/AllinOne/layouts/_default/list.html
- create mode 100644 themes/AllinOne/layouts/_default/single.html
- create mode 100644 themes/AllinOne/layouts/_default/taxonomy.html
- create mode 100644 themes/AllinOne/layouts/_default/terms.html
- create mode 100644 themes/AllinOne/layouts/index.html
- create mode 100644 themes/AllinOne/layouts/partials/footer.html
- create mode 100644 themes/AllinOne/layouts/partials/head.html
- create mode 100644 themes/AllinOne/layouts/partials/homepage-header.html
- create mode 100644 themes/AllinOne/layouts/partials/li.html
- create mode 100644 themes/AllinOne/layouts/partials/page-header.html
- create mode 100644 themes/AllinOne/layouts/partials/page-heading.html
- create mode 100644 themes/AllinOne/layouts/partials/post-card.html
- create mode 100644 themes/AllinOne/layouts/partials/post-header.html
- create mode 100644 themes/AllinOne/layouts/partials/sidebar-card.html
- create mode 100644 themes/AllinOne/layouts/partials/sidebar-categories.html
- create mode 100644 themes/AllinOne/layouts/partials/sidebar-series.html
- create mode 100644 themes/AllinOne/layouts/partials/sidebar-tags.html
- create mode 100644 themes/AllinOne/layouts/partials/site-navbar.html
- create mode 100644 themes/AllinOne/layouts/partials/site-scripts.html
- create mode 100644 themes/AllinOne/layouts/partials/tags.html
- create mode 100644 themes/AllinOne/layouts/partials/toc.html
- create mode 100644 themes/AllinOne/layouts/robots.txt
- create mode 100644 themes/AllinOne/layouts/shortcodes/center.html
- create mode 100644 themes/AllinOne/layouts/shortcodes/img-no-border.html
- create mode 100644 themes/AllinOne/static/.DS_Store
- create mode 100644 themes/AllinOne/static/css/font.css
- create mode 100644 themes/AllinOne/static/css/main.css
- create mode 100644 themes/AllinOne/static/css/vendors-extensions/fontawesome/all.min.css
- create mode 100644 themes/AllinOne/static/css/vendors-extensions/mdb/mdb.css
- create mode 100644 themes/AllinOne/static/css/vendors-extensions/mdb/mdb.min.css
- create mode 100644 themes/AllinOne/static/css/vendors/bootstrap4/bootstrap.min.css
- create mode 100644 themes/AllinOne/static/css/vendors/highlight/github-gist.css
- create mode 100644 themes/AllinOne/static/css/vendors/mdb/mdb.min.css
- create mode 100644 themes/AllinOne/static/css/vendors/mdb/style.min.css
- create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-brands-400.eot
- create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-brands-400.svg
- create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-brands-400.ttf
- create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-brands-400.woff
- create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-brands-400.woff2
- create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-regular-400.eot
- create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-regular-400.svg
- create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-regular-400.ttf
- create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-regular-400.woff
- create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-regular-400.woff2
- create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-solid-900.eot
- create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-solid-900.svg
- create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-solid-900.ttf
- create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-solid-900.woff
- create mode 100644 themes/AllinOne/static/fonts/fontawesome/fa-solid-900.woff2
- create mode 100644 themes/AllinOne/static/img/.DS_Store
- create mode 100644 themes/AllinOne/static/img/default.jpg
- create mode 100644 themes/AllinOne/static/img/header-slides/photo-1519630134238-d7a6338ec24b.jpeg
- create mode 100644 themes/AllinOne/static/img/header-slides/photo-1523608401-53eb5741c1a0.jpeg
- create mode 100644 themes/AllinOne/static/img/header-slides/photo-1524562865630-b991c6c2f261.jpeg
- create mode 100644 themes/AllinOne/static/img/header-slides/photo-1526638104077-256f1b33e837.jpeg
- create mode 100644 themes/AllinOne/static/img/header-slides/photo-1530628815456-c641ebc4dda3.jpeg
- create mode 100644 themes/AllinOne/static/img/header-slides/photo-1536731578915-ab4e400a6395.jpeg
- create mode 100644 themes/AllinOne/static/img/mask/circle.svg
- create mode 100644 themes/AllinOne/static/img/profile.jpg
- create mode 100644 themes/AllinOne/static/img/svg/arrow_left.svg
- create mode 100644 themes/AllinOne/static/img/svg/arrow_right.svg
- create mode 100644 themes/AllinOne/static/img/zheng.png
- create mode 100644 themes/AllinOne/static/js/main.js
- create mode 100644 themes/AllinOne/static/js/vendors-extensions/bootstrap4/bootstrap.js
- create mode 100644 themes/AllinOne/static/js/vendors/highlight.pack.js
- create mode 100644 themes/AllinOne/static/js/vendors/holder.min.js
- create mode 100644 themes/AllinOne/static/js/vendors/jquery/jquery-3.3.1.min.js
- create mode 100644 themes/AllinOne/static/js/vendors/jquery/jquery.smooth-scroll.min.js
- create mode 100644 themes/AllinOne/static/js/vendors/katex/contrib/auto-render.js
- create mode 100644 themes/AllinOne/static/js/vendors/katex/contrib/auto-render.min.js
- create mode 100644 themes/AllinOne/static/js/vendors/katex/contrib/copy-tex.css
- create mode 100644 themes/AllinOne/static/js/vendors/katex/contrib/copy-tex.js
- create mode 100644 themes/AllinOne/static/js/vendors/katex/contrib/copy-tex.min.css
- create mode 100644 themes/AllinOne/static/js/vendors/katex/contrib/copy-tex.min.js
- create mode 100644 themes/AllinOne/static/js/vendors/katex/contrib/mathtex-script-type.js
- create mode 100644 themes/AllinOne/static/js/vendors/katex/contrib/mathtex-script-type.min.js
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_AMS-Regular.ttf
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_AMS-Regular.woff
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_AMS-Regular.woff2
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Caligraphic-Bold.ttf
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Caligraphic-Bold.woff
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Caligraphic-Bold.woff2
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Caligraphic-Regular.ttf
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Caligraphic-Regular.woff
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Caligraphic-Regular.woff2
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Fraktur-Bold.ttf
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Fraktur-Bold.woff
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Fraktur-Bold.woff2
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Fraktur-Regular.ttf
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Fraktur-Regular.woff
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Fraktur-Regular.woff2
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-Bold.ttf
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-Bold.woff
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-Bold.woff2
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-BoldItalic.ttf
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-BoldItalic.woff
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-BoldItalic.woff2
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-Italic.ttf
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-Italic.woff
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-Italic.woff2
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-Regular.ttf
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-Regular.woff
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Main-Regular.woff2
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Math-Italic.ttf
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Math-Italic.woff
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Math-Italic.woff2
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_SansSerif-Bold.ttf
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_SansSerif-Bold.woff
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_SansSerif-Bold.woff2
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_SansSerif-Italic.ttf
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_SansSerif-Italic.woff
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_SansSerif-Italic.woff2
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_SansSerif-Regular.ttf
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_SansSerif-Regular.woff
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_SansSerif-Regular.woff2
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Script-Regular.ttf
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Script-Regular.woff
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Script-Regular.woff2
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size1-Regular.ttf
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size1-Regular.woff
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size1-Regular.woff2
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size2-Regular.ttf
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size2-Regular.woff
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size2-Regular.woff2
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size3-Regular.ttf
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size3-Regular.woff
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size3-Regular.woff2
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size4-Regular.ttf
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size4-Regular.woff
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Size4-Regular.woff2
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Typewriter-Regular.ttf
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Typewriter-Regular.woff
- create mode 100644 themes/AllinOne/static/js/vendors/katex/fonts/KaTeX_Typewriter-Regular.woff2
- create mode 100644 themes/AllinOne/static/js/vendors/katex/katex.min.css
- create mode 100644 themes/AllinOne/static/js/vendors/katex/katex.min.js
- create mode 100644 themes/AllinOne/static/js/vendors/mdb/mdb.min.js
- create mode 100644 themes/AllinOne/static/js/vendors/mdb/mdw-search.js
- create mode 100644 themes/AllinOne/static/js/vendors/popper.min.js
- create mode 100644 themes/AllinOne/theme.toml
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git push origin master
-Counting objects: 495, done.
-Delta compression using up to 4 threads.
-Compressing objects:   0% (1/446)   Compressing objects:   1% (5/446)   Compressing objects:   2% (9/446)   Compressing objects:   3% (14/446)   Compressing objects:   4% (18/446)   Compressing objects:   5% (23/446)   Compressing objects:   6% (27/446)   Compressing objects:   7% (32/446)   Compressing objects:   8% (36/446)   Compressing objects:   9% (41/446)   Compressing objects:  10% (45/446)   Compressing objects:  11% (50/446)   Compressing objects:  12% (54/446)   Compressing objects:  13% (58/446)   Compressing objects:  14% (63/446)   Compressing objects:  15% (67/446)   Compressing objects:  16% (72/446)   Compressing objects:  17% (76/446)   Compressing objects:  18% (81/446)   Compressing objects:  19% (85/446)   Compressing objects:  20% (90/446)   Compressing objects:  21% (94/446)   Compressing objects:  22% (99/446)   Compressing objects:  23% (103/446)   Compressing objects:  24% (108/446)   Compressing objects:  25% (112/446)   Compressing objects:  26% (116/446)   Compressing objects:  27% (121/446)   Compressing objects:  28% (125/446)   Compressing objects:  29% (130/446)   Compressing objects:  30% (134/446)   Compressing objects:  31% (139/446)   Compressing objects:  32% (143/446)   Compressing objects:  33% (148/446)   Compressing objects:  34% (152/446)   Compressing objects:  35% (157/446)   Compressing objects:  36% (161/446)   Compressing objects:  37% (166/446)   Compressing objects:  38% (170/446)   Compressing objects:  39% (174/446)   Compressing objects:  40% (179/446)   Compressing objects:  41% (183/446)   Compressing objects:  42% (188/446)   Compressing objects:  43% (192/446)   Compressing objects:  44% (197/446)   Compressing objects:  45% (201/446)   Compressing objects:  46% (206/446)   Compressing objects:  47% (210/446)   Compressing objects:  48% (215/446)   Compressing objects:  49% (219/446)   Compressing objects:  50% (223/446)   Compressing objects:  51% (228/446)   Compressing objects:  52% (232/446)   Compressing objects:  53% (237/446)   Compressing objects:  54% (241/446)   Compressing objects:  55% (246/446)   Compressing objects:  56% (250/446)   Compressing objects:  57% (255/446)   Compressing objects:  58% (259/446)   Compressing objects:  59% (264/446)   Compressing objects:  60% (268/446)   Compressing objects:  61% (273/446)   Compressing objects:  62% (277/446)   Compressing objects:  63% (281/446)   Compressing objects:  64% (286/446)   Compressing objects:  65% (290/446)   Compressing objects:  66% (295/446)   Compressing objects:  67% (299/446)   Compressing objects:  68% (304/446)   Compressing objects:  69% (308/446)   Compressing objects:  70% (313/446)   Compressing objects:  71% (317/446)   Compressing objects:  72% (322/446)   Compressing objects:  73% (326/446)   Compressing objects:  74% (331/446)   Compressing objects:  75% (335/446)   Compressing objects:  76% (339/446)   Compressing objects:  77% (344/446)   Compressing objects:  78% (348/446)   Compressing objects:  79% (353/446)   Compressing objects:  80% (357/446)   Compressing objects:  81% (362/446)   Compressing objects:  82% (366/446)   Compressing objects:  83% (371/446)   Compressing objects:  84% (375/446)   Compressing objects:  85% (380/446)   Compressing objects:  86% (384/446)   Compressing objects:  87% (389/446)   Compressing objects:  88% (393/446)   Compressing objects:  89% (397/446)   Compressing objects:  90% (402/446)   Compressing objects:  91% (406/446)   Compressing objects:  92% (411/446)   Compressing objects:  93% (415/446)   Compressing objects:  94% (420/446)   Compressing objects:  95% (424/446)   Compressing objects:  96% (429/446)   Compressing objects:  97% (433/446)   Compressing objects:  98% (438/446)   Compressing objects:  99% (442/446)   Compressing objects: 100% (446/446)   Compressing objects: 100% (446/446), done.
-Writing objects:   0% (1/495)   Writing objects:   1% (5/495)   Writing objects:   2% (10/495)   Writing objects:   3% (15/495)   Writing objects:   4% (20/495)   Writing objects:   5% (25/495)   Writing objects:   6% (30/495)   Writing objects:   7% (35/495)   Writing objects:   8% (40/495)   Writing objects:   9% (45/495)   Writing objects:  10% (50/495)   Writing objects:  11% (55/495)   Writing objects:  12% (60/495)   Writing objects:  13% (65/495)   Writing objects:  14% (70/495)   Writing objects:  15% (75/495)   Writing objects:  16% (80/495)   Writing objects:  17% (85/495)   Writing objects:  18% (90/495)   Writing objects:  19% (95/495)   Writing objects:  20% (99/495)   Writing objects:  21% (104/495)   Writing objects:  22% (109/495)   Writing objects:  23% (114/495)   Writing objects:  24% (119/495)   Writing objects:  25% (125/495)   Writing objects:  26% (129/495)   Writing objects:  27% (134/495)   Writing objects:  28% (139/495)   Writing objects:  29% (144/495)   Writing objects:  30% (149/495)   Writing objects:  31% (154/495)   Writing objects:  32% (159/495)   Writing objects:  33% (164/495)   Writing objects:  34% (169/495)   Writing objects:  35% (174/495)   Writing objects:  36% (179/495)   Writing objects:  36% (183/495), 1.09 MiB | 227.00 KiB/s   Writing objects:  37% (184/495), 1.09 MiB | 227.00 KiB/s   Writing objects:  38% (189/495), 1.27 MiB | 238.00 KiB/s   Writing objects:  38% (190/495), 1.52 MiB | 237.00 KiB/s   Writing objects:  38% (190/495), 1.59 MiB | 136.00 KiB/s   Writing objects:  38% (190/495), 1.84 MiB | 151.00 KiB/s   Writing objects:  38% (190/495), 2.02 MiB | 158.00 KiB/s   Writing objects:  38% (190/495), 2.02 MiB | 117.00 KiB/s   Writing objects:  38% (191/495), 2.34 MiB | 130.00 KiB/s   Writing objects:  38% (191/495), 2.46 MiB | 99.00 KiB/s   Writing objects:  38% (191/495), 2.46 MiB | 70.00 KiB/s   Writing objects:  38% (192/495), 2.77 MiB | 76.00 KiB/s   Writing objects:  38% (192/495), 2.90 MiB | 78.00 KiB/s   Writing objects:  38% (192/495), 3.02 MiB | 106.00 KiB/s   Writing objects:  38% (193/495), 3.09 MiB | 92.00 KiB/s   Writing objects:  38% (193/495), 3.21 MiB | 86.00 KiB/s   Writing objects:  38% (193/495), 3.34 MiB | 101.00 KiB/s   Writing objects:  39% (194/495), 3.34 MiB | 101.00 KiB/s   Writing objects:  39% (194/495), 3.40 MiB | 96.00 KiB/s   Writing objects:  39% (194/495), 3.40 MiB | 96.00 KiB/s   Writing objects:  39% (194/495), 3.52 MiB | 80.00 KiB/s   Writing objects:  39% (194/495), 3.84 MiB | 92.00 KiB/s   Writing objects:  39% (194/495), 3.96 MiB | 95.00 KiB/s   Writing objects:  39% (194/495), 4.09 MiB | 93.00 KiB/s   Writing objects:  39% (194/495), 4.15 MiB | 95.00 KiB/s   Writing objects:  39% (194/495), 4.27 MiB | 96.00 KiB/s   Writing objects:  39% (194/495), 4.40 MiB | 90.00 KiB/s   Writing objects:  39% (194/495), 4.77 MiB | 98.00 KiB/s   Writing objects:  39% (194/495), 4.90 MiB | 93.00 KiB/s   Writing objects:  39% (194/495), 4.96 MiB | 93.00 KiB/s   Writing objects:  39% (195/495), 5.09 MiB | 94.00 KiB/s   Writing objects:  39% (195/495), 5.21 MiB | 159.00 KiB/s   Writing objects:  40% (198/495), 5.21 MiB | 159.00 KiB/s   Writing objects:  40% (201/495), 5.34 MiB | 145.00 KiB/s   Writing objects:  41% (203/495), 5.40 MiB | 114.00 KiB/s   Writing objects:  41% (205/495), 5.46 MiB | 114.00 KiB/s   Writing objects:  42% (208/495), 5.46 MiB | 114.00 KiB/s   Writing objects:  42% (209/495), 5.52 MiB | 66.00 KiB/s   Writing objects:  43% (213/495), 5.65 MiB | 73.00 KiB/s   Writing objects:  43% (216/495), 5.77 MiB | 79.00 KiB/s   Writing objects:  44% (218/495), 5.77 MiB | 79.00 KiB/s   Writing objects:  44% (222/495), 5.96 MiB | 91.00 KiB/s   Writing objects:  45% (223/495), 6.09 MiB | 95.00 KiB/s   Writing objects:  45% (223/495), 6.15 MiB | 94.00 KiB/s   Writing objects:  45% (226/495), 6.34 MiB | 95.00 KiB/s   Writing objects:  46% (228/495), 6.34 MiB | 95.00 KiB/s   Writing objects:  46% (228/495), 6.46 MiB | 97.00 KiB/s   Writing objects:  46% (229/495), 6.52 MiB | 147.00 KiB/s   Writing objects:  46% (229/495), 6.52 MiB | 92.00 KiB/s   Writing objects:  47% (233/495), 6.52 MiB | 92.00 KiB/s   Writing objects:  47% (234/495), 6.84 MiB | 92.00 KiB/s   Writing objects:  47% (234/495), 7.02 MiB | 97.00 KiB/s   Writing objects:  47% (234/495), 7.09 MiB | 97.00 KiB/s   Writing objects:  47% (236/495), 7.21 MiB | 101.00 KiB/s   Writing objects:  47% (236/495), 7.34 MiB | 95.00 KiB/s   Writing objects:  47% (236/495), 7.46 MiB | 154.00 KiB/s   Writing objects:  47% (237/495), 7.52 MiB | 143.00 KiB/s   Writing objects:  47% (237/495), 7.65 MiB | 73.00 KiB/s   Writing objects:  47% (237/495), 7.83 MiB | 87.00 KiB/s   Writing objects:  47% (237/495), 8.02 MiB | 92.00 KiB/s   Writing objects:  47% (237/495), 8.15 MiB | 96.00 KiB/s   Writing objects:  47% (237/495), 8.34 MiB | 97.00 KiB/s   Writing objects:  47% (237/495), 8.40 MiB | 97.00 KiB/s   Writing objects:  47% (237/495), 8.52 MiB | 144.00 KiB/s   Writing objects:  47% (237/495), 8.59 MiB | 87.00 KiB/s   Writing objects:  48% (238/495), 8.59 MiB | 87.00 KiB/s   Writing objects:  48% (238/495), 8.84 MiB | 98.00 KiB/s   Writing objects:  48% (238/495), 8.91 MiB | 98.00 KiB/s   Writing objects:  48% (238/495), 9.03 MiB | 100.00 KiB/s   Writing objects:  48% (238/495), 9.16 MiB | 97.00 KiB/s   Writing objects:  48% (238/495), 9.22 MiB | 96.00 KiB/s   Writing objects:  48% (238/495), 9.28 MiB | 92.00 KiB/s   Writing objects:  48% (238/495), 9.28 MiB | 68.00 KiB/s   Writing objects:  48% (238/495), 9.41 MiB | 95.00 KiB/s   Writing objects:  48% (239/495), 9.59 MiB | 89.00 KiB/s   Writing objects:  48% (239/495), 9.72 MiB | 95.00 KiB/s   Writing objects:  48% (240/495), 9.91 MiB | 91.00 KiB/s   Writing objects:  48% (240/495), 10.03 MiB | 96.00 KiB/s   Writing objects:  48% (240/495), 10.09 MiB | 95.00 KiB/s   Writing objects:  48% (240/495), 10.16 MiB | 99.00 KiB/s   Writing objects:  48% (241/495), 10.28 MiB | 87.00 KiB/s   Writing objects:  48% (241/495), 10.47 MiB | 85.00 KiB/s   Writing objects:  48% (241/495), 10.66 MiB | 91.00 KiB/s   Writing objects:  48% (241/495), 10.78 MiB | 99.00 KiB/s   Writing objects:  48% (241/495), 10.91 MiB | 92.00 KiB/s   Writing objects:  48% (241/495), 10.97 MiB | 92.00 KiB/s   Writing objects:  48% (242/495), 11.09 MiB | 94.00 KiB/s   Writing objects:  48% (242/495), 11.22 MiB | 138.00 KiB/s   Writing objects:  49% (243/495), 11.28 MiB | 116.00 KiB/s   Writing objects:  50% (248/495), 11.28 MiB | 116.00 KiB/s   Writing objects:  51% (253/495), 11.28 MiB | 116.00 KiB/s   Writing objects:  51% (254/495), 11.34 MiB | 104.00 KiB/s   Writing objects:  52% (258/495), 11.34 MiB | 104.00 KiB/s   Writing objects:  52% (259/495), 11.41 MiB | 110.00 KiB/s   Writing objects:  53% (263/495), 11.41 MiB | 110.00 KiB/s   Writing objects:  54% (268/495), 11.41 MiB | 110.00 KiB/s   Writing objects:  55% (273/495), 11.47 MiB | 109.00 KiB/s   Writing objects:  55% (275/495), 11.47 MiB | 109.00 KiB/s   Writing objects:  56% (278/495), 11.47 MiB | 109.00 KiB/s   Writing objects:  57% (283/495), 11.59 MiB | 110.00 KiB/s   Writing objects:  58% (288/495), 11.72 MiB | 112.00 KiB/s   Writing objects:  58% (289/495), 11.72 MiB | 112.00 KiB/s   Writing objects:  59% (293/495), 11.84 MiB | 117.00 KiB/s   Writing objects:  60% (297/495), 11.97 MiB | 122.00 KiB/s   Writing objects:  60% (297/495), 12.03 MiB | 78.00 KiB/s   Writing objects:  60% (299/495), 12.03 MiB | 78.00 KiB/s   Writing objects:  61% (302/495), 12.03 MiB | 78.00 KiB/s   Writing objects:  62% (307/495), 12.22 MiB | 89.00 KiB/s   Writing objects:  63% (312/495), 12.22 MiB | 89.00 KiB/s   Writing objects:  63% (315/495), 12.22 MiB | 89.00 KiB/s   Writing objects:  64% (317/495), 12.22 MiB | 89.00 KiB/s   Writing objects:  65% (322/495), 12.22 MiB | 89.00 KiB/s   Writing objects:  66% (327/495), 12.41 MiB | 101.00 KiB/s   Writing objects:  67% (332/495), 12.41 MiB | 101.00 KiB/s   Writing objects:  67% (332/495), 12.53 MiB | 106.00 KiB/s   Writing objects:  68% (337/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  69% (342/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  70% (349/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  71% (352/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  72% (357/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  73% (362/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  74% (367/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  75% (372/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  76% (378/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  77% (382/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  78% (387/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  79% (392/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  80% (396/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  81% (401/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  82% (406/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  83% (411/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  84% (416/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  85% (421/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  86% (426/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  87% (431/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  88% (436/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  89% (441/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  90% (446/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  91% (451/495), 12.59 MiB | 103.00 KiB/s   Writing objects:  91% (452/495), 12.66 MiB | 81.00 KiB/s   Writing objects:  91% (452/495), 12.97 MiB | 91.00 KiB/s   Writing objects:  91% (452/495), 13.09 MiB | 129.00 KiB/s   Writing objects:  91% (452/495), 13.22 MiB | 122.00 KiB/s   Writing objects:  91% (452/495), 13.34 MiB | 96.00 KiB/s   Writing objects:  91% (452/495), 13.41 MiB | 71.00 KiB/s   Writing objects:  91% (452/495), 13.53 MiB | 101.00 KiB/s   Writing objects:  91% (452/495), 13.84 MiB | 94.00 KiB/s   Writing objects:  91% (452/495), 13.97 MiB | 96.00 KiB/s   Writing objects:  91% (452/495), 14.03 MiB | 97.00 KiB/s   Writing objects:  91% (454/495), 14.16 MiB | 97.00 KiB/s   Writing objects:  92% (456/495), 14.16 MiB | 97.00 KiB/s   Writing objects:  92% (459/495), 14.28 MiB | 148.00 KiB/s   Writing objects:  92% (459/495), 14.34 MiB | 138.00 KiB/s   Writing objects:  92% (459/495), 14.53 MiB | 115.00 KiB/s   Writing objects:  92% (459/495), 14.59 MiB | 112.00 KiB/s   Writing objects:  92% (459/495), 14.78 MiB | 114.00 KiB/s   Writing objects:  92% (459/495), 14.97 MiB | 117.00 KiB/s   Writing objects:  92% (459/495), 15.09 MiB | 127.00 KiB/s   Writing objects:  92% (459/495), 15.28 MiB | 82.00 KiB/s   Writing objects:  92% (459/495), 15.47 MiB | 93.00 KiB/s   Writing objects:  92% (459/495), 15.72 MiB | 106.00 KiB/s   Writing objects:  92% (459/495), 15.91 MiB | 106.00 KiB/s   Writing objects:  92% (460/495), 15.91 MiB | 106.00 KiB/s   Writing objects:  92% (460/495), 16.03 MiB | 101.00 KiB/s   Writing objects:  92% (460/495), 16.03 MiB | 69.00 KiB/s   Writing objects:  92% (460/495), 16.22 MiB | 77.00 KiB/s   Writing objects:  92% (460/495), 16.41 MiB | 118.00 KiB/s   Writing objects:  92% (460/495), 16.53 MiB | 109.00 KiB/s   Writing objects:  92% (460/495), 16.72 MiB | 97.00 KiB/s   Writing objects:  92% (460/495), 16.78 MiB | 96.00 KiB/s   Writing objects:  93% (461/495), 16.78 MiB | 96.00 KiB/s   Writing objects:  93% (461/495), 16.91 MiB | 70.00 KiB/s   Writing objects:  93% (461/495), 17.09 MiB | 116.00 KiB/s   Writing objects:  93% (461/495), 17.28 MiB | 98.00 KiB/s   Writing objects:  93% (461/495), 17.41 MiB | 94.00 KiB/s   Writing objects:  93% (461/495), 17.53 MiB | 100.00 KiB/s   Writing objects:  93% (461/495), 17.66 MiB | 95.00 KiB/s   Writing objects:  93% (461/495), 17.72 MiB | 153.00 KiB/s   Writing objects:  93% (461/495), 17.90 MiB | 112.00 KiB/s   Writing objects:  93% (461/495), 17.91 MiB | 68.00 KiB/s   Writing objects:  93% (462/495), 18.03 MiB | 74.00 KiB/s   Writing objects:  93% (462/495), 18.22 MiB | 86.00 KiB/s   Writing objects:  93% (462/495), 18.40 MiB | 89.00 KiB/s   Writing objects:  93% (462/495), 18.53 MiB | 93.00 KiB/s   Writing objects:  93% (462/495), 18.65 MiB | 96.00 KiB/s   Writing objects:  93% (462/495), 18.78 MiB | 97.00 KiB/s   Writing objects:  93% (462/495), 18.91 MiB | 100.00 KiB/s   Writing objects:  94% (466/495), 18.91 MiB | 100.00 KiB/s   Writing objects:  95% (471/495), 18.91 MiB | 100.00 KiB/s   Writing objects:  96% (476/495), 18.91 MiB | 100.00 KiB/s   Writing objects:  97% (481/495), 18.91 MiB | 100.00 KiB/s   Writing objects:  98% (486/495), 18.91 MiB | 100.00 KiB/s   Writing objects:  99% (491/495), 18.91 MiB | 100.00 KiB/s   Writing objects: 100% (495/495), 18.91 MiB | 100.00 KiB/s   Writing objects: 100% (495/495), 18.93 MiB | 100.00 KiB/s, done.
-Total 495 (delta 108), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/108)   [Kremote: Resolving deltas:   4% (5/108)   [Kremote: Resolving deltas:   5% (6/108)   [Kremote: Resolving deltas:   8% (9/108)   [Kremote: Resolving deltas:   9% (10/108)   [Kremote: Resolving deltas:  10% (11/108)   [Kremote: Resolving deltas:  11% (12/108)   [Kremote: Resolving deltas:  27% (30/108)   [Kremote: Resolving deltas:  39% (43/108)   [Kremote: Resolving deltas:  41% (45/108)   [Kremote: Resolving deltas:  68% (74/108)   [Kremote: Resolving deltas:  75% (81/108)   [Kremote: Resolving deltas:  77% (84/108)   [Kremote: Resolving deltas:  80% (87/108)   [Kremote: Resolving deltas:  81% (88/108)   [Kremote: Resolving deltas:  83% (90/108)   [Kremote: Resolving deltas:  84% (91/108)   [Kremote: Resolving deltas:  86% (93/108)   [Kremote: Resolving deltas:  87% (94/108)   [Kremote: Resolving deltas:  88% (96/108)   [Kremote: Resolving deltas:  89% (97/108)   [Kremote: Resolving deltas:  92% (100/108)   [Kremote: Resolving deltas:  93% (101/108)   [Kremote: Resolving deltas:  94% (102/108)   [Kremote: Resolving deltas:  97% (105/108)   [Kremote: Resolving deltas:  98% (106/108)   [Kremote: Resolving deltas:  99% (107/108)   [Kremote: Resolving deltas: 100% (108/108)   [Kremote: Resolving deltas: 100% (108/108), done.[K
-remote: 
-remote: Create a pull request for 'master' on GitHub by visiting:[K
-remote:      https://github.com/davelorino/STDSSite/pull/new/master[K
-remote: 
-To https://github.com/davelorino/STDSSite.git
- * [new branch]      master -> master
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git push origin mastercommit -m "new layout"add .[K*commit -m "new layout"remote add origin https://github.com/davelorino/STDSSiite.git[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K https://github.com/davelorino/densi te2.git
-fatal: remote origin already exists.
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ 
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ brew install hugo
-Updating Homebrew...
-[34m==>[0m [1mAuto-updated Homebrew![0m
-Updated 1 tap (homebrew/core).
-[34m==>[0m [1mNew Formulae[0m
-aravis            hyperkit          nwchem            picat             vfuse
-bundletool        i2pd              oclgrind          smimesign
-carla             llvm@6            opensubdiv        stanford-corenlp
-diceware          mallet            opentracing-cpp   tdlib
-geant4            nng               peru              ucloud
-[34m==>[0m [1mUpdated Formulae[0m
-[1mgit-lfs [32m✔[0m[0m                                     libcouchbase
-abcde                                         libdazzle
-abyss                                         libepoxy
-ace                                           libetpan
-activemq                                      libgda
-afflib                                        libimobiledevice
-aircrack-ng                                   libiscsi
-alexjs                                        libopkele
-ammonite-repl                                 libphonenumber
-angular-cli                                   libsoup
-anjuta                                        libspectre
-annie                                         libssh
-ansible                                       libuv
-apache-drill                                  libvirt
-apache-flink                                  libwbxml
-apache-geode                                  links
-app-engine-java                               llnode
-apr                                           llvm
-arangodb                                      lnav
-aria2                                         logentries
-ark                                           logstash
-arp-scan                                      luaradio
-arpack                                        lxc
-at-spi2-atk                                   lynis
-atk                                           lz4
-atomicparsley                                 mame
-aurora-cli                                    mariadb
-avfs                                          mariadb@10.1
-avrdude                                       mariadb@10.2
-avro-c                                        mbedtls
-awk                                           mdcat
-aws-okta                                      mdds
-aws-shell                                     media-info
-awscli                                        megatools
-azure-cli                                     menhir
-babel                                         meson
-ballerina                                     metabase
-bat                                           micronaut
-bazel                                         mkvtoolnix
-bcal                                          mmark
-bettercap                                     mongodb@3.4
-bind                                          mongodb@3.6
-bitcoin                                       mosh
-bitrise                                       mosquitto
-black                                         mpd
-brew-gem                                      mpv
-brotli                                        mscgen
-bullet                                        msgpack
-bwfmetaedit                                   mujs
-cabal-install                                 nano
-caffe                                         neko
-cargo-completion                              nginx
-carthage                                      nifi-registry
-cash-cli                                      nim
-cern-ndiff                                    node
-cgal                                          node-build
-chakra                                        node@8
-chapel                                        nodebrew
-checkbashisms                                 nomad
-chronograf                                    ntopng
-circleci                                      numpy
-clamav                                        ocamlbuild
-clang-format                                  opam
-clipper                                       openapi-generator
-clojure                                       opencv
-cmake                                         opensc
-cmark-gfm                                     openssl@1.1
-cmocka                                        orc-tools
-cnats                                         ortp
-codequery                                     packer
-coffeescript                                  paket
-commandbox                                    pandoc
-compcert                                      pandoc-citeproc
-conan                                         pandoc-crossref
-consul                                        parallel
-container-diff                                pass
-convox                                        pcre2
-cpmtools                                      pdftoedn
-cpprestsdk                                    pdftoipe
-cromwell                                      pegtl
-crowdin                                       pgbadger
-crystal                                       pgrouting
-darksky-weather                               phoronix-test-suite
-dbhash                                        php
-dependency-check                              php@5.6
-diff-pdf                                      php@7.0
-diffoscope                                    php@7.1
-digdag                                        phpunit
-dita-ot                                       pixz
-dnscrypt-proxy                                pmd
-docker-machine-nfs                            poppler
-doctl                                         postgis
-double-conversion                             povray
-dub                                           pqiv
-duck                                          pre-commit
-duplicity                                     presto
-elasticsearch                                 prettier
-elasticsearch@5.6                             profanity
-erlang                                        proj
-erlang@19                                     prometheus
-erlang@20                                     protobuf
-eslint                                        protobuf-c
-evince                                        protobuf-swift
-exercism                                      prototool
-exiftool                                      pulumi
-faas-cli                                      puzzles
-fabric                                        pybind11
-fail2ban                                      pygobject3
-ffmbc                                         pyinvoke
-file-roller                                   pyside
-flatbuffers                                   qcachegrind
-flow                                          qd
-fmsx                                          qt
-fn                                            quicktype
-folly                                         rabbitmq
-fonttools                                     rakudo-star
-fortio                                        ranger
-fossil                                        rebar3
-fpc                                           rom-tools
-freetds                                       root
-freexl                                        roswell
-frugal                                        rtags
-futhark                                       rust
-fzy                                           rustup-init
-gdb                                           safe
-geckodriver                                   saxon
-gedit                                         sbcl
-geoipupdate                                   sbt
-ghostscript                                   scala
-git                                           selenium-server-standalone
-git-archive-all                               serverless
-git-cola                                      shellharden
-git-credential-manager                        shpotify
-git-sizer                                     simutrans
-gjs                                           skaffold
-gjstest                                       skafos
-glances                                       smlnj
-glib                                          snapcraft
-glide                                         solr
-glm                                           sops
-gloox                                         sourcery
-go                                            sphinx-doc
-gocr                                          spotbugs
-godep                                         sqldiff
-goenv                                         sqlite
-golang-migrate                                sqlite-analyzer
-goreleaser                                    stellar-core
-gradle                                        stlink
-grakn                                         strongswan
-grpc                                          stunnel
-grunt-cli                                     supersonic
-grunt-completion                              suricata
-grv                                           svgo
-gst-editing-services                          swift-protobuf
-gst-libav                                     swiftformat
-gst-plugins-bad                               swiftgen
-gst-plugins-base                              syncthing
-gst-plugins-good                              tcpflow
-gst-plugins-ugly                              telegraf
-gst-python                                    terragrunt
-gst-rtsp-server                               tgui
-gst-validate                                  the_platinum_searcher
-gstreamer                                     tiger-vnc
-gtk-mac-integration                           tippecanoe
-gutenberg                                     tomcat
-hapi-fhir-cli                                 tomcat@7
-haproxy                                       tomcat@8
-harfbuzz                                      topgrade
-hcloud                                        tor
-helmfile                                      tox
-help2man                                      ttyd
-heroku                                        twarc
-highlight                                     typescript
-hlint                                         uhd
-homebank                                      unp64
-httpd                                         unrar
-hugo                                          upx
-hwloc                                         urh
-i2p                                           v8
-iamy                                          vagrant-completion
-ice                                           vala
-imagemagick                                   vegeta
-imagemagick@6                                 vert.x
-immortal                                      vice
-influxdb                                      vim
-iperf                                         vips
-ipv6calc                                      vnu
-ipython                                       vorbis-tools
-jenkins                                       vte3
-jenkins-lts                                   watchexec
-jerasure                                      wdiff
-jetty                                         weaver
-jetty-runner                                  webpack
-jfrog-cli-go                                  wireguard-go
-jhipster                                      wireguard-tools
-jmeter                                        wskdeploy
-joplin                                        wtf
-json-glib                                     xcodegen
-jump                                          xerces-c
-kerl                                          xmount
-kibana                                        xonsh
-kibana@5.6                                    xtensor
-kotlin                                        yamllint
-krakend                                       yarn
-kubernetes-cli                                yelp-tools
-kubernetes-helm                               ykman
-kubernetes-service-catalog-client             youtube-dl
-kumo                                          yubico-piv-tool
-kustomize                                     zbackup
-landscaper                                    zenity
-languagetool                                  zig
-ldc                                           zpython
-lean-cli                                      zsh
-[34m==>[0m [1mDeleted Formulae[0m
-asciinema2gif          llvm@3.7               qt@5.5                 sonarlint
-casperjs               mediatomb              redis@2.8              submarine
-
-[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/hugo-0.49.high_sierra.bottle.tar.gz[0m
-                                                                           0.5%                                                                           1.0%#                                                                          1.4%#                                                                          1.8%#                                                                          2.2%##                                                                         2.9%##                                                                         3.8%###                                                                        4.3%###                                                                        4.8%###                                                                        5.4%####                                                                       5.9%####                                                                       6.4%####                                                                       6.9%#####                                                                      7.5%#####                                                                      8.0%######                                                                     8.5%######                                                                     9.0%######                                                                     9.6%#######                                                                   10.1%#######                                                                   10.6%########                                                                  11.2%########                                                                  11.7%########                                                                  12.2%#########                                                                 12.8%#########                                                                 13.3%##########                                                                14.1%##########                                                                14.6%##########                                                                15.1%###########                                                               15.7%###########                                                               16.1%############                                                              16.7%############                                                              17.2%############                                                              17.7%#############                                                             18.2%#############                                                             18.8%#############                                                             19.3%##############                                                            19.8%##############                                                            20.4%###############                                                           20.9%###############                                                           21.4%###############                                                           21.7%################                                                          22.6%################                                                          23.1%#################                                                         23.6%#################                                                         24.1%#################                                                         24.7%##################                                                        25.2%##################                                                        25.7%##################                                                        26.2%###################                                                       26.8%###################                                                       27.3%###################                                                       27.7%####################                                                      28.6%####################                                                      29.1%#####################                                                     29.6%#####################                                                     30.2%######################                                                    30.7%######################                                                    31.2%######################                                                    31.8%#######################                                                   32.5%#######################                                                   33.0%########################                                                  33.6%########################                                                  34.1%########################                                                  34.6%#########################                                                 35.1%#########################                                                 35.7%##########################                                                36.2%##########################                                                36.7%##########################                                                37.2%###########################                                               37.6%###########################                                               38.2%###########################                                               38.5%############################                                              39.3%############################                                              39.8%############################                                              40.3%#############################                                             40.9%#############################                                             41.3%##############################                                            41.9%##############################                                            42.4%##############################                                            42.7%###############################                                           43.3%###############################                                           43.8%###############################                                           44.3%################################                                          44.7%################################                                          45.5%#################################                                         45.9%#################################                                         46.5%#################################                                         47.0%##################################                                        47.5%##################################                                        48.1%##################################                                        48.6%###################################                                       49.1%###################################                                       49.6%####################################                                      50.2%####################################                                      51.0%#####################################                                     51.5%#####################################                                     52.0%#####################################                                     52.6%######################################                                    53.1%######################################                                    53.5%######################################                                    54.1%#######################################                                   54.6%#######################################                                   55.1%########################################                                  55.7%########################################                                  56.3%########################################                                  56.7%#########################################                                 57.3%#########################################                                 57.8%#########################################                                 58.3%##########################################                                58.8%##########################################                                59.0%###########################################                               59.9%###########################################                               60.4%###########################################                               60.9%############################################                              61.5%############################################                              62.0%#############################################                             62.5%#############################################                             63.1%#############################################                             63.6%##############################################                            64.1%##############################################                            64.6%##############################################                            65.1%###############################################                           65.6%###############################################                           66.2%################################################                          66.7%################################################                          67.2%################################################                          67.7%#################################################                         68.3%#################################################                         68.8%#################################################                         69.3%##################################################                        69.8%##################################################                        70.4%###################################################                       70.9%###################################################                       71.1%###################################################                       71.9%####################################################                      72.4%####################################################                      72.9%####################################################                      73.4%#####################################################                     73.9%#####################################################                     74.5%#####################################################                     75.0%######################################################                    75.5%######################################################                    76.0%#######################################################                   76.6%#######################################################                   77.1%#######################################################                   77.5%########################################################                  78.3%########################################################                  78.8%#########################################################                 79.3%#########################################################                 79.8%#########################################################                 80.3%##########################################################                80.8%##########################################################                81.3%##########################################################                81.8%###########################################################               82.4%###########################################################               82.9%############################################################              83.4%############################################################              84.0%############################################################              84.5%############################################################              84.6%#############################################################             85.3%#############################################################             85.8%##############################################################            86.4%##############################################################            86.9%##############################################################            87.5%###############################################################           87.9%###############################################################           88.5%################################################################          89.1%################################################################          89.6%################################################################          90.1%#################################################################         90.7%#################################################################         91.1%##################################################################        92.0%##################################################################        92.5%##################################################################        92.9%###################################################################       93.5%###################################################################       94.0%####################################################################      94.5%####################################################################      95.0%####################################################################      95.6%#####################################################################     96.1%#####################################################################     96.6%#####################################################################     97.1%######################################################################    97.5%######################################################################    98.4%#######################################################################   98.8%#######################################################################   99.3%#######################################################################   99.8%######################################################################## 100.0%
-[34m==>[0m [1mPouring hugo-0.49.high_sierra.bottle.tar.gz[0m
-[34m==>[0m [1mCaveats[0m
-Bash completion has been installed to:
-  /usr/local/etc/bash_completion.d
-[34m==>[0m [1mSummary[0m
-🍺  /usr/local/Cellar/hugo/0.49: 32 files, 37.5MB
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git add .
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git commit "[K-m "changed base url" "i"n" "c"o"n"f"i"g" "t"o"m"l"[C
-[master 505ab69] changed base url in config toml
- 5 files changed, 833 insertions(+), 10 deletions(-)
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git push origin master
-Counting objects: 12, done.
-Delta compression using up to 4 threads.
-Compressing objects:   8% (1/12)   Compressing objects:  16% (2/12)   Compressing objects:  25% (3/12)   Compressing objects:  33% (4/12)   Compressing objects:  41% (5/12)   Compressing objects:  50% (6/12)   Compressing objects:  58% (7/12)   Compressing objects:  66% (8/12)   Compressing objects:  75% (9/12)   Compressing objects:  83% (10/12)   Compressing objects:  91% (11/12)   Compressing objects: 100% (12/12)   Compressing objects: 100% (12/12), done.
-Writing objects:   8% (1/12)   Writing objects:  16% (2/12)   Writing objects:  25% (3/12)   Writing objects:  33% (4/12)   Writing objects:  41% (5/12)   Writing objects:  50% (6/12)   Writing objects:  58% (7/12)   Writing objects:  66% (8/12)   Writing objects:  75% (9/12)   Writing objects:  83% (10/12)   Writing objects:  91% (11/12)   Writing objects: 100% (12/12)   Writing objects: 100% (12/12), 12.10 KiB | 6.05 MiB/s, done.
-Total 12 (delta 5), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
-To https://github.com/davelorino/STDSSite.git
-   370949e..505ab69  master -> master
-git add .
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git comit -m [1@m[C[C[C[C[C[C " r e m o v e d [C d u m m y [C p o s t s [C a n d [C a d d e d [C s o m e [C r e a l [C o n e s " 
-[master c6dddaf] removed dummy posts and added some real ones
- 159 files changed, 15772 insertions(+), 5762 deletions(-)
- rewrite .Rproj.user/5FC0E2E2/console06/INDEX001 (100%)
- delete mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/2EA12B11
- delete mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/2EA12B11-contents
- delete mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/64C06FB3
- delete mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/64C06FB3-contents
- delete mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/6D541E06
- delete mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/6D541E06-contents
- delete mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/ABC00C7E
- delete mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/ABC00C7E-contents
- delete mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/C6B8D188
- delete mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/C6B8D188-contents
- delete mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/CC0C1FA
- delete mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/CC0C1FA-contents
- delete mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/DCEE8506
- delete mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/DCEE8506-contents
- delete mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/E1F4FB14
- delete mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/E1F4FB14-contents
- delete mode 100644 .Rproj.user/5FC0E2E2/sources/s-75488D4D/lock_file
- create mode 100644 .gitignore
- create mode 100644 content/.DS_Store
- create mode 100644 content/blog/.DS_Store
- create mode 100644 content/blog/.gitignore
- rewrite content/blog/2015-07-23-r-rmarkdown.html (74%)
- delete mode 100644 "content/blog/2018-01/mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\2601-\345\237\272\346\234\254\350\256\276\347\275\256\344\270\216\345\270\270\347\224\250\350\275\257\344\273\266.md"
- delete mode 100644 "content/blog/2018-01/mac\345\260\217\347\231\275\346\216\242\347\264\242\350\256\2602-finder\350\256\276\347\275\256.md"
- delete mode 100644 "content/blog/2018-03/blog\345\205\273\346\210\220\350\256\2607-hugo\345\244\232\347\272\247\345\210\227\350\241\250\346\227\240\346\263\225\346\230\276\347\244\272--markdown\347\232\204bug\345\220\210\351\233\206.md"
- delete mode 100644 "content/blog/2018-05/\344\270\255\346\226\207\347\211\210\351\237\263\344\271\220\345\211\247\351\225\277\350\205\277\345\217\224\345\217\224repo.md"
- delete mode 100644 "content/blog/2018-05/\347\210\261\345\260\224\345\205\260\350\270\242\350\270\217\350\210\236\347\216\213\350\200\205\344\271\213\350\210\236\345\215\261\351\231\251\346\270\270\346\210\217.md"
- delete mode 100644 "content/blog/2018-05/\347\216\260\345\256\236\344\270\216\345\271\273\346\203\263\347\232\204\350\267\235\347\246\273\350\247\202\346\267\261\345\244\234\345\260\217\347\213\227\347\246\273\345\245\207\344\272\213\344\273\266repo\346\204\237\346\203\263.md"
- create mode 100644 content/blog/2018-07-24-maps-with-r-and-leaflet.Rmd
- create mode 100644 content/blog/2018-07-24-maps-with-r-and-leaflet.html
- create mode 100644 content/blog/2018-08-17-automate-the-browser-with-selenium-and-python.Rmd
- create mode 100644 content/blog/2018-08-17-automate-the-browser-with-selenium-and-python.html
- create mode 100644 content/blog/2018-08/.DS_Store
- delete mode 100644 "content/blog/2018-08/blog\345\205\273\346\210\220\350\256\26011-\347\273\231\347\275\221\347\253\231\345\212\240\344\270\252\345\260\217icon.md"
- delete mode 100644 "content/blog/2018-08/blog\345\205\273\346\210\220\350\256\26014-\350\256\251\345\220\214\351\241\265\346\273\232\345\212\250\346\233\264\345\271\263\346\273\221.md"
- delete mode 100644 "content/blog/2018-08/\345\211\215\347\253\257\350\257\225\346\260\2641-\345\211\215\347\253\257\346\212\200\346\234\257\350\267\257\347\272\277.md"
- delete mode 100644 "content/blog/2018-08/\345\211\215\347\253\257\350\257\225\346\260\2642-\344\275\277\347\224\250docker\351\225\234\345\203\217\347\232\204sass\351\205\215\347\275\256.md"
- delete mode 100644 "content/blog/2018-08/\351\237\263\344\271\220\345\211\247catrepo.md"
- create mode 100644 content/blog/2018-10-06-scraping-the-australian-energy-market-operator-energy-demand-data.Rmd
- create mode 100644 content/blog/2018-10-06-scraping-the-australian-energy-market-operator-energy-demand-data.html
- create mode 100644 public/blog/1-01/index.html
- create mode 100644 public/blog/2018-07-24-maps-with-r-and-leaflet.Rmd
- create mode 100644 public/blog/2018-07/maps-with-r-and-leaflet/index.html
- create mode 100644 public/blog/2018-08-17-automate-the-browser-with-selenium-and-python.Rmd
- create mode 100644 public/blog/2018-08/2018-10-06-scraping-the-australian-energy-market-operator-energy-demand-data.Rmd
- create mode 100644 public/blog/2018-08/automate-the-browser-with-selenium-and-python/index.html
- create mode 100644 public/blog/2018-10-06-scraping-the-australian-energy-market-operator-energy-demand-data.Rmd
- rename "public/blog/2018-08/blog\345\205\273\346\210\220\350\256\26014-\350\256\251\345\220\214\351\241\265\346\273\232\345\212\250\346\233\264\345\271\263\346\273\221/index.html" => public/blog/2018-10/scraping-the-australian-energy-market-operator-energy-demand-data/index.html (61%)
- rewrite public/blog/index.xml (91%)
- create mode 100644 public/blog/page/5/index.html
- create mode 100644 public/blog/page/6/index.html
- rewrite public/index.xml (82%)
- create mode 100644 public/rmarkdown-libs/Proj4Leaflet/proj4-compressed.js
- create mode 100644 public/rmarkdown-libs/Proj4Leaflet/proj4leaflet.js
- create mode 100644 public/rmarkdown-libs/htmlwidgets/htmlwidgets.js
- create mode 100644 public/rmarkdown-libs/jquery/jquery.min.js
- create mode 100644 public/rmarkdown-libs/leaflet-binding/leaflet.js
- create mode 100644 public/rmarkdown-libs/leaflet/images/layers-2x.png
- create mode 100644 public/rmarkdown-libs/leaflet/images/layers.png
- create mode 100644 public/rmarkdown-libs/leaflet/images/marker-icon-2x.png
- create mode 100644 public/rmarkdown-libs/leaflet/images/marker-icon.png
- create mode 100644 public/rmarkdown-libs/leaflet/images/marker-shadow.png
- create mode 100644 public/rmarkdown-libs/leaflet/leaflet.css
- create mode 100644 public/rmarkdown-libs/leaflet/leaflet.js
- create mode 100644 public/rmarkdown-libs/leafletfix/leafletfix.css
- create mode 100644 public/rmarkdown-libs/rstudio_leaflet/images/1px.png
- create mode 100644 public/rmarkdown-libs/rstudio_leaflet/rstudio_leaflet.css
- rewrite public/series/index.xml (73%)
- rewrite public/sitemap.xml (84%)
- rewrite public/tags/blog/index.xml (86%)
- rewrite public/tags/index.xml (91%)
- delete mode 100644 static/blog/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
- create mode 100644 static/rmarkdown-libs/Proj4Leaflet/proj4-compressed.js
- create mode 100644 static/rmarkdown-libs/Proj4Leaflet/proj4leaflet.js
- create mode 100644 static/rmarkdown-libs/htmlwidgets/htmlwidgets.js
- create mode 100644 static/rmarkdown-libs/jquery/jquery.min.js
- create mode 100644 static/rmarkdown-libs/leaflet-binding/leaflet.js
- create mode 100644 static/rmarkdown-libs/leaflet/images/layers-2x.png
- create mode 100644 static/rmarkdown-libs/leaflet/images/layers.png
- create mode 100644 static/rmarkdown-libs/leaflet/images/marker-icon-2x.png
- create mode 100644 static/rmarkdown-libs/leaflet/images/marker-icon.png
- create mode 100644 static/rmarkdown-libs/leaflet/images/marker-shadow.png
- create mode 100644 static/rmarkdown-libs/leaflet/leaflet.css
- create mode 100644 static/rmarkdown-libs/leaflet/leaflet.js
- create mode 100644 static/rmarkdown-libs/leafletfix/leafletfix.css
- create mode 100644 static/rmarkdown-libs/rstudio_leaflet/images/1px.png
- create mode 100644 static/rmarkdown-libs/rstudio_leaflet/rstudio_leaflet.css
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git push origin master
-Counting objects: 198, done.
-Delta compression using up to 4 threads.
-Compressing objects:   0% (1/167)   Compressing objects:   1% (2/167)   Compressing objects:   2% (4/167)   Compressing objects:   3% (6/167)   Compressing objects:   4% (7/167)   Compressing objects:   5% (9/167)   Compressing objects:   6% (11/167)   Compressing objects:   7% (12/167)   Compressing objects:   8% (14/167)   Compressing objects:   9% (16/167)   Compressing objects:  10% (17/167)   Compressing objects:  11% (19/167)   Compressing objects:  12% (21/167)   Compressing objects:  13% (22/167)   Compressing objects:  14% (24/167)   Compressing objects:  15% (26/167)   Compressing objects:  16% (27/167)   Compressing objects:  17% (29/167)   Compressing objects:  18% (31/167)   Compressing objects:  19% (32/167)   Compressing objects:  20% (34/167)   Compressing objects:  21% (36/167)   Compressing objects:  22% (37/167)   Compressing objects:  23% (39/167)   Compressing objects:  24% (41/167)   Compressing objects:  25% (42/167)   Compressing objects:  26% (44/167)   Compressing objects:  27% (46/167)   Compressing objects:  28% (47/167)   Compressing objects:  29% (49/167)   Compressing objects:  30% (51/167)   Compressing objects:  31% (52/167)   Compressing objects:  32% (54/167)   Compressing objects:  33% (56/167)   Compressing objects:  34% (57/167)   Compressing objects:  35% (59/167)   Compressing objects:  36% (61/167)   Compressing objects:  37% (62/167)   Compressing objects:  38% (64/167)   Compressing objects:  39% (66/167)   Compressing objects:  40% (67/167)   Compressing objects:  41% (69/167)   Compressing objects:  42% (71/167)   Compressing objects:  43% (72/167)   Compressing objects:  44% (74/167)   Compressing objects:  45% (76/167)   Compressing objects:  46% (77/167)   Compressing objects:  47% (79/167)   Compressing objects:  48% (81/167)   Compressing objects:  49% (82/167)   Compressing objects:  50% (84/167)   Compressing objects:  51% (86/167)   Compressing objects:  52% (87/167)   Compressing objects:  53% (89/167)   Compressing objects:  54% (91/167)   Compressing objects:  55% (92/167)   Compressing objects:  56% (94/167)   Compressing objects:  57% (96/167)   Compressing objects:  58% (97/167)   Compressing objects:  59% (99/167)   Compressing objects:  60% (101/167)   Compressing objects:  61% (102/167)   Compressing objects:  62% (104/167)   Compressing objects:  63% (106/167)   Compressing objects:  64% (107/167)   Compressing objects:  65% (109/167)   Compressing objects:  66% (111/167)   Compressing objects:  67% (112/167)   Compressing objects:  68% (114/167)   Compressing objects:  69% (116/167)   Compressing objects:  70% (117/167)   Compressing objects:  71% (119/167)   Compressing objects:  72% (121/167)   Compressing objects:  73% (122/167)   Compressing objects:  74% (124/167)   Compressing objects:  75% (126/167)   Compressing objects:  76% (127/167)   Compressing objects:  77% (129/167)   Compressing objects:  78% (131/167)   Compressing objects:  79% (132/167)   Compressing objects:  80% (134/167)   Compressing objects:  81% (136/167)   Compressing objects:  82% (137/167)   Compressing objects:  83% (139/167)   Compressing objects:  84% (141/167)   Compressing objects:  85% (142/167)   Compressing objects:  86% (144/167)   Compressing objects:  87% (146/167)   Compressing objects:  88% (147/167)   Compressing objects:  89% (149/167)   Compressing objects:  90% (151/167)   Compressing objects:  91% (152/167)   Compressing objects:  92% (154/167)   Compressing objects:  93% (156/167)   Compressing objects:  94% (157/167)   Compressing objects:  95% (159/167)   Compressing objects:  96% (161/167)   Compressing objects:  97% (162/167)   Compressing objects:  98% (164/167)   Compressing objects:  99% (166/167)   Compressing objects: 100% (167/167)   Compressing objects: 100% (167/167), done.
-Writing objects:   0% (1/198)   Writing objects:   1% (2/198)   Writing objects:   2% (4/198)   Writing objects:   3% (6/198)   Writing objects:   4% (8/198)   Writing objects:   5% (10/198)   Writing objects:   6% (12/198)   Writing objects:   7% (14/198)   Writing objects:   8% (16/198)   Writing objects:   9% (19/198)   Writing objects:  10% (20/198)   Writing objects:  11% (22/198)   Writing objects:  12% (24/198)   Writing objects:  13% (26/198)   Writing objects:  14% (28/198)   Writing objects:  15% (30/198)   Writing objects:  16% (32/198)   Writing objects:  17% (34/198)   Writing objects:  18% (36/198)   Writing objects:  19% (38/198)   Writing objects:  20% (40/198)   Writing objects:  21% (42/198)   Writing objects:  22% (44/198)   Writing objects:  23% (46/198)   Writing objects:  24% (48/198)   Writing objects:  25% (50/198)   Writing objects:  26% (52/198)   Writing objects:  27% (54/198)   Writing objects:  28% (56/198)   Writing objects:  29% (58/198)   Writing objects:  30% (60/198)   Writing objects:  31% (62/198)   Writing objects:  32% (64/198)   Writing objects:  33% (66/198)   Writing objects:  34% (69/198)   Writing objects:  35% (70/198)   Writing objects:  36% (72/198)   Writing objects:  38% (76/198)   Writing objects:  39% (78/198)   Writing objects:  40% (80/198)   Writing objects:  41% (82/198)   Writing objects:  42% (84/198)   Writing objects:  43% (86/198)   Writing objects:  44% (88/198)   Writing objects:  45% (90/198)   Writing objects:  46% (92/198)   Writing objects:  47% (94/198)   Writing objects:  48% (96/198)   Writing objects:  49% (98/198)   Writing objects:  50% (99/198)   Writing objects:  51% (101/198)   Writing objects:  52% (103/198)   Writing objects:  53% (105/198)   Writing objects:  54% (107/198)   Writing objects:  55% (109/198)   Writing objects:  56% (111/198)   Writing objects:  57% (113/198)   Writing objects:  58% (115/198)   Writing objects:  59% (117/198)   Writing objects:  60% (119/198)   Writing objects:  61% (121/198)   Writing objects:  62% (123/198)   Writing objects:  63% (125/198)   Writing objects:  64% (127/198)   Writing objects:  65% (129/198)   Writing objects:  66% (131/198)   Writing objects:  67% (133/198)   Writing objects:  68% (135/198)   Writing objects:  69% (137/198)   Writing objects:  70% (139/198)   Writing objects:  71% (141/198)   Writing objects:  72% (143/198)   Writing objects:  73% (145/198)   Writing objects:  74% (147/198)   Writing objects:  75% (149/198)   Writing objects:  76% (151/198)   Writing objects:  77% (153/198)   Writing objects:  78% (155/198)   Writing objects:  79% (157/198)   Writing objects:  80% (159/198)   Writing objects:  81% (161/198)   Writing objects:  82% (163/198)   Writing objects:  83% (165/198)   Writing objects:  84% (167/198)   Writing objects:  85% (169/198)   Writing objects:  86% (171/198)   Writing objects:  87% (173/198)   Writing objects:  88% (175/198)   Writing objects:  89% (177/198)   Writing objects:  90% (179/198)   Writing objects:  91% (181/198)   Writing objects:  92% (183/198)   Writing objects:  93% (185/198)   Writing objects:  94% (187/198)   Writing objects:  95% (189/198)   Writing objects:  96% (191/198)   Writing objects:  97% (193/198)   Writing objects:  98% (195/198)   Writing objects:  99% (197/198)   Writing objects: 100% (198/198)   Writing objects: 100% (198/198), 474.72 KiB | 2.26 MiB/s, done.
-Total 198 (delta 81), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/81)   [Kremote: Resolving deltas:   1% (1/81)   [Kremote: Resolving deltas:   2% (2/81)   [Kremote: Resolving deltas:   3% (3/81)   [Kremote: Resolving deltas:   4% (4/81)   [Kremote: Resolving deltas:   6% (5/81)   [Kremote: Resolving deltas:   7% (6/81)   [Kremote: Resolving deltas:   8% (7/81)   [Kremote: Resolving deltas:   9% (8/81)   [Kremote: Resolving deltas:  11% (9/81)   [Kremote: Resolving deltas:  12% (10/81)   [Kremote: Resolving deltas:  13% (11/81)   [Kremote: Resolving deltas:  14% (12/81)   [Kremote: Resolving deltas:  16% (13/81)   [Kremote: Resolving deltas:  17% (14/81)   [Kremote: Resolving deltas:  18% (15/81)   [Kremote: Resolving deltas:  19% (16/81)   [Kremote: Resolving deltas:  20% (17/81)   [Kremote: Resolving deltas:  22% (18/81)   [Kremote: Resolving deltas:  23% (19/81)   [Kremote: Resolving deltas:  24% (20/81)   [Kremote: Resolving deltas:  25% (21/81)   [Kremote: Resolving deltas:  34% (28/81)   [Kremote: Resolving deltas:  35% (29/81)   [Kremote: Resolving deltas:  39% (32/81)   [Kremote: Resolving deltas:  40% (33/81)   [Kremote: Resolving deltas:  44% (36/81)   [Kremote: Resolving deltas:  45% (37/81)   [Kremote: Resolving deltas:  46% (38/81)   [Kremote: Resolving deltas:  48% (39/81)   [Kremote: Resolving deltas:  49% (40/81)   [Kremote: Resolving deltas:  50% (41/81)   [Kremote: Resolving deltas:  51% (42/81)   [Kremote: Resolving deltas:  53% (43/81)   [Kremote: Resolving deltas:  54% (44/81)   [Kremote: Resolving deltas:  55% (45/81)   [Kremote: Resolving deltas:  58% (47/81)   [Kremote: Resolving deltas:  59% (48/81)   [Kremote: Resolving deltas:  61% (50/81)   [Kremote: Resolving deltas:  62% (51/81)   [Kremote: Resolving deltas:  64% (52/81)   [Kremote: Resolving deltas:  66% (54/81)   [Kremote: Resolving deltas:  67% (55/81)   [Kremote: Resolving deltas:  69% (56/81)   [Kremote: Resolving deltas:  70% (57/81)   [Kremote: Resolving deltas:  71% (58/81)   [Kremote: Resolving deltas:  72% (59/81)   [Kremote: Resolving deltas:  74% (60/81)   [Kremote: Resolving deltas:  75% (61/81)   [Kremote: Resolving deltas:  76% (62/81)   [Kremote: Resolving deltas:  77% (63/81)   [Kremote: Resolving deltas:  79% (64/81)   [Kremote: Resolving deltas:  80% (65/81)   [Kremote: Resolving deltas:  81% (66/81)   [Kremote: Resolving deltas:  82% (67/81)   [Kremote: Resolving deltas:  83% (68/81)   [Kremote: Resolving deltas:  85% (69/81)   [Kremote: Resolving deltas:  86% (70/81)   [Kremote: Resolving deltas:  87% (71/81)   [Kremote: Resolving deltas:  88% (72/81)   [Kremote: Resolving deltas:  90% (73/81)   [Kremote: Resolving deltas:  91% (74/81)   [Kremote: Resolving deltas:  92% (75/81)   [Kremote: Resolving deltas:  93% (76/81)   [Kremote: Resolving deltas:  95% (77/81)   [Kremote: Resolving deltas:  96% (78/81)   [Kremote: Resolving deltas:  97% (79/81)   [Kremote: Resolving deltas:  98% (80/81)   [Kremote: Resolving deltas: 100% (81/81)   [Kremote: Resolving deltas: 100% (81/81), completed with 63 local objects.[K
-To https://github.com/davelorino/STDSSite.git
-   505ab69..c6dddaf  master -> master
-[K192-168-1-5:STDS Orianna Davide$ git add .
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git commit -m "added assessment 2C with apps embdee[K[K[Kedded"
-[master 261b6d5] added assessment 2C with apps embedded
- 140 files changed, 3589511 insertions(+), 776 deletions(-)
- rewrite .Rproj.user/5FC0E2E2/console06/INDEX001 (85%)
- create mode 100644 content/blog/2018-07-28-text-analysis-using-r-australian-pm-inauguration-speeches-data.Rmd
- create mode 100644 content/blog/2018-07-28-text-analysis-using-r-australian-pm-inauguration-speeches-data.html
- create mode 100644 content/blog/2018-07-28-text-analysis-with-tidytext-ggplot2-and-quanteda.Rmd
- create mode 100644 content/blog/2018-07-28-text-analysis-with-tidytext-ggplot2-and-quanteda.html
- create mode 100644 content/blog/2018-08/2018-07-28-text-analysis-using-r-australian-pm-inauguration-speeches-data.html
- create mode 100644 content/blog/STDS-Assessment-2C.Rmd
- create mode 100644 content/blog/STDS-Assessment-2C.html
- create mode 100644 content/blog/customer_transaction_data.csv
- create mode 100644 content/blog/merged-file copy.txt
- create mode 100644 content/blog/nsw_aemo.csv
- create mode 100644 content/blog/qld_aemo.csv
- create mode 100644 content/blog/sa_aemo.csv
- create mode 100644 content/blog/snowy_aemo.csv
- create mode 100644 content/blog/tas_aemo.csv
- create mode 100644 content/blog/vic_aemo.csv
- rewrite public/blog/1-01/index.html (99%)
- create mode 100644 public/blog/1-01/stds-assessment-2c/index.html
- create mode 100644 public/blog/2018-07-28-text-analysis-using-r-australian-pm-inauguration-speeches-data.Rmd
- create mode 100644 public/blog/2018-07-28-text-analysis-with-tidytext-ggplot2-and-quanteda.Rmd
- create mode 100644 public/blog/2018-07-28-text-analysis-with-tidytext-ggplot2-and-quanteda_files/figure-html/unnamed-chunk-16-1.png
- create mode 100644 public/blog/2018-07-28-text-analysis-with-tidytext-ggplot2-and-quanteda_files/figure-html/unnamed-chunk-17-1.png
- create mode 100644 public/blog/2018-07-28-text-analysis-with-tidytext-ggplot2-and-quanteda_files/figure-html/unnamed-chunk-23-1.png
- create mode 100644 public/blog/2018-07-28-text-analysis-with-tidytext-ggplot2-and-quanteda_files/figure-html/unnamed-chunk-8-1.png
- create mode 100644 public/blog/2018-07/stds-assessment-2c/index.html
- create mode 100644 public/blog/2018-07/text-analysis-with-tidytext-ggplot2-and-quanteda/index.html
- create mode 100644 public/blog/2018-07/text-analysis-with-visnetwork/index.html
- create mode 100644 public/blog/2018-10/stds-assessment-2c/index.html
- create mode 100644 public/blog/STDS-Assessment-2C.Rmd
- create mode 100644 public/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-2-1.png
- create mode 100644 public/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-2-2.png
- create mode 100644 public/blog/customer_transaction_data.csv
- create mode 100644 public/blog/merged-file copy.txt
- create mode 100644 public/blog/nsw_aemo.csv
- create mode 100644 public/blog/qld_aemo.csv
- create mode 100644 public/blog/sa_aemo.csv
- create mode 100644 public/blog/snowy_aemo.csv
- create mode 100644 public/blog/tas_aemo.csv
- create mode 100644 public/blog/vic_aemo.csv
- create mode 100644 public/categories/data-science/index.html
- create mode 100644 public/categories/data-science/index.xml
- create mode 100644 public/categories/reflection/index.html
- create mode 100644 public/categories/reflection/index.xml
- create mode 100644 public/categories/text-analysis/index.html
- create mode 100644 public/categories/text-analysis/index.xml
- create mode 100644 public/images/.DS_Store
- create mode 100644 public/images/blog/.DS_Store
- create mode 100644 public/images/blog/2018-08/test13.png
- create mode 100644 public/images/blog/2018-08/test14.png
- create mode 100644 public/rmarkdown-libs/vis/img/network/acceptDeleteIcon.png
- create mode 100644 public/rmarkdown-libs/vis/img/network/addNodeIcon.png
- create mode 100644 public/rmarkdown-libs/vis/img/network/backIcon.png
- create mode 100644 public/rmarkdown-libs/vis/img/network/connectIcon.png
- create mode 100644 public/rmarkdown-libs/vis/img/network/cross.png
- create mode 100644 public/rmarkdown-libs/vis/img/network/cross2.png
- create mode 100644 public/rmarkdown-libs/vis/img/network/deleteIcon.png
- create mode 100644 public/rmarkdown-libs/vis/img/network/downArrow.png
- create mode 100644 public/rmarkdown-libs/vis/img/network/editIcon.png
- create mode 100644 public/rmarkdown-libs/vis/img/network/leftArrow.png
- create mode 100644 public/rmarkdown-libs/vis/img/network/minus.png
- create mode 100644 public/rmarkdown-libs/vis/img/network/plus.png
- create mode 100644 public/rmarkdown-libs/vis/img/network/rightArrow.png
- create mode 100644 public/rmarkdown-libs/vis/img/network/upArrow.png
- create mode 100644 public/rmarkdown-libs/vis/img/network/zoomExtends.png
- create mode 100644 public/rmarkdown-libs/vis/vis.css
- create mode 100644 public/rmarkdown-libs/vis/vis.min.js
- create mode 100644 public/rmarkdown-libs/visNetwork-binding/visNetwork.js
- create mode 100644 public/tags/data-science/index.html
- create mode 100644 public/tags/data-science/index.xml
- create mode 100644 public/tags/ggplot2/index.html
- create mode 100644 public/tags/ggplot2/index.xml
- create mode 100644 public/tags/quanteda/index.html
- create mode 100644 public/tags/quanteda/index.xml
- create mode 100644 public/tags/r/index.html
- create mode 100644 public/tags/r/index.xml
- create mode 100644 public/tags/reflection/index.html
- create mode 100644 public/tags/reflection/index.xml
- create mode 100644 public/tags/stds/index.html
- create mode 100644 public/tags/stds/index.xml
- create mode 100644 public/tags/text-analysis/index.html
- create mode 100644 public/tags/text-analysis/index.xml
- create mode 100644 public/tags/tidytext/index.html
- create mode 100644 public/tags/tidytext/index.xml
- create mode 100644 static/.DS_Store
- create mode 100644 static/blog/2018-07-28-text-analysis-with-tidytext-ggplot2-and-quanteda_files/figure-html/unnamed-chunk-16-1.png
- create mode 100644 static/blog/2018-07-28-text-analysis-with-tidytext-ggplot2-and-quanteda_files/figure-html/unnamed-chunk-17-1.png
- create mode 100644 static/blog/2018-07-28-text-analysis-with-tidytext-ggplot2-and-quanteda_files/figure-html/unnamed-chunk-23-1.png
- create mode 100644 static/blog/2018-07-28-text-analysis-with-tidytext-ggplot2-and-quanteda_files/figure-html/unnamed-chunk-8-1.png
- create mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-2-1.png
- create mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-2-2.png
- create mode 100644 static/images/.DS_Store
- create mode 100644 static/images/blog/.DS_Store
- create mode 100644 static/images/blog/2018-08/test13.png
- create mode 100644 static/images/blog/2018-08/test14.png
- create mode 100644 static/rmarkdown-libs/vis/img/network/acceptDeleteIcon.png
- create mode 100644 static/rmarkdown-libs/vis/img/network/addNodeIcon.png
- create mode 100644 static/rmarkdown-libs/vis/img/network/backIcon.png
- create mode 100644 static/rmarkdown-libs/vis/img/network/connectIcon.png
- create mode 100644 static/rmarkdown-libs/vis/img/network/cross.png
- create mode 100644 static/rmarkdown-libs/vis/img/network/cross2.png
- create mode 100644 static/rmarkdown-libs/vis/img/network/deleteIcon.png
- create mode 100644 static/rmarkdown-libs/vis/img/network/downArrow.png
- create mode 100644 static/rmarkdown-libs/vis/img/network/editIcon.png
- create mode 100644 static/rmarkdown-libs/vis/img/network/leftArrow.png
- create mode 100644 static/rmarkdown-libs/vis/img/network/minus.png
- create mode 100644 static/rmarkdown-libs/vis/img/network/plus.png
- create mode 100644 static/rmarkdown-libs/vis/img/network/rightArrow.png
- create mode 100644 static/rmarkdown-libs/vis/img/network/upArrow.png
- create mode 100644 static/rmarkdown-libs/vis/img/network/zoomExtends.png
- create mode 100644 static/rmarkdown-libs/vis/vis.css
- create mode 100644 static/rmarkdown-libs/vis/vis.min.js
- create mode 100644 static/rmarkdown-libs/visNetwork-binding/visNetwork.js
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git push origin master
-Counting objects: 162, done.
-Delta compression using up to 4 threads.
-Compressing objects:   0% (1/144)   Compressing objects:   1% (2/144)   Compressing objects:   2% (3/144)   Compressing objects:   3% (5/144)   Compressing objects:   4% (6/144)   Compressing objects:   5% (8/144)   Compressing objects:   6% (9/144)   Compressing objects:   7% (11/144)   Compressing objects:   8% (12/144)   Compressing objects:   9% (13/144)   Compressing objects:  10% (15/144)   Compressing objects:  11% (16/144)   Compressing objects:  12% (18/144)   Compressing objects:  13% (19/144)   Compressing objects:  14% (21/144)   Compressing objects:  15% (22/144)   Compressing objects:  16% (24/144)   Compressing objects:  17% (25/144)   Compressing objects:  18% (26/144)   Compressing objects:  19% (28/144)   Compressing objects:  20% (29/144)   Compressing objects:  21% (31/144)   Compressing objects:  22% (32/144)   Compressing objects:  23% (34/144)   Compressing objects:  24% (35/144)   Compressing objects:  25% (36/144)   Compressing objects:  26% (38/144)   Compressing objects:  27% (39/144)   Compressing objects:  28% (41/144)   Compressing objects:  29% (42/144)   Compressing objects:  30% (44/144)   Compressing objects:  31% (45/144)   Compressing objects:  32% (47/144)   Compressing objects:  33% (48/144)   Compressing objects:  34% (49/144)   Compressing objects:  35% (51/144)   Compressing objects:  36% (52/144)   Compressing objects:  37% (54/144)   Compressing objects:  38% (55/144)   Compressing objects:  39% (57/144)   Compressing objects:  40% (58/144)   Compressing objects:  41% (60/144)   Compressing objects:  42% (61/144)   Compressing objects:  43% (62/144)   Compressing objects:  44% (64/144)   Compressing objects:  45% (65/144)   Compressing objects:  46% (67/144)   Compressing objects:  47% (68/144)   Compressing objects:  48% (70/144)   Compressing objects:  49% (71/144)   Compressing objects:  50% (72/144)   Compressing objects:  51% (74/144)   Compressing objects:  52% (75/144)   Compressing objects:  53% (77/144)   Compressing objects:  54% (78/144)   Compressing objects:  55% (80/144)   Compressing objects:  56% (81/144)   Compressing objects:  57% (83/144)   Compressing objects:  58% (84/144)   Compressing objects:  59% (85/144)   Compressing objects:  60% (87/144)   Compressing objects:  61% (88/144)   Compressing objects:  62% (90/144)   Compressing objects:  63% (91/144)   Compressing objects:  64% (93/144)   Compressing objects:  65% (94/144)   Compressing objects:  66% (96/144)   Compressing objects:  67% (97/144)   Compressing objects:  68% (98/144)   Compressing objects:  69% (100/144)   Compressing objects:  70% (101/144)   Compressing objects:  71% (103/144)   Compressing objects:  72% (104/144)   Compressing objects:  73% (106/144)   Compressing objects:  74% (107/144)   Compressing objects:  75% (108/144)   Compressing objects:  76% (110/144)   Compressing objects:  77% (111/144)   Compressing objects:  78% (113/144)   Compressing objects:  79% (114/144)   Compressing objects:  80% (116/144)   Compressing objects:  81% (117/144)   Compressing objects:  82% (119/144)   Compressing objects:  83% (120/144)   Compressing objects:  84% (121/144)   Compressing objects:  85% (123/144)   Compressing objects:  86% (124/144)   Compressing objects:  87% (126/144)   Compressing objects:  88% (127/144)   Compressing objects:  89% (129/144)   Compressing objects:  90% (130/144)   Compressing objects:  91% (132/144)   Compressing objects:  92% (133/144)   Compressing objects:  93% (134/144)   Compressing objects:  93% (135/144)   Compressing objects:  94% (136/144)   Compressing objects:  95% (137/144)   Compressing objects:  95% (138/144)   Compressing objects:  96% (139/144)   Compressing objects:  97% (140/144)   Compressing objects:  98% (142/144)   Compressing objects:  99% (143/144)   Compressing objects: 100% (144/144)   Compressing objects: 100% (144/144), done.
-Writing objects:   0% (1/162)   Writing objects:   1% (2/162)   Writing objects:   2% (4/162)   Writing objects:   3% (5/162)   Writing objects:   4% (7/162)   Writing objects:   5% (9/162)   Writing objects:   6% (10/162)   Writing objects:   7% (12/162)   Writing objects:   8% (13/162)   Writing objects:   9% (15/162)   Writing objects:  10% (17/162)   Writing objects:  11% (18/162)   Writing objects:  12% (20/162)   Writing objects:  13% (22/162)   Writing objects:  14% (23/162)   Writing objects:  15% (25/162)   Writing objects:  16% (26/162)   Writing objects:  17% (28/162)   Writing objects:  17% (29/162), 1.07 MiB | 201.00 KiB/s   Writing objects:  17% (29/162), 1.44 MiB | 225.00 KiB/s   Writing objects:  17% (29/162), 1.56 MiB | 227.00 KiB/s   Writing objects:  17% (29/162), 1.62 MiB | 207.00 KiB/s   Writing objects:  17% (29/162), 1.63 MiB | 127.00 KiB/s   Writing objects:  17% (29/162), 1.69 MiB | 122.00 KiB/s   Writing objects:  17% (29/162), 1.69 MiB | 94.00 KiB/s   Writing objects:  17% (29/162), 1.75 MiB | 87.00 KiB/s   Writing objects:  17% (29/162), 1.75 MiB | 43.00 KiB/s   Writing objects:  17% (29/162), 1.81 MiB | 35.00 KiB/s   Writing objects:  17% (29/162), 1.88 MiB | 19.00 KiB/s   Writing objects:  17% (29/162), 2.00 MiB | 33.00 KiB/s   Writing objects:  17% (29/162), 2.06 MiB | 34.00 KiB/s   Writing objects:  17% (29/162), 2.19 MiB | 60.00 KiB/s   Writing objects:  17% (29/162), 2.25 MiB | 91.00 KiB/s   Writing objects:  17% (29/162), 2.38 MiB | 100.00 KiB/s   Writing objects:  17% (29/162), 2.50 MiB | 110.00 KiB/s   Writing objects:  17% (29/162), 2.69 MiB | 119.00 KiB/s   Writing objects:  17% (29/162), 2.81 MiB | 131.00 KiB/s   Writing objects:  17% (29/162), 3.00 MiB | 142.00 KiB/s   Writing objects:  17% (29/162), 3.25 MiB | 164.00 KiB/s   Writing objects:  17% (29/162), 3.37 MiB | 179.00 KiB/s   Writing objects:  18% (30/162), 3.37 MiB | 179.00 KiB/s   Writing objects:  18% (30/162), 3.62 MiB | 193.00 KiB/s   Writing objects:  18% (30/162), 3.87 MiB | 194.00 KiB/s   Writing objects:  18% (30/162), 3.99 MiB | 204.00 KiB/s   Writing objects:  18% (30/162), 4.05 MiB | 187.00 KiB/s   Writing objects:  18% (30/162), 4.05 MiB | 98.00 KiB/s   Writing objects:  18% (30/162), 4.43 MiB | 127.00 KiB/s   Writing objects:  18% (30/162), 4.49 MiB | 114.00 KiB/s   Writing objects:  18% (30/162), 4.49 MiB | 79.00 KiB/s   Writing objects:  18% (30/162), 4.93 MiB | 88.00 KiB/s   Writing objects:  18% (30/162), 4.99 MiB | 84.00 KiB/s   Writing objects:  18% (30/162), 5.18 MiB | 84.00 KiB/s   Writing objects:  18% (30/162), 5.24 MiB | 124.00 KiB/s   Writing objects:  18% (30/162), 5.30 MiB | 89.00 KiB/s   Writing objects:  18% (30/162), 5.30 MiB | 62.00 KiB/s   Writing objects:  18% (30/162), 5.62 MiB | 92.00 KiB/s   Writing objects:  18% (30/162), 5.80 MiB | 94.00 KiB/s   Writing objects:  18% (30/162), 5.93 MiB | 93.00 KiB/s   Writing objects:  18% (30/162), 6.05 MiB | 96.00 KiB/s   Writing objects:  18% (30/162), 6.18 MiB | 95.00 KiB/s   Writing objects:  18% (30/162), 6.30 MiB | 182.00 KiB/s   Writing objects:  18% (30/162), 6.37 MiB | 158.00 KiB/s   Writing objects:  18% (30/162), 6.49 MiB | 69.00 KiB/s   Writing objects:  19% (31/162), 6.49 MiB | 69.00 KiB/s   Writing objects:  19% (31/162), 6.63 MiB | 74.00 KiB/s   Writing objects:  19% (31/162), 6.98 MiB | 101.00 KiB/s   Writing objects:  19% (31/162), 7.11 MiB | 97.00 KiB/s   Writing objects:  19% (31/162), 7.23 MiB | 102.00 KiB/s   Writing objects:  19% (31/162), 7.42 MiB | 98.00 KiB/s   Writing objects:  19% (31/162), 7.55 MiB | 100.00 KiB/s   Writing objects:  19% (31/162), 7.67 MiB | 153.00 KiB/s   Writing objects:  19% (31/162), 7.73 MiB | 109.00 KiB/s   Writing objects:  19% (31/162), 7.73 MiB | 68.00 KiB/s   Writing objects:  19% (31/162), 7.92 MiB | 81.00 KiB/s   Writing objects:  19% (31/162), 8.11 MiB | 87.00 KiB/s   Writing objects:  19% (31/162), 8.23 MiB | 94.00 KiB/s   Writing objects:  19% (31/162), 8.36 MiB | 95.00 KiB/s   Writing objects:  19% (31/162), 8.48 MiB | 93.00 KiB/s   Writing objects:  19% (31/162), 8.61 MiB | 98.00 KiB/s   Writing objects:  19% (31/162), 8.73 MiB | 158.00 KiB/s   Writing objects:  19% (31/162), 8.86 MiB | 148.00 KiB/s   Writing objects:  19% (31/162), 8.86 MiB | 80.00 KiB/s   Writing objects:  19% (31/162), 9.05 MiB | 88.00 KiB/s   Writing objects:  19% (31/162), 9.23 MiB | 93.00 KiB/s   Writing objects:  19% (31/162), 9.30 MiB | 94.00 KiB/s   Writing objects:  19% (31/162), 9.48 MiB | 95.00 KiB/s   Writing objects:  19% (31/162), 9.55 MiB | 95.00 KiB/s   Writing objects:  19% (31/162), 9.67 MiB | 153.00 KiB/s   Writing objects:  19% (32/162), 9.80 MiB | 117.00 KiB/s   Writing objects:  19% (32/162), 9.92 MiB | 115.00 KiB/s   Writing objects:  19% (32/162), 9.98 MiB | 115.00 KiB/s   Writing objects:  19% (32/162), 10.05 MiB | 105.00 KiB/s   Writing objects:  19% (32/162), 10.05 MiB | 67.00 KiB/s   Writing objects:  19% (32/162), 10.30 MiB | 93.00 KiB/s   Writing objects:  19% (32/162), 10.42 MiB | 94.00 KiB/s   Writing objects:  19% (32/162), 10.55 MiB | 100.00 KiB/s   Writing objects:  19% (32/162), 10.73 MiB | 99.00 KiB/s   Writing objects:  19% (32/162), 10.80 MiB | 99.00 KiB/s   Writing objects:  19% (32/162), 10.86 MiB | 101.00 KiB/s   Writing objects:  19% (32/162), 10.92 MiB | 141.00 KiB/s   Writing objects:  19% (32/162), 10.92 MiB | 70.00 KiB/s   Writing objects:  20% (33/162), 11.11 MiB | 83.00 KiB/s   Writing objects:  20% (33/162), 11.36 MiB | 90.00 KiB/s   Writing objects:  20% (33/162), 11.48 MiB | 98.00 KiB/s   Writing objects:  20% (33/162), 11.67 MiB | 96.00 KiB/s   Writing objects:  20% (33/162), 11.73 MiB | 97.00 KiB/s   Writing objects:  20% (33/162), 11.80 MiB | 99.00 KiB/s   Writing objects:  20% (33/162), 11.92 MiB | 132.00 KiB/s   Writing objects:  20% (33/162), 12.11 MiB | 114.00 KiB/s   Writing objects:  20% (33/162), 12.17 MiB | 108.00 KiB/s   Writing objects:  20% (33/162), 12.30 MiB | 114.00 KiB/s   Writing objects:  20% (33/162), 12.42 MiB | 115.00 KiB/s   Writing objects:  20% (33/162), 12.55 MiB | 126.00 KiB/s   Writing objects:  20% (33/162), 12.73 MiB | 121.00 KiB/s   Writing objects:  20% (33/162), 12.73 MiB | 73.00 KiB/s   Writing objects:  20% (33/162), 12.98 MiB | 91.00 KiB/s   Writing objects:  20% (34/162), 13.10 MiB | 91.00 KiB/s   Writing objects:  20% (34/162), 13.42 MiB | 108.00 KiB/s   Writing objects:  20% (34/162), 13.55 MiB | 98.00 KiB/s   Writing objects:  20% (34/162), 13.61 MiB | 99.00 KiB/s   Writing objects:  20% (34/162), 13.61 MiB | 67.00 KiB/s   Writing objects:  20% (34/162), 13.98 MiB | 108.00 KiB/s   Writing objects:  20% (34/162), 14.11 MiB | 114.00 KiB/s   Writing objects:  20% (34/162), 14.30 MiB | 93.00 KiB/s   Writing objects:  20% (34/162), 14.36 MiB | 93.00 KiB/s   Writing objects:  20% (34/162), 14.55 MiB | 96.00 KiB/s   Writing objects:  20% (34/162), 14.61 MiB | 161.00 KiB/s   Writing objects:  20% (34/162), 14.67 MiB | 140.00 KiB/s   Writing objects:  20% (34/162), 14.80 MiB | 65.00 KiB/s   Writing objects:  20% (34/162), 14.98 MiB | 77.00 KiB/s   Writing objects:  20% (34/162), 15.17 MiB | 85.00 KiB/s   Writing objects:  20% (34/162), 15.36 MiB | 96.00 KiB/s   Writing objects:  20% (34/162), 15.55 MiB | 95.00 KiB/s   Writing objects:  20% (34/162), 15.67 MiB | 98.00 KiB/s   Writing objects:  20% (34/162), 15.73 MiB | 98.00 KiB/s   Writing objects:  20% (34/162), 15.92 MiB | 162.00 KiB/s   Writing objects:  20% (34/162), 15.98 MiB | 148.00 KiB/s   Writing objects:  20% (34/162), 16.05 MiB | 132.00 KiB/s   Writing objects:  20% (34/162), 16.17 MiB | 72.00 KiB/s   Writing objects:  21% (35/162), 16.30 MiB | 75.00 KiB/s   Writing objects:  22% (36/162), 16.30 MiB | 75.00 KiB/s   Writing objects:  23% (38/162), 16.30 MiB | 75.00 KiB/s   Writing objects:  24% (39/162), 16.30 MiB | 75.00 KiB/s   Writing objects:  27% (44/162), 16.30 MiB | 75.00 KiB/s   Writing objects:  28% (46/162), 16.30 MiB | 75.00 KiB/s   Writing objects:  29% (47/162), 16.30 MiB | 75.00 KiB/s   Writing objects:  30% (49/162), 16.30 MiB | 75.00 KiB/s   Writing objects:  30% (49/162), 16.42 MiB | 78.00 KiB/s   Writing objects:  30% (50/162), 16.61 MiB | 91.00 KiB/s   Writing objects:  31% (51/162), 16.61 MiB | 91.00 KiB/s   Writing objects:  32% (52/162), 16.61 MiB | 91.00 KiB/s   Writing objects:  33% (54/162), 16.73 MiB | 94.00 KiB/s   Writing objects:  34% (56/162), 16.73 MiB | 94.00 KiB/s   Writing objects:  35% (57/162), 16.73 MiB | 94.00 KiB/s   Writing objects:  36% (59/162), 16.73 MiB | 94.00 KiB/s   Writing objects:  37% (60/162), 16.73 MiB | 94.00 KiB/s   Writing objects:  38% (62/162), 16.73 MiB | 94.00 KiB/s   Writing objects:  39% (64/162), 16.73 MiB | 94.00 KiB/s   Writing objects:  40% (65/162), 16.73 MiB | 94.00 KiB/s   Writing objects:  41% (67/162), 16.73 MiB | 94.00 KiB/s   Writing objects:  42% (69/162), 16.73 MiB | 94.00 KiB/s   Writing objects:  43% (70/162), 16.73 MiB | 94.00 KiB/s   Writing objects:  43% (70/162), 16.80 MiB | 92.00 KiB/s   Writing objects:  43% (71/162), 16.86 MiB | 92.00 KiB/s   Writing objects:  44% (72/162), 16.86 MiB | 92.00 KiB/s   Writing objects:  45% (73/162), 16.86 MiB | 92.00 KiB/s   Writing objects:  46% (75/162), 16.86 MiB | 92.00 KiB/s   Writing objects:  48% (78/162), 16.86 MiB | 92.00 KiB/s   Writing objects:  49% (80/162), 16.86 MiB | 92.00 KiB/s   Writing objects:  50% (81/162), 16.86 MiB | 92.00 KiB/s   Writing objects:  51% (83/162), 16.86 MiB | 92.00 KiB/s   Writing objects:  52% (85/162), 16.86 MiB | 92.00 KiB/s   Writing objects:  53% (86/162), 16.86 MiB | 92.00 KiB/s   Writing objects:  54% (88/162), 16.86 MiB | 92.00 KiB/s   Writing objects:  55% (90/162), 16.86 MiB | 92.00 KiB/s   Writing objects:  56% (92/162), 16.86 MiB | 92.00 KiB/s   Writing objects:  57% (93/162), 16.86 MiB | 92.00 KiB/s   Writing objects:  58% (94/162), 16.86 MiB | 92.00 KiB/s   Writing objects:  59% (96/162), 16.86 MiB | 92.00 KiB/s   Writing objects:  60% (98/162), 16.86 MiB | 92.00 KiB/s   Writing objects:  61% (99/162), 16.86 MiB | 92.00 KiB/s   Writing objects:  62% (101/162), 16.86 MiB | 92.00 KiB/s   Writing objects:  62% (102/162), 16.98 MiB | 96.00 KiB/s   Writing objects:  63% (103/162), 16.98 MiB | 96.00 KiB/s   Writing objects:  63% (103/162), 17.11 MiB | 163.00 KiB/s   Writing objects:  63% (103/162), 17.23 MiB | 140.00 KiB/s   Writing objects:  64% (104/162), 17.23 MiB | 140.00 KiB/s   Writing objects:  65% (106/162), 17.23 MiB | 140.00 KiB/s   Writing objects:  66% (107/162), 17.23 MiB | 140.00 KiB/s   Writing objects:  67% (109/162), 17.23 MiB | 140.00 KiB/s   Writing objects:  69% (112/162), 17.23 MiB | 140.00 KiB/s   Writing objects:  70% (114/162), 17.23 MiB | 140.00 KiB/s   Writing objects:  71% (116/162), 17.23 MiB | 140.00 KiB/s   Writing objects:  72% (117/162), 17.23 MiB | 140.00 KiB/s   Writing objects:  73% (119/162), 17.23 MiB | 140.00 KiB/s   Writing objects:  74% (120/162), 17.23 MiB | 140.00 KiB/s   Writing objects:  75% (122/162), 17.23 MiB | 140.00 KiB/s   Writing objects:  76% (124/162), 17.23 MiB | 140.00 KiB/s   Writing objects:  77% (125/162), 17.23 MiB | 140.00 KiB/s   Writing objects:  77% (125/162), 17.36 MiB | 128.00 KiB/s   Writing objects:  77% (125/162), 17.42 MiB | 115.00 KiB/s   Writing objects:  78% (127/162), 17.42 MiB | 115.00 KiB/s   Writing objects:  79% (128/162), 17.42 MiB | 115.00 KiB/s   Writing objects:  80% (130/162), 17.42 MiB | 115.00 KiB/s   Writing objects:  81% (132/162), 17.42 MiB | 115.00 KiB/s   Writing objects:  82% (133/162), 17.42 MiB | 115.00 KiB/s   Writing objects:  83% (135/162), 17.42 MiB | 115.00 KiB/s   Writing objects:  84% (137/162), 17.42 MiB | 115.00 KiB/s   Writing objects:  85% (138/162), 17.42 MiB | 115.00 KiB/s   Writing objects:  86% (140/162), 17.42 MiB | 115.00 KiB/s   Writing objects:  87% (141/162), 17.42 MiB | 115.00 KiB/s   Writing objects:  88% (143/162), 17.42 MiB | 115.00 KiB/s   Writing objects:  89% (145/162), 17.42 MiB | 115.00 KiB/s   Writing objects:  90% (146/162), 17.42 MiB | 115.00 KiB/s   Writing objects:  91% (148/162), 17.42 MiB | 115.00 KiB/s   Writing objects:  92% (150/162), 17.42 MiB | 115.00 KiB/s   Writing objects:  93% (151/162), 17.42 MiB | 115.00 KiB/s   Writing objects:  94% (153/162), 17.42 MiB | 115.00 KiB/s   Writing objects:  95% (154/162), 17.42 MiB | 115.00 KiB/s   Writing objects:  96% (156/162), 17.42 MiB | 115.00 KiB/s   Writing objects:  97% (158/162), 17.42 MiB | 115.00 KiB/s   Writing objects:  98% (159/162), 17.42 MiB | 115.00 KiB/s   Writing objects:  99% (161/162), 17.42 MiB | 115.00 KiB/s   Writing objects: 100% (162/162), 17.42 MiB | 115.00 KiB/s   Writing objects: 100% (162/162), 17.48 MiB | 101.00 KiB/s, done.
-Total 162 (delta 73), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/73)   [Kremote: Resolving deltas:   1% (1/73)   [Kremote: Resolving deltas:   2% (2/73)   [Kremote: Resolving deltas:   6% (5/73)   [Kremote: Resolving deltas:  16% (12/73)   [Kremote: Resolving deltas:  17% (13/73)   [Kremote: Resolving deltas:  26% (19/73)   [Kremote: Resolving deltas:  34% (25/73)   [Kremote: Resolving deltas:  35% (26/73)   [Kremote: Resolving deltas:  36% (27/73)   [Kremote: Resolving deltas:  38% (28/73)   [Kremote: Resolving deltas:  39% (29/73)   [Kremote: Resolving deltas:  41% (30/73)   [Kremote: Resolving deltas:  42% (31/73)   [Kremote: Resolving deltas:  43% (32/73)   [Kremote: Resolving deltas:  45% (33/73)   [Kremote: Resolving deltas:  46% (34/73)   [Kremote: Resolving deltas:  47% (35/73)   [Kremote: Resolving deltas:  49% (36/73)   [Kremote: Resolving deltas:  50% (37/73)   [Kremote: Resolving deltas:  57% (42/73)   [Kremote: Resolving deltas:  58% (43/73)   [Kremote: Resolving deltas:  60% (44/73)   [Kremote: Resolving deltas:  61% (45/73)   [Kremote: Resolving deltas:  67% (49/73)   [Kremote: Resolving deltas:  68% (50/73)   [Kremote: Resolving deltas:  69% (51/73)   [Kremote: Resolving deltas:  76% (56/73)   [Kremote: Resolving deltas:  83% (61/73)   [Kremote: Resolving deltas:  86% (63/73)   [Kremote: Resolving deltas:  89% (65/73)   [Kremote: Resolving deltas:  94% (69/73)   [Kremote: Resolving deltas:  97% (71/73)   [Kremote: Resolving deltas:  98% (72/73)   [Kremote: Resolving deltas: 100% (73/73)   [Kremote: Resolving deltas: 100% (73/73), completed with 27 local objects.[K
-To https://github.com/davelorino/STDSSite.git
-   c6dddaf..261b6d5  master -> master
-[K192-168-1-5:STDS Orianna Davide$ git add .
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git commit -m "final STDS 2C"
-[master 7172d9c] final STDS 2C
- 60 files changed, 10472 insertions(+), 312 deletions(-)
- rewrite .Rproj.user/5FC0E2E2/console06/INDEX001 (85%)
- create mode 100644 content/blog/joindf.csv
- create mode 100644 content/blog/joindf_no_outliers.csv
- create mode 100644 public/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-10-1.png
- create mode 100644 public/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-11-1.png
- create mode 100644 public/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-12-1.png
- create mode 100644 public/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-13-1.png
- create mode 100644 public/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-14-1.png
- create mode 100644 public/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-4-1.png
- create mode 100644 public/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-4-2.png
- create mode 100644 public/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-5-1.png
- create mode 100644 public/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-5-2.png
- create mode 100644 public/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-6-1.png
- create mode 100644 public/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-6-2.png
- create mode 100644 public/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-7-1.png
- create mode 100644 public/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-7-2.png
- create mode 100644 public/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-8-1.png
- create mode 100644 public/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-8-2.png
- create mode 100644 public/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-9-1.png
- create mode 100644 public/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-9-2.png
- create mode 100644 public/blog/Slack1.png
- create mode 100644 public/blog/Slack2.png
- create mode 100644 public/blog/joindf.csv
- create mode 100644 public/blog/joindf_no_outliers.csv
- create mode 100644 public/images/blog/2018-08/Slack1.png
- create mode 100644 public/images/blog/2018-08/Slack2.png
- create mode 100644 public/images/blog/2018-08/test15.jpg
- create mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-14-1.png
- delete mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-2-1.png
- delete mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-2-2.png
- create mode 100644 static/images/blog/2018-08/Slack1.png
- create mode 100644 static/images/blog/2018-08/Slack2.png
- create mode 100644 static/images/blog/2018-08/test15.jpg
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git push origin master
-Counting objects: 86, done.
-Delta compression using up to 4 threads.
-Compressing objects:   1% (1/80)   Compressing objects:   2% (2/80)   Compressing objects:   3% (3/80)   Compressing objects:   5% (4/80)   Compressing objects:   6% (5/80)   Compressing objects:   7% (6/80)   Compressing objects:   8% (7/80)   Compressing objects:  10% (8/80)   Compressing objects:  11% (9/80)   Compressing objects:  12% (10/80)   Compressing objects:  13% (11/80)   Compressing objects:  15% (12/80)   Compressing objects:  16% (13/80)   Compressing objects:  17% (14/80)   Compressing objects:  18% (15/80)   Compressing objects:  20% (16/80)   Compressing objects:  21% (17/80)   Compressing objects:  22% (18/80)   Compressing objects:  23% (19/80)   Compressing objects:  25% (20/80)   Compressing objects:  26% (21/80)   Compressing objects:  27% (22/80)   Compressing objects:  28% (23/80)   Compressing objects:  30% (24/80)   Compressing objects:  31% (25/80)   Compressing objects:  32% (26/80)   Compressing objects:  33% (27/80)   Compressing objects:  35% (28/80)   Compressing objects:  36% (29/80)   Compressing objects:  37% (30/80)   Compressing objects:  38% (31/80)   Compressing objects:  40% (32/80)   Compressing objects:  41% (33/80)   Compressing objects:  42% (34/80)   Compressing objects:  43% (35/80)   Compressing objects:  45% (36/80)   Compressing objects:  46% (37/80)   Compressing objects:  47% (38/80)   Compressing objects:  48% (39/80)   Compressing objects:  50% (40/80)   Compressing objects:  51% (41/80)   Compressing objects:  52% (42/80)   Compressing objects:  53% (43/80)   Compressing objects:  55% (44/80)   Compressing objects:  56% (45/80)   Compressing objects:  57% (46/80)   Compressing objects:  58% (47/80)   Compressing objects:  60% (48/80)   Compressing objects:  61% (49/80)   Compressing objects:  62% (50/80)   Compressing objects:  63% (51/80)   Compressing objects:  65% (52/80)   Compressing objects:  66% (53/80)   Compressing objects:  67% (54/80)   Compressing objects:  68% (55/80)   Compressing objects:  70% (56/80)   Compressing objects:  71% (57/80)   Compressing objects:  72% (58/80)   Compressing objects:  73% (59/80)   Compressing objects:  75% (60/80)   Compressing objects:  76% (61/80)   Compressing objects:  77% (62/80)   Compressing objects:  78% (63/80)   Compressing objects:  80% (64/80)   Compressing objects:  81% (65/80)   Compressing objects:  82% (66/80)   Compressing objects:  83% (67/80)   Compressing objects:  85% (68/80)   Compressing objects:  86% (69/80)   Compressing objects:  87% (70/80)   Compressing objects:  88% (71/80)   Compressing objects:  90% (72/80)   Compressing objects:  91% (73/80)   Compressing objects:  92% (74/80)   Compressing objects:  93% (75/80)   Compressing objects:  95% (76/80)   Compressing objects:  96% (77/80)   Compressing objects:  97% (78/80)   Compressing objects:  98% (79/80)   Compressing objects: 100% (80/80)   Compressing objects: 100% (80/80), done.
-Writing objects:   1% (1/86)   Writing objects:   2% (2/86)   Writing objects:   3% (3/86)   Writing objects:   4% (4/86)   Writing objects:   5% (5/86)   Writing objects:   6% (6/86)   Writing objects:   8% (7/86)   Writing objects:   9% (8/86)   Writing objects:  10% (9/86)   Writing objects:  11% (10/86)   Writing objects:  12% (11/86)   Writing objects:  13% (12/86)   Writing objects:  15% (13/86)   Writing objects:  16% (14/86)   Writing objects:  17% (15/86)   Writing objects:  18% (16/86)   Writing objects:  19% (17/86)   Writing objects:  20% (18/86)   Writing objects:  22% (19/86)   Writing objects:  23% (20/86)   Writing objects:  24% (21/86)   Writing objects:  26% (23/86)   Writing objects:  29% (25/86)   Writing objects:  30% (26/86)   Writing objects:  31% (27/86)   Writing objects:  32% (28/86)   Writing objects:  33% (29/86)   Writing objects:  34% (30/86)   Writing objects:  36% (31/86)   Writing objects:  37% (32/86)   Writing objects:  38% (33/86)   Writing objects:  39% (34/86)   Writing objects:  40% (35/86)   Writing objects:  41% (36/86)   Writing objects:  43% (37/86)   Writing objects:  44% (38/86)   Writing objects:  45% (39/86)   Writing objects:  46% (40/86)   Writing objects:  46% (40/86), 1.07 MiB | 227.00 KiB/s   Writing objects:  47% (41/86), 1.07 MiB | 227.00 KiB/s   Writing objects:  48% (42/86), 1.07 MiB | 227.00 KiB/s   Writing objects:  48% (42/86), 1.25 MiB | 238.00 KiB/s   Writing objects:  50% (43/86), 1.25 MiB | 238.00 KiB/s   Writing objects:  51% (44/86), 1.25 MiB | 238.00 KiB/s   Writing objects:  52% (45/86), 1.25 MiB | 238.00 KiB/s   Writing objects:  52% (45/86), 1.44 MiB | 244.00 KiB/s   Writing objects:  53% (46/86), 1.44 MiB | 244.00 KiB/s   Writing objects:  53% (46/86), 1.50 MiB | 218.00 KiB/s   Writing objects:  53% (46/86), 1.50 MiB | 133.00 KiB/s   Writing objects:  54% (47/86), 1.50 MiB | 133.00 KiB/s   Writing objects:  54% (47/86), 1.62 MiB | 138.00 KiB/s   Writing objects:  55% (48/86), 1.69 MiB | 137.00 KiB/s   Writing objects:  56% (49/86), 1.69 MiB | 137.00 KiB/s   Writing objects:  58% (50/86), 1.69 MiB | 137.00 KiB/s   Writing objects:  58% (50/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  59% (51/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  60% (52/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  61% (53/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  62% (54/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  63% (55/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  65% (56/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  66% (57/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  67% (58/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  69% (60/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  70% (61/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  72% (62/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  73% (63/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  74% (64/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  75% (65/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  76% (66/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  77% (67/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  79% (68/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  80% (69/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  81% (70/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  82% (71/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  83% (72/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  84% (73/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  86% (74/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  87% (75/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  88% (76/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  89% (77/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  90% (78/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  91% (79/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  93% (80/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  94% (81/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  95% (82/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  96% (83/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  97% (84/86), 2.00 MiB | 154.00 KiB/s   Writing objects:  98% (85/86), 2.00 MiB | 154.00 KiB/s   Writing objects: 100% (86/86), 2.00 MiB | 154.00 KiB/s   Writing objects: 100% (86/86), 2.08 MiB | 157.00 KiB/s, done.
-Total 86 (delta 37), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/37)   [Kremote: Resolving deltas:   2% (1/37)   [Kremote: Resolving deltas:   5% (2/37)   [Kremote: Resolving deltas:   8% (3/37)   [Kremote: Resolving deltas:  10% (4/37)   [Kremote: Resolving deltas:  13% (5/37)   [Kremote: Resolving deltas:  16% (6/37)   [Kremote: Resolving deltas:  18% (7/37)   [Kremote: Resolving deltas:  21% (8/37)   [Kremote: Resolving deltas:  24% (9/37)   [Kremote: Resolving deltas:  27% (10/37)   [Kremote: Resolving deltas:  29% (11/37)   [Kremote: Resolving deltas:  32% (12/37)   [Kremote: Resolving deltas:  35% (13/37)   [Kremote: Resolving deltas:  37% (14/37)   [Kremote: Resolving deltas:  40% (15/37)   [Kremote: Resolving deltas:  43% (16/37)   [Kremote: Resolving deltas:  45% (17/37)   [Kremote: Resolving deltas:  48% (18/37)   [Kremote: Resolving deltas:  54% (20/37)   [Kremote: Resolving deltas:  67% (25/37)   [Kremote: Resolving deltas:  70% (26/37)   [Kremote: Resolving deltas:  72% (27/37)   [Kremote: Resolving deltas:  78% (29/37)   [Kremote: Resolving deltas:  83% (31/37)   [Kremote: Resolving deltas:  86% (32/37)   [Kremote: Resolving deltas:  89% (33/37)   [Kremote: Resolving deltas:  91% (34/37)   [Kremote: Resolving deltas:  94% (35/37)   [Kremote: Resolving deltas:  97% (36/37)   [Kremote: Resolving deltas: 100% (37/37)   [Kremote: Resolving deltas: 100% (37/37), completed with 28 local objects.[K
-To https://github.com/davelorino/STDSSite.git
-   261b6d5..7172d9c  master -> master
-[K192-168-1-5:STDS Orianna Davide$ git add .
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git commit -m "added google analytics id"
-[master 7d07b99] added google analytics id
- 34 files changed, 71 insertions(+), 67 deletions(-)
- rewrite .Rproj.user/5FC0E2E2/console06/INDEX001 (85%)
- create mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-10-1.png
- create mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-11-1.png
- create mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-12-1.png
- create mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-13-1.png
- create mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-2-1.png
- create mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-2-2.png
- create mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-4-1.png
- create mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-4-2.png
- create mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-5-1.png
- create mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-5-2.png
- create mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-6-1.png
- create mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-6-2.png
- create mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-7-1.png
- create mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-7-2.png
- create mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-8-1.png
- create mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-8-2.png
- create mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-9-1.png
- create mode 100644 static/blog/STDS-Assessment-2C_files/figure-html/unnamed-chunk-9-2.png
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git add .
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git commig[Kt "fixed app sizing"[C[1@ [1@-[1@m[C[1@ 
-[master 337cb0b] fixed app sizing
- 3 files changed, 26 insertions(+), 3 deletions(-)
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git push origin [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit push orifin [K[K[K[Kgin master
-Counting objects: 43, done.
-Delta compression using up to 4 threads.
-Compressing objects:   2% (1/40)   Compressing objects:   5% (2/40)   Compressing objects:   7% (3/40)   Compressing objects:  10% (4/40)   Compressing objects:  12% (5/40)   Compressing objects:  15% (6/40)   Compressing objects:  17% (7/40)   Compressing objects:  20% (8/40)   Compressing objects:  22% (9/40)   Compressing objects:  25% (10/40)   Compressing objects:  27% (11/40)   Compressing objects:  30% (12/40)   Compressing objects:  32% (13/40)   Compressing objects:  35% (14/40)   Compressing objects:  37% (15/40)   Compressing objects:  40% (16/40)   Compressing objects:  42% (17/40)   Compressing objects:  45% (18/40)   Compressing objects:  47% (19/40)   Compressing objects:  50% (20/40)   Compressing objects:  52% (21/40)   Compressing objects:  55% (22/40)   Compressing objects:  57% (23/40)   Compressing objects:  60% (24/40)   Compressing objects:  62% (25/40)   Compressing objects:  65% (26/40)   Compressing objects:  67% (27/40)   Compressing objects:  70% (28/40)   Compressing objects:  72% (29/40)   Compressing objects:  75% (30/40)   Compressing objects:  77% (31/40)   Compressing objects:  80% (32/40)   Compressing objects:  82% (33/40)   Compressing objects:  85% (34/40)   Compressing objects:  87% (35/40)   Compressing objects:  90% (36/40)   Compressing objects:  92% (37/40)   Compressing objects:  95% (38/40)   Compressing objects:  97% (39/40)   Compressing objects: 100% (40/40)   Compressing objects: 100% (40/40), done.
-Writing objects:   2% (1/43)   Writing objects:   4% (2/43)   Writing objects:   6% (3/43)   Writing objects:   9% (4/43)   Writing objects:  11% (5/43)   Writing objects:  13% (6/43)   Writing objects:  16% (7/43)   Writing objects:  18% (8/43)   Writing objects:  20% (9/43)   Writing objects:  23% (10/43)   Writing objects:  25% (11/43)   Writing objects:  27% (12/43)   Writing objects:  30% (13/43)   Writing objects:  32% (14/43)   Writing objects:  34% (15/43)   Writing objects:  37% (16/43)   Writing objects:  39% (17/43)   Writing objects:  41% (18/43)   Writing objects:  44% (19/43)   Writing objects:  46% (20/43)   Writing objects:  48% (21/43)   Writing objects:  51% (22/43)   Writing objects:  53% (23/43)   Writing objects:  55% (24/43)   Writing objects:  58% (25/43)   Writing objects:  60% (26/43)   Writing objects:  62% (27/43)   Writing objects:  65% (28/43)   Writing objects:  67% (29/43)   Writing objects:  69% (30/43)   Writing objects:  72% (31/43)   Writing objects:  74% (32/43)   Writing objects:  76% (33/43)   Writing objects:  79% (34/43)   Writing objects:  81% (35/43)   Writing objects:  83% (36/43)   Writing objects:  86% (37/43)   Writing objects:  88% (38/43)   Writing objects:  90% (39/43)   Writing objects:  93% (40/43)   Writing objects:  95% (41/43)   Writing objects:  97% (42/43)   Writing objects: 100% (43/43)   Writing objects: 100% (43/43), 5.38 KiB | 93.00 KiB/s, done.
-Total 43 (delta 24), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/24)   [Kremote: Resolving deltas:   8% (2/24)   [Kremote: Resolving deltas:  16% (4/24)   [Kremote: Resolving deltas:  25% (6/24)   [Kremote: Resolving deltas:  29% (7/24)   [Kremote: Resolving deltas:  33% (8/24)   [Kremote: Resolving deltas:  37% (9/24)   [Kremote: Resolving deltas:  41% (10/24)   [Kremote: Resolving deltas:  45% (11/24)   [Kremote: Resolving deltas:  50% (12/24)   [Kremote: Resolving deltas:  58% (14/24)   [Kremote: Resolving deltas:  62% (15/24)   [Kremote: Resolving deltas:  66% (16/24)   [Kremote: Resolving deltas:  70% (17/24)   [Kremote: Resolving deltas:  75% (18/24)   [Kremote: Resolving deltas:  79% (19/24)   [Kremote: Resolving deltas:  83% (20/24)   [Kremote: Resolving deltas:  87% (21/24)   [Kremote: Resolving deltas:  91% (22/24)   [Kremote: Resolving deltas:  95% (23/24)   [Kremote: Resolving deltas: 100% (24/24)   [Kremote: Resolving deltas: 100% (24/24), completed with 20 local objects.[K
-To https://github.com/davelorino/STDSSite.git
-   7172d9c..337cb0b  master -> master
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git add .
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git commit "[K-m "work goddamnit"
-[master 3058c60] work goddamnit
- 4 files changed, 19 insertions(+), 6 deletions(-)
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git push origin master
-Counting objects: 14, done.
-Delta compression using up to 4 threads.
-Compressing objects:   7% (1/13)   Compressing objects:  15% (2/13)   Compressing objects:  23% (3/13)   Compressing objects:  30% (4/13)   Compressing objects:  38% (5/13)   Compressing objects:  46% (6/13)   Compressing objects:  53% (7/13)   Compressing objects:  61% (8/13)   Compressing objects:  69% (9/13)   Compressing objects:  76% (10/13)   Compressing objects:  84% (11/13)   Compressing objects:  92% (12/13)   Compressing objects: 100% (13/13)   Compressing objects: 100% (13/13), done.
-Writing objects:   7% (1/14)   Writing objects:  14% (2/14)   Writing objects:  21% (3/14)   Writing objects:  28% (4/14)   Writing objects:  35% (5/14)   Writing objects:  42% (6/14)   Writing objects:  50% (7/14)   Writing objects:  57% (8/14)   Writing objects:  64% (9/14)   Writing objects:  71% (10/14)   Writing objects:  78% (11/14)   Writing objects:  85% (12/14)   Writing objects:  92% (13/14)   Writing objects: 100% (14/14)   Writing objects: 100% (14/14), 2.07 KiB | 211.00 KiB/s, done.
-Total 14 (delta 8), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/8)   [Kremote: Resolving deltas:  12% (1/8)   [Kremote: Resolving deltas:  25% (2/8)   [Kremote: Resolving deltas:  37% (3/8)   [Kremote: Resolving deltas:  50% (4/8)   [Kremote: Resolving deltas:  62% (5/8)   [Kremote: Resolving deltas:  75% (6/8)   [Kremote: Resolving deltas:  87% (7/8)   [Kremote: Resolving deltas: 100% (8/8)   [Kremote: Resolving deltas: 100% (8/8), completed with 8 local objects.[K
-To https://github.com/davelorino/STDSSite.git
-   337cb0b..3058c60  master -> master
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git add .
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git commit -m "add cat"
-[master 19e0c66] add cat
- 37 files changed, 88 insertions(+), 75 deletions(-)
- create mode 100644 public/img/cat-icon.png
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git put[Ksh origin master
-Counting objects: 81, done.
-Delta compression using up to 4 threads.
-Compressing objects:   1% (1/69)   Compressing objects:   2% (2/69)   Compressing objects:   4% (3/69)   Compressing objects:   5% (4/69)   Compressing objects:   7% (5/69)   Compressing objects:   8% (6/69)   Compressing objects:  10% (7/69)   Compressing objects:  11% (8/69)   Compressing objects:  13% (9/69)   Compressing objects:  14% (10/69)   Compressing objects:  15% (11/69)   Compressing objects:  17% (12/69)   Compressing objects:  18% (13/69)   Compressing objects:  20% (14/69)   Compressing objects:  21% (15/69)   Compressing objects:  23% (16/69)   Compressing objects:  24% (17/69)   Compressing objects:  26% (18/69)   Compressing objects:  27% (19/69)   Compressing objects:  28% (20/69)   Compressing objects:  30% (21/69)   Compressing objects:  31% (22/69)   Compressing objects:  33% (23/69)   Compressing objects:  34% (24/69)   Compressing objects:  36% (25/69)   Compressing objects:  37% (26/69)   Compressing objects:  39% (27/69)   Compressing objects:  40% (28/69)   Compressing objects:  42% (29/69)   Compressing objects:  43% (30/69)   Compressing objects:  44% (31/69)   Compressing objects:  46% (32/69)   Compressing objects:  47% (33/69)   Compressing objects:  49% (34/69)   Compressing objects:  50% (35/69)   Compressing objects:  52% (36/69)   Compressing objects:  53% (37/69)   Compressing objects:  55% (38/69)   Compressing objects:  56% (39/69)   Compressing objects:  57% (40/69)   Compressing objects:  59% (41/69)   Compressing objects:  60% (42/69)   Compressing objects:  62% (43/69)   Compressing objects:  63% (44/69)   Compressing objects:  65% (45/69)   Compressing objects:  66% (46/69)   Compressing objects:  68% (47/69)   Compressing objects:  69% (48/69)   Compressing objects:  71% (49/69)   Compressing objects:  72% (50/69)   Compressing objects:  73% (51/69)   Compressing objects:  75% (52/69)   Compressing objects:  76% (53/69)   Compressing objects:  78% (54/69)   Compressing objects:  79% (55/69)   Compressing objects:  81% (56/69)   Compressing objects:  82% (57/69)   Compressing objects:  84% (58/69)   Compressing objects:  85% (59/69)   Compressing objects:  86% (60/69)   Compressing objects:  88% (61/69)   Compressing objects:  89% (62/69)   Compressing objects:  91% (63/69)   Compressing objects:  92% (64/69)   Compressing objects:  94% (65/69)   Compressing objects:  95% (66/69)   Compressing objects:  97% (67/69)   Compressing objects:  98% (68/69)   Compressing objects: 100% (69/69)   Compressing objects: 100% (69/69), done.
-Writing objects:   1% (1/81)   Writing objects:   2% (2/81)   Writing objects:   3% (3/81)   Writing objects:   4% (4/81)   Writing objects:   6% (5/81)   Writing objects:   7% (6/81)   Writing objects:   8% (7/81)   Writing objects:   9% (8/81)   Writing objects:  11% (9/81)   Writing objects:  12% (10/81)   Writing objects:  13% (11/81)   Writing objects:  14% (12/81)   Writing objects:  16% (13/81)   Writing objects:  17% (14/81)   Writing objects:  18% (15/81)   Writing objects:  19% (16/81)   Writing objects:  20% (17/81)   Writing objects:  22% (18/81)   Writing objects:  23% (19/81)   Writing objects:  24% (20/81)   Writing objects:  25% (21/81)   Writing objects:  27% (22/81)   Writing objects:  28% (23/81)   Writing objects:  29% (24/81)   Writing objects:  30% (25/81)   Writing objects:  32% (26/81)   Writing objects:  33% (27/81)   Writing objects:  34% (28/81)   Writing objects:  35% (29/81)   Writing objects:  37% (30/81)   Writing objects:  38% (31/81)   Writing objects:  39% (32/81)   Writing objects:  40% (33/81)   Writing objects:  41% (34/81)   Writing objects:  43% (35/81)   Writing objects:  44% (36/81)   Writing objects:  45% (37/81)   Writing objects:  46% (38/81)   Writing objects:  48% (39/81)   Writing objects:  49% (40/81)   Writing objects:  50% (41/81)   Writing objects:  51% (42/81)   Writing objects:  53% (43/81)   Writing objects:  54% (44/81)   Writing objects:  55% (45/81)   Writing objects:  56% (46/81)   Writing objects:  59% (48/81)   Writing objects:  60% (49/81)   Writing objects:  61% (50/81)   Writing objects:  62% (51/81)   Writing objects:  64% (52/81)   Writing objects:  65% (53/81)   Writing objects:  66% (54/81)   Writing objects:  67% (55/81)   Writing objects:  69% (56/81)   Writing objects:  70% (57/81)   Writing objects:  71% (58/81)   Writing objects:  72% (59/81)   Writing objects:  74% (60/81)   Writing objects:  75% (61/81)   Writing objects:  76% (62/81)   Writing objects:  77% (63/81)   Writing objects:  79% (64/81)   Writing objects:  81% (66/81)   Writing objects:  82% (67/81)   Writing objects:  83% (68/81)   Writing objects:  85% (69/81)   Writing objects:  86% (70/81)   Writing objects:  87% (71/81)   Writing objects:  88% (72/81)   Writing objects:  90% (73/81)   Writing objects:  91% (74/81)   Writing objects:  92% (75/81)   Writing objects:  93% (76/81)   Writing objects:  95% (77/81)   Writing objects:  96% (78/81)   Writing objects:  97% (79/81)   Writing objects:  98% (80/81)   Writing objects: 100% (81/81)   Writing objects: 100% (81/81), 28.72 KiB | 182.00 KiB/s, done.
-Total 81 (delta 43), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/43)   [Kremote: Resolving deltas:   2% (1/43)   [Kremote: Resolving deltas:   4% (2/43)   [Kremote: Resolving deltas:   6% (3/43)   [Kremote: Resolving deltas:   9% (4/43)   [Kremote: Resolving deltas:  11% (5/43)   [Kremote: Resolving deltas:  13% (6/43)   [Kremote: Resolving deltas:  16% (7/43)   [Kremote: Resolving deltas:  18% (8/43)   [Kremote: Resolving deltas:  20% (9/43)   [Kremote: Resolving deltas:  23% (10/43)   [Kremote: Resolving deltas:  25% (11/43)   [Kremote: Resolving deltas:  27% (12/43)   [Kremote: Resolving deltas:  30% (13/43)   [Kremote: Resolving deltas:  32% (14/43)   [Kremote: Resolving deltas:  34% (15/43)   [Kremote: Resolving deltas:  37% (16/43)   [Kremote: Resolving deltas:  39% (17/43)   [Kremote: Resolving deltas:  41% (18/43)   [Kremote: Resolving deltas:  44% (19/43)   [Kremote: Resolving deltas:  48% (21/43)   [Kremote: Resolving deltas:  55% (24/43)   [Kremote: Resolving deltas:  62% (27/43)   [Kremote: Resolving deltas:  72% (31/43)   [Kremote: Resolving deltas:  76% (33/43)   [Kremote: Resolving deltas:  81% (35/43)   [Kremote: Resolving deltas:  83% (36/43)   [Kremote: Resolving deltas:  86% (37/43)   [Kremote: Resolving deltas:  88% (38/43)   [Kremote: Resolving deltas:  90% (39/43)   [Kremote: Resolving deltas:  93% (40/43)   [Kremote: Resolving deltas:  95% (41/43)   [Kremote: Resolving deltas:  97% (42/43)   [Kremote: Resolving deltas: 100% (43/43)   [Kremote: Resolving deltas: 100% (43/43), completed with 33 local objects.[K
-To https://github.com/davelorino/STDSSite.git
-   3058c60..19e0c66  master -> master
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git add .
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git commit -m "added proper analytics tag"
-[master 92268de] added proper analytics tag
- 3 files changed, 17 insertions(+), 3 deletions(-)
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git push origin master
-Counting objects: 10, done.
-Delta compression using up to 4 threads.
-Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
-Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 2.05 KiB | 1.03 MiB/s, done.
-Total 10 (delta 4), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
-To https://github.com/davelorino/STDSSite.git
-   19e0c66..92268de  master -> master
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git add .
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git push origin [K[K[K[K[K[K[K[K[K[K[K[Kcommit -m "fixed the blog and moment sections"
-[master 7db0a17] fixed the blog and moment sections
- 14 files changed, 106 insertions(+), 162 deletions(-)
- rewrite content/blog/_index.md (84%)
- rewrite content/moment/_index.md (94%)
- rewrite content/moment/test.md (92%)
- rewrite public/categories/test/index.xml (64%)
- rewrite public/moment/index.xml (64%)
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git push origin master
-Counting objects: 33, done.
-Delta compression using up to 4 threads.
-Compressing objects:   3% (1/29)   Compressing objects:   6% (2/29)   Compressing objects:  10% (3/29)   Compressing objects:  13% (4/29)   Compressing objects:  17% (5/29)   Compressing objects:  20% (6/29)   Compressing objects:  24% (7/29)   Compressing objects:  27% (8/29)   Compressing objects:  31% (9/29)   Compressing objects:  34% (10/29)   Compressing objects:  37% (11/29)   Compressing objects:  41% (12/29)   Compressing objects:  44% (13/29)   Compressing objects:  48% (14/29)   Compressing objects:  51% (15/29)   Compressing objects:  55% (16/29)   Compressing objects:  58% (17/29)   Compressing objects:  62% (18/29)   Compressing objects:  65% (19/29)   Compressing objects:  68% (20/29)   Compressing objects:  72% (21/29)   Compressing objects:  75% (22/29)   Compressing objects:  79% (23/29)   Compressing objects:  82% (24/29)   Compressing objects:  86% (25/29)   Compressing objects:  89% (26/29)   Compressing objects:  93% (27/29)   Compressing objects:  96% (28/29)   Compressing objects: 100% (29/29)   Compressing objects: 100% (29/29), done.
-Writing objects:   3% (1/33)   Writing objects:   6% (2/33)   Writing objects:   9% (3/33)   Writing objects:  12% (4/33)   Writing objects:  15% (5/33)   Writing objects:  18% (6/33)   Writing objects:  21% (7/33)   Writing objects:  24% (8/33)   Writing objects:  27% (9/33)   Writing objects:  30% (10/33)   Writing objects:  33% (11/33)   Writing objects:  36% (12/33)   Writing objects:  39% (13/33)   Writing objects:  42% (14/33)   Writing objects:  45% (15/33)   Writing objects:  48% (16/33)   Writing objects:  51% (17/33)   Writing objects:  54% (18/33)   Writing objects:  57% (19/33)   Writing objects:  60% (20/33)   Writing objects:  63% (21/33)   Writing objects:  66% (22/33)   Writing objects:  69% (23/33)   Writing objects:  72% (24/33)   Writing objects:  75% (25/33)   Writing objects:  78% (26/33)   Writing objects:  81% (27/33)   Writing objects:  84% (28/33)   Writing objects:  87% (29/33)   Writing objects:  90% (30/33)   Writing objects:  93% (31/33)   Writing objects:  96% (32/33)   Writing objects: 100% (33/33)   Writing objects: 100% (33/33), 4.13 KiB | 82.00 KiB/s, done.
-Total 33 (delta 17), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/17)   [Kremote: Resolving deltas:   5% (1/17)   [Kremote: Resolving deltas:  11% (2/17)   [Kremote: Resolving deltas:  17% (3/17)   [Kremote: Resolving deltas:  23% (4/17)   [Kremote: Resolving deltas:  29% (5/17)   [Kremote: Resolving deltas:  35% (6/17)   [Kremote: Resolving deltas:  41% (7/17)   [Kremote: Resolving deltas:  47% (8/17)   [Kremote: Resolving deltas:  52% (9/17)   [Kremote: Resolving deltas:  58% (10/17)   [Kremote: Resolving deltas:  64% (11/17)   [Kremote: Resolving deltas:  76% (13/17)   [Kremote: Resolving deltas:  82% (14/17)   [Kremote: Resolving deltas:  88% (15/17)   [Kremote: Resolving deltas:  94% (16/17)   [Kremote: Resolving deltas: 100% (17/17)   [Kremote: Resolving deltas: 100% (17/17), completed with 16 local objects.[K
-To https://github.com/davelorino/STDSSite.git
-   92268de..7db0a17  master -> master
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git add .
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git push [K[K[K[K[Kcomi[Kmot [K[K[Kit -m "removing zheng:[K"
-[master b1dd573] removing zheng
- 2 files changed, 19 insertions(+), 1 deletion(-)
- delete mode 100644 public/img/zheng.png
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git push irig[K[K[K[K[K origin master
-Counting objects: 8, done.
-Delta compression using up to 4 threads.
-Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
-Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 1.50 KiB | 765.00 KiB/s, done.
-Total 8 (delta 4), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
-To https://github.com/davelorino/STDSSite.git
-   7db0a17..b1dd573  master -> master
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git add .
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git p[Kcommit -m "fuc [Kk off zheng"
-[master 9269817] fuck off zheng
- 6 files changed, 15 insertions(+)
- create mode 100644 public/img/zheng.png
- rewrite themes/AllinOne/static/img/zheng.png (99%)
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git push origin master
-Counting objects: 17, done.
-Delta compression using up to 4 threads.
-Compressing objects:   6% (1/16)   Compressing objects:  12% (2/16)   Compressing objects:  18% (3/16)   Compressing objects:  25% (4/16)   Compressing objects:  31% (5/16)   Compressing objects:  37% (6/16)   Compressing objects:  43% (7/16)   Compressing objects:  50% (8/16)   Compressing objects:  56% (9/16)   Compressing objects:  62% (10/16)   Compressing objects:  68% (11/16)   Compressing objects:  75% (12/16)   Compressing objects:  81% (13/16)   Compressing objects:  87% (14/16)   Compressing objects:  93% (15/16)   Compressing objects: 100% (16/16)   Compressing objects: 100% (16/16), done.
-Writing objects:   5% (1/17)   Writing objects:  11% (2/17)   Writing objects:  17% (3/17)   Writing objects:  23% (4/17)   Writing objects:  29% (5/17)   Writing objects:  35% (6/17)   Writing objects:  41% (7/17)   Writing objects:  47% (8/17)   Writing objects:  52% (9/17)   Writing objects:  58% (10/17)   Writing objects:  64% (11/17)   Writing objects:  70% (12/17)   Writing objects:  76% (13/17)   Writing objects:  82% (14/17)   Writing objects:  88% (15/17)   Writing objects:  94% (16/17)   Writing objects: 100% (17/17)   Writing objects: 100% (17/17), 1.79 KiB | 45.00 KiB/s, done.
-Total 17 (delta 11), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/11)   [Kremote: Resolving deltas:   9% (1/11)   [Kremote: Resolving deltas:  27% (3/11)   [Kremote: Resolving deltas:  36% (4/11)   [Kremote: Resolving deltas:  45% (5/11)   [Kremote: Resolving deltas:  54% (6/11)   [Kremote: Resolving deltas:  63% (7/11)   [Kremote: Resolving deltas:  72% (8/11)   [Kremote: Resolving deltas:  81% (9/11)   [Kremote: Resolving deltas:  90% (10/11)   [Kremote: Resolving deltas: 100% (11/11)   [Kremote: Resolving deltas: 100% (11/11), completed with 10 local objects.[K
-To https://github.com/davelorino/STDSSite.git
-   b1dd573..9269817  master -> master
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git add .
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git commit -m "trying to fix analyri[K[Ktics tag'[K"
-[master af09263] trying to fix analytics tag
- 3 files changed, 18 insertions(+), 3 deletions(-)
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git push origin maste[Ker
-Counting objects: 10, done.
-Delta compression using up to 4 threads.
-Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
-Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 1.37 KiB | 1.37 MiB/s, done.
-Total 10 (delta 4), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
-To https://github.com/davelorino/STDSSite.git
-   9269817..af09263  master -> master
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git add .
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git commit -m "analytics attempr one million"
-[master 6958e18] analytics attempr one million
- 4 files changed, 23 insertions(+), 10 deletions(-)
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git push origin master
-Counting objects: 12, done.
-Delta compression using up to 4 threads.
-Compressing objects:   9% (1/11)   Compressing objects:  18% (2/11)   Compressing objects:  27% (3/11)   Compressing objects:  36% (4/11)   Compressing objects:  45% (5/11)   Compressing objects:  54% (6/11)   Compressing objects:  63% (7/11)   Compressing objects:  72% (8/11)   Compressing objects:  81% (9/11)   Compressing objects:  90% (10/11)   Compressing objects: 100% (11/11)   Compressing objects: 100% (11/11), done.
-Writing objects:   8% (1/12)   Writing objects:  16% (2/12)   Writing objects:  25% (3/12)   Writing objects:  33% (4/12)   Writing objects:  41% (5/12)   Writing objects:  50% (6/12)   Writing objects:  58% (7/12)   Writing objects:  66% (8/12)   Writing objects:  75% (9/12)   Writing objects:  83% (10/12)   Writing objects:  91% (11/12)   Writing objects: 100% (12/12)   Writing objects: 100% (12/12), 1.13 KiB | 579.00 KiB/s, done.
-Total 12 (delta 6), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/6)   [Kremote: Resolving deltas:  16% (1/6)   [Kremote: Resolving deltas:  33% (2/6)   [Kremote: Resolving deltas:  50% (3/6)   [Kremote: Resolving deltas:  66% (4/6)   [Kremote: Resolving deltas:  83% (5/6)   [Kremote: Resolving deltas: 100% (6/6)   [Kremote: Resolving deltas: 100% (6/6), completed with 6 local objects.[K
-To https://github.com/davelorino/STDSSite.git
-   af09263..6958e18  master -> master
-]0;~/Desktop/STDS Orianna192-168-1-5:STDS Orianna Davide$ git add .
