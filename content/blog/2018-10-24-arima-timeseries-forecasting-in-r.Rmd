@@ -1,7 +1,7 @@
 ---
 title: 'ARIMA Timeseries Forecasting in R '
 author: Davide Lorino
-img: "images/blog/2018-08/forecast-hex-logo.jpg"
+img: "images/blog/2018-08/forecast-hex.jpg"
 date: '2018-10-23'
 slug: arima-timeseries-forecasting-in-r
 categories: []
