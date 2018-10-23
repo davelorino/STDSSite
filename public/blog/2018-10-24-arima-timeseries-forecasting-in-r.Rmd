@@ -119,8 +119,6 @@ hchart1 <- hchart(x.1) %>%
   frameWidget(height = "100%", width = "100%")
 
 frameWidget(hchart1, height = "100%", width = "100%")
-
-htmlwidgets::saveWidget(hchart1, file = "hchart1.html", selfcontained = TRUE)
 ```
 
 ### Weekly Forecast
@@ -133,8 +131,6 @@ x.2 <- forecast(t.arima.2, level = c(95, 80))
 hchart2 <- hchart(x.2)
 
 frameWidget(hchart2, height = "100%", width = "100%")
-
-htmlwidgets::saveWidget(hchart2, file = "hchart2.html", selfcontained = TRUE)
 ```
 
 # Transformations
@@ -147,7 +143,7 @@ A Box-Cox transformation is a popular procedure employed to extract the seasonal
 
 From the daily data, applying an auto.arima function in which the lambda is optimized by a box-cox transformation of the series, the lagged autocorrelations in the bottom-left of the plot are well outside the realm of acceptibility. Click on the 'Weekly Data' tab to see a more plausible ACF plot. It seems that our data does not lend itself to an auto.arima function when it is in a daily frequency.
 
-```{r}
+```{r eval=FALSE}
 fit <- auto.arima(aemo_daily_ts, lambda = BoxCox.lambda(aemo_daily_ts))
 
 checkresiduals(fit)
