@@ -4,7 +4,7 @@
   
   <url>
     <loc>/blog/2018-10/arima-timeseries-forecasting-in-r/</loc>
-    <lastmod>2018-10-24T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -86,20 +86,20 @@
   </url>
   
   <url>
+    <loc>/tags/data-science/</loc>
+    <lastmod>2018-10-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/data-science/</loc>
     <lastmod>2018-10-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/data-science/</loc>
-    <lastmod>2018-10-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/</loc>
-    <lastmod>2018-10-24T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -116,19 +116,13 @@
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2018-10-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/r/</loc>
-    <lastmod>2018-10-24T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/reflection/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2018-10-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -140,13 +134,19 @@
   </url>
   
   <url>
+    <loc>/categories/reflection/</loc>
+    <lastmod>2018-10-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/series/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/stds/</loc>
-    <lastmod>2018-10-24T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -163,13 +163,13 @@
   </url>
   
   <url>
-    <loc>/categories/text-analysis/</loc>
+    <loc>/tags/text-analysis/</loc>
     <lastmod>2018-07-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/text-analysis/</loc>
+    <loc>/categories/text-analysis/</loc>
     <lastmod>2018-07-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

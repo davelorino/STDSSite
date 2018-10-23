@@ -6,7 +6,7 @@
     <description>Recent content in Data Science on Davide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Wed, 24 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>ARIMA Timeseries Forecasting in R </title>
       <link>/blog/2018-10/arima-timeseries-forecasting-in-r/</link>
-      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/blog/2018-10/arima-timeseries-forecasting-in-r/</guid>
       <description>Auto Regressive Integration of Moving Averages This report aims to explain the desired outcome of the ‘Auto Regressive Integration of Moving Averages’ (ARIMA) model in it’s application towards forecasting energy demand in Australia, as well as the assumptions and limitations that are present through the use of an ARIMA model. ARIMA models are a widely used industry standard for timeseries forecasting.
