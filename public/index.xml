@@ -6,10 +6,22 @@
     <description>Recent content on Davide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Sun, 07 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ARIMA Timeseries Forecasting in R </title>
+      <link>/blog/2018-10/arima-timeseries-forecasting-in-r/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018-10/arima-timeseries-forecasting-in-r/</guid>
+      <description>Auto Regressive Integration of Moving Averages This report aims to explain the desired outcome of the ‘Auto Regressive Integration of Moving Averages’ (ARIMA) model in it’s application towards forecasting energy demand in Australia, as well as the assumptions and limitations that are present through the use of an ARIMA model. ARIMA models are a widely used industry standard for timeseries forecasting.
+Definition  A timeseries which needs to be differenced to be made stationary is an “integrated” (I) series. Lags of the stationarized series are called “auto-regressive” (AR) terms. Lags of the forecast errors are called “moving average” (MA) terms.   A Very Short History ARIMA models have risen to prominence in recent times though they are an adaptation of a discrete-time filtering method developed in the 1930s by electrical engineers (Norbert Weiner et al). Since then, statisticians George Box and Gwilym Jenkins developed systematic methods for applying them to business and economic data in the 1970s (ARIMA models are also sometimes referred to as “Box-Jenkins” models).
+ ARIMA Terminology A non-seasonal ARIMA model is summarized by three key terms:
+ p = the number of autoregressive terms d = the number of nonseasonal differences q = the number of moving-average terms  This is called an “ARIMA(p,d,q)” model</description>
+    </item>
     
     <item>
       <title>STDS Assessment 2C</title>

@@ -17,7 +17,7 @@
 
 
 
-<meta property="og:updated_time" content="2018-10-07T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2018-10-24T00:00:00&#43;00:00"/>
 
 
 
@@ -444,6 +444,8 @@
 
   
 
+  
+
 
 
 
@@ -530,6 +532,8 @@
 
   
 
+  
+
 
 
 
@@ -550,10 +554,13 @@
         
         
         
-            <li><a href="/tags/r" role="button"><span>r (3)</span></a></li>
+            <li><a href="/tags/r" role="button"><span>r (4)</span></a></li>
           
         
             <li><a href="/tags/blog" role="button"><span>blog (2)</span></a></li>
+          
+        
+            <li><a href="/tags/stds" role="button"><span>stds (2)</span></a></li>
           
         
             <li><a href="/tags/ggplot2" role="button"><span>ggplot2 (1)</span></a></li>
@@ -563,9 +570,6 @@
           
         
             <li><a href="/tags/reflection" role="button"><span>reflection (1)</span></a></li>
-          
-        
-            <li><a href="/tags/stds" role="button"><span>stds (1)</span></a></li>
           
         
             <li><a href="/tags/tidytext" role="button"><span>tidytext (1)</span></a></li>
@@ -601,6 +605,70 @@
         
           
           <div>
+              
+                  <div class="post-wrapper white-bg post-card">
+  
+  <a href="/blog/2018-10/arima-timeseries-forecasting-in-r/">
+    <div class="post-header text-center">
+      <div class="px-4 post-heading">ARIMA Timeseries Forecasting in R </div>
+      <ul class="post-meta li-x mt-1">
+        
+          <li>Oct 24, 2018</li>
+        
+    
+        
+          <li class="middot"></li>
+          <li>11 minutes read</li>
+        
+      </ul>
+    </div>
+    
+    
+      <div class="view">
+        <img src="/images/blog/2018-08/forecast-hex-logo.jpg" />
+      </div>
+    
+
+    
+      Auto Regressive Integration of Moving Averages This report aims to explain the desired outcome of the ‘Auto Regressive Integration of Moving Averages’ (ARIMA) model in it’s application towards forecasting energy demand in Australia, as well as the assumptions and limitations that are present through the use of an ARIMA model. ARIMA models are a widely used industry standard for timeseries forecasting.
+Definition  A timeseries which needs to be differenced to be made stationary is an “integrated” (I) series. Lags of the stationarized series are called “auto-regressive” (AR) terms. Lags of the forecast errors are called “moving average” (MA) terms.   A Very Short History ARIMA models have risen to prominence in recent times though they are an adaptation of a discrete-time filtering method developed in the 1930s by electrical engineers (Norbert Weiner et al). Since then, statisticians George Box and Gwilym Jenkins developed systematic methods for applying them to business and economic data in the 1970s (ARIMA models are also sometimes referred to as “Box-Jenkins” models).
+ ARIMA Terminology A non-seasonal ARIMA model is summarized by three key terms:
+ p = the number of autoregressive terms d = the number of nonseasonal differences q = the number of moving-average terms  This is called an “ARIMA(p,d,q)” model......
+    
+  </a>
+
+  
+  
+  <div class="post-meta li-x mt-2 div-x">
+    <div>
+      
+      
+    </div>
+   
+    <div>
+      
+        
+<div class="li-x div-x post-meta">
+  <li class="pr-0"><a href="/tags/"><i class="fas fa-tags"></i></a></li>
+  <div class="tags-sm">
+    
+      <li><a href="/tags/r" role="button">R </a></li>
+      
+    
+      <li><a href="/tags/data-science" role="button">Data Science </a></li>
+      
+    
+      <li><a href="/tags/stds" role="button">STDS </a></li>
+      
+    
+  </div>
+</div>
+      
+    </div>
+  </div>
+
+</div>
+
               
                   <div class="post-wrapper white-bg post-card">
   
@@ -838,78 +906,6 @@ library(jsonlite) library(readr) library(dplyr) ## ## Attaching package: &#39;dp
       
     
       <li><a href="/tags/data-science" role="button">Data Science </a></li>
-      
-    
-  </div>
-</div>
-      
-    </div>
-  </div>
-
-</div>
-
-              
-                  <div class="post-wrapper white-bg post-card">
-  
-  <a href="/blog/2018-07/text-analysis-with-tidytext-ggplot2-and-quanteda/">
-    <div class="post-header text-center">
-      <div class="px-4 post-heading">Text Analysis with tidytext, ggplot2 and Quanteda </div>
-      <ul class="post-meta li-x mt-1">
-        
-          <li>Jul 28, 2018</li>
-        
-    
-        
-          <li class="middot"></li>
-          <li>5 minutes read</li>
-        
-      </ul>
-    </div>
-    
-
-    
-      In this short guide we’ll perform text analysis on a corpus of 34 blog posts from one blog and try to determine what the blog is about, let’s see how much we can find out without going through and reading all 34 blog posts.
-Libraries There are a fair few libraries to load for text analysis;
-library(stringr) library(tidyverse) ## ── Attaching packages ───────────────────────────────────────────────────────────────────────────── tidyverse 1.2.1 ── ## ✔ ggplot2 3.0.0 ✔ readr 1.1.1 ## ✔ tibble 1.4.2 ✔ purrr 0.2.5 ## ✔ tidyr 0.8.1 ✔ dplyr 0.7.5 ## ✔ ggplot2 3.0.0 ✔ forcats 0.3.0 ## ── Conflicts ──────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ── ## ✖ dplyr::filter() masks stats::filter() ## ✖ dplyr::lag() masks stats::lag() library(tidytext) library(readr) library(tidyr) library(igraph) ## ## Attaching package: &#39;igraph&#39; ## The following objects are masked from &#39;package:dplyr&#39;: ## ## as_data_frame, groups, union ## The following objects are masked from &#39;package:purrr&#39;: ## ## compose, simplify ## The following object is masked from &#39;package:tidyr&#39;: ## ## crossing ## The following object is masked from &#39;package:tibble&#39;: ## ## as_data_frame ## The following objects are masked from &#39;package:stats&#39;: ## ## decompose, spectrum ## The following object is masked from &#39;package:base&#39;: ## ## union library(ggraph)  Load the corpus This file is available on my github.......
-    
-  </a>
-
-  
-  
-  <div class="post-meta li-x mt-2 div-x">
-    <div>
-      
-        
-          <li><a href="/categories/data-science"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> Data Science </a></li>
-        
-          <li><a href="/categories/text-analysis"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> Text Analysis </a></li>
-        
-          <li><a href="/categories/r"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> R </a></li>
-        
-      
-      
-    </div>
-   
-    <div>
-      
-        
-<div class="li-x div-x post-meta">
-  <li class="pr-0"><a href="/tags/"><i class="fas fa-tags"></i></a></li>
-  <div class="tags-sm">
-    
-      <li><a href="/tags/r" role="button">R </a></li>
-      
-    
-      <li><a href="/tags/text-analysis" role="button">Text Analysis </a></li>
-      
-    
-      <li><a href="/tags/quanteda" role="button">quanteda </a></li>
-      
-    
-      <li><a href="/tags/tidytext" role="button">tidytext </a></li>
-      
-    
-      <li><a href="/tags/ggplot2" role="button">ggplot2 </a></li>
       
     
   </div>

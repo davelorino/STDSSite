@@ -382,6 +382,8 @@
 
   
 
+  
+
 
 
 
@@ -440,6 +442,8 @@
 
   
 
+  
+
 
 
 
@@ -460,10 +464,13 @@
         
         
         
-            <li><a href="/tags/r" role="button"><span>r (3)</span></a></li>
+            <li><a href="/tags/r" role="button"><span>r (4)</span></a></li>
           
         
             <li><a href="/tags/blog" role="button"><span>blog (2)</span></a></li>
+          
+        
+            <li><a href="/tags/stds" role="button"><span>stds (2)</span></a></li>
           
         
             <li><a href="/tags/ggplot2" role="button"><span>ggplot2 (1)</span></a></li>
@@ -473,9 +480,6 @@
           
         
             <li><a href="/tags/reflection" role="button"><span>reflection (1)</span></a></li>
-          
-        
-            <li><a href="/tags/stds" role="button"><span>stds (1)</span></a></li>
           
         
             <li><a href="/tags/tidytext" role="button"><span>tidytext (1)</span></a></li>
@@ -514,7 +518,7 @@
               
                 <div class="px-2 middot"></div>
                 <div>
-                  8 posts
+                  9 posts
                 </div>
               
             </div>
@@ -586,6 +590,70 @@
 </ul>
 
           </div>
+
+          
+              <div class="post-wrapper white-bg post-card">
+  
+  <a href="/blog/2018-10/arima-timeseries-forecasting-in-r/">
+    <div class="post-header text-center">
+      <div class="px-4 post-heading">ARIMA Timeseries Forecasting in R </div>
+      <ul class="post-meta li-x mt-1">
+        
+          <li>Oct 24, 2018</li>
+        
+    
+        
+          <li class="middot"></li>
+          <li>11 minutes read</li>
+        
+      </ul>
+    </div>
+    
+    
+      <div class="view">
+        <img src="/images/blog/2018-08/forecast-hex-logo.jpg" />
+      </div>
+    
+
+    
+      Auto Regressive Integration of Moving Averages This report aims to explain the desired outcome of the ‘Auto Regressive Integration of Moving Averages’ (ARIMA) model in it’s application towards forecasting energy demand in Australia, as well as the assumptions and limitations that are present through the use of an ARIMA model. ARIMA models are a widely used industry standard for timeseries forecasting.
+Definition  A timeseries which needs to be differenced to be made stationary is an “integrated” (I) series. Lags of the stationarized series are called “auto-regressive” (AR) terms. Lags of the forecast errors are called “moving average” (MA) terms.   A Very Short History ARIMA models have risen to prominence in recent times though they are an adaptation of a discrete-time filtering method developed in the 1930s by electrical engineers (Norbert Weiner et al). Since then, statisticians George Box and Gwilym Jenkins developed systematic methods for applying them to business and economic data in the 1970s (ARIMA models are also sometimes referred to as “Box-Jenkins” models).
+ ARIMA Terminology A non-seasonal ARIMA model is summarized by three key terms:
+ p = the number of autoregressive terms d = the number of nonseasonal differences q = the number of moving-average terms  This is called an “ARIMA(p,d,q)” model......
+    
+  </a>
+
+  
+  
+  <div class="post-meta li-x mt-2 div-x">
+    <div>
+      
+      
+    </div>
+   
+    <div>
+      
+        
+<div class="li-x div-x post-meta">
+  <li class="pr-0"><a href="/tags/"><i class="fas fa-tags"></i></a></li>
+  <div class="tags-sm">
+    
+      <li><a href="/tags/r" role="button">R </a></li>
+      
+    
+      <li><a href="/tags/data-science" role="button">Data Science </a></li>
+      
+    
+      <li><a href="/tags/stds" role="button">STDS </a></li>
+      
+    
+  </div>
+</div>
+      
+    </div>
+  </div>
+
+</div>
 
           
               <div class="post-wrapper white-bg post-card">
@@ -715,53 +783,6 @@ collate_aemo_data(path = &#34;~/Downloads/New Folder With Items&#34;, remove_fil
     
   </div>
 </div>
-      
-    </div>
-  </div>
-
-</div>
-
-          
-              <div class="post-wrapper white-bg post-card">
-  
-  <a href="/blog/2018-08/automate-the-browser-with-selenium-and-python/">
-    <div class="post-header text-center">
-      <div class="px-4 post-heading">Automate the Browser with Selenium and Python</div>
-      <ul class="post-meta li-x mt-1">
-        
-          <li>Aug 17, 2018</li>
-        
-    
-        
-          <li class="middot"></li>
-          <li>4 minutes read</li>
-        
-      </ul>
-    </div>
-    
-    
-      <div class="view">
-        <img src="/images/blog/2018-08/test13.png" />
-      </div>
-    
-
-    
-      Q: How do you scrape data off a website that’s rendered in Javascript?  A: The Selenium module in Python. In this post I will go over he can use Selenium in Python to interact with website objects that are rendered in javascript so that we can do things like:
- Hover-over dropdown menus Select sub-menus Fill in text entry fields such as username and password to perform login operations Basically use the .click() and .find_element_by_xpath() functions to do everything  Building a webscraper/crawler to programmatically pull data from the internet is a really commonly sought after skill. Most businesspeople put together reports that are usually some sort of aggregation on multiple csv files that all need to get pooled together and joined in a summarized form.
-Because of the iterative nature of these reports (daily, weekly, monthly, quarterly) the process of requesting and pooling the data together can be extremely tedious, especially if you have lots of data in different places.
-For this, we need the Selenium module in Python. We can pre-generate a script that will fetch our data each and every time we want to run a report - the only thing that we will change in our script between iterations will be the date variables so that we arent just pulling data for the exact same date or range every time (we will want different data otherwise theres no point doing more than one of the same report).......
-    
-  </a>
-
-  
-  
-  <div class="post-meta li-x mt-2 div-x">
-    <div>
-      
-      
-    </div>
-   
-    <div>
       
     </div>
   </div>
