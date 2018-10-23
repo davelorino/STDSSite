@@ -117,5 +117,23 @@ Practical Applications of Text Analysis  Analysing email data (e.g. from a cust
 library(jsonlite) library(readr) library(dplyr) ## ## Attaching package: &amp;#39;dplyr&amp;#39; ## The following objects are masked from &amp;#39;package:stats&amp;#39;: ## ## filter, lag ## The following objects are masked from &amp;#39;package:base&amp;#39;: ## ## intersect, setdiff, setequal, union  Connecting to the API Running the line below will pull the speeches data directly from the API of the Museum of Australian Democracy</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>/blog/1-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/1-01/</guid>
+      <description>widgetframe (function() { // If window.HTMLWidgets is already defined, then use it; otherwise create a // new object. This allows preceding code to set options that affect the // initialization process (though none currently exist). window.HTMLWidgets = window.HTMLWidgets || {}; // See if we&#39;re running in a viewer pane. If not, we&#39;re in a web browser. var viewerMode = window.HTMLWidgets.viewerMode = /\bviewer_pane=1\b/.test(window.location); // See if we&#39;re running in Shiny mode. If not, it&#39;s a static document. // Note that static widgets can appear in both Shiny and static modes, but // obviously, Shiny widgets can only appear in Shiny apps/documents. var shinyMode = window.HTMLWidgets.shinyMode = typeof(window.Shiny) !== &#34;undefined&#34; &amp;&amp; !!window.Shiny.outputBindings; // We can&#39;t count on jQuery being available, so we implement our own // version if necessary. function querySelectorAll(scope, selector) { if (typeof(jQuery) !== &#34;undefined&#34; &amp;&amp; scope instanceof jQuery) { return scope.find(selector); } if (scope.querySelectorAll) { return scope.querySelectorAll(selector); } } function asArray(value) { if (value === null) return []; if ($.isArray(value)) return value; return [value]; } // Implement jQuery&#39;s extend function extend(target /*, ... */) { if (arguments.length == 1) { return target; } for (var i = 1; i &#34;).addClass(errClass); errorSpan.text(err.message); $el.after(errorSpan); } } else if (display === &#34;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/blog/1-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/1-01/</guid>
+      <description>highchart (function() { // If window.HTMLWidgets is already defined, then use it; otherwise create a // new object. This allows preceding code to set options that affect the // initialization process (though none currently exist). window.HTMLWidgets = window.HTMLWidgets || {}; // See if we&#39;re running in a viewer pane. If not, we&#39;re in a web browser. var viewerMode = window.HTMLWidgets.viewerMode = /\bviewer_pane=1\b/.test(window.location); // See if we&#39;re running in Shiny mode. If not, it&#39;s a static document. // Note that static widgets can appear in both Shiny and static modes, but // obviously, Shiny widgets can only appear in Shiny apps/documents. var shinyMode = window.HTMLWidgets.shinyMode = typeof(window.Shiny) !== &#34;undefined&#34; &amp;&amp; !!window.Shiny.outputBindings; // We can&#39;t count on jQuery being available, so we implement our own // version if necessary. function querySelectorAll(scope, selector) { if (typeof(jQuery) !== &#34;undefined&#34; &amp;&amp; scope instanceof jQuery) { return scope.find(selector); } if (scope.querySelectorAll) { return scope.querySelectorAll(selector); } } function asArray(value) { if (value === null) return []; if ($.isArray(value)) return value; return [value]; } // Implement jQuery&#39;s extend function extend(target /*, ... */) { if (arguments.length == 1) { return target; } for (var i = 1; i &#34;).addClass(errClass); errorSpan.text(err.message); $el.after(errorSpan); } } else if (display === &#34;</description>
+    </item>
+    
   </channel>
 </rss>

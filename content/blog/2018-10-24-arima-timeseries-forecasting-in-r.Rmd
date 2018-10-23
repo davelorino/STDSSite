@@ -17,6 +17,7 @@ library(highcharter)
 library(forecast)
 library(tsfeatures)
 library(widgetframe)
+library(htmlwidgets)
 ```
 
 # Auto Regressive Integration of Moving Averages 
@@ -109,26 +110,31 @@ From plotting our timeseries data it is clear that there is a perceptible level 
 
 ### Daily Forecast
 
-```{r echo=FALSE}
+```{r echo=FALSE, message=FALSE, warning=FALSE}
 t.tmp <- ts(aemo_daily_ts, start=1, end = length(aemo_daily_ts))
 t.arima.1 <- auto.arima(t.tmp)
 x.1 <- forecast(t.arima.1, level = c(95, 80))
 
-hchart1 <- hchart(x.1)
+hchart1 <- hchart(x.1) %>%
+  frameWidget(height = "100%", width = "100%")
 
-frameWidget(hchart1)
+frameWidget(hchart1, height = "100%", width = "100%")
+
+htmlwidgets::saveWidget(hchart1, file = "hchart1.html", selfcontained = TRUE)
 ```
 
 ### Weekly Forecast
 
-```{r echo=FALSE}
+```{r echo=FALSE, message=FALSE, warning=FALSE}
 t.tmp2 <- ts(aemo_daily_ts, start=1, end = length(aemo_weekly_ts))
 t.arima.2 <- auto.arima(t.tmp2)
 x.2 <- forecast(t.arima.2, level = c(95, 80))
 
 hchart2 <- hchart(x.2)
 
-frameWidget(hchart2)
+frameWidget(hchart2, height = "100%", width = "100%")
+
+htmlwidgets::saveWidget(hchart2, file = "hchart2.html", selfcontained = TRUE)
 ```
 
 # Transformations

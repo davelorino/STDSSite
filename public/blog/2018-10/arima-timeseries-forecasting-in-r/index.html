@@ -506,11 +506,13 @@ daily_features</code></pre>
 <p>From plotting our timeseries data it is clear that there is a perceptible level of seasonality in the data that we may want to remove in order to derive more accurate forecasts from an ARIMA model.</p>
 <div id="daily-forecast" class="section level3">
 <h3>Daily Forecast</h3>
-<p>preserveb89b6165a5b13444</p>
+<div id="htmlwidget-1" style="width:100%;height:100%;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"url":"/blog/2018-10-24-arima-timeseries-forecasting-in-r_files/figure-html//widgets/widget_unnamed-chunk-7.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="weekly-forecast" class="section level3">
 <h3>Weekly Forecast</h3>
-<p>preserve05611a2c664e2e74</p>
+<div id="htmlwidget-2" style="width:100%;height:100%;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2">{"x":{"url":"/blog/2018-10-24-arima-timeseries-forecasting-in-r_files/figure-html//widgets/widget_unnamed-chunk-8.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </div>
@@ -674,7 +676,8 @@ arima_forecasts &lt;- lapply(aemo_weekly_ts, function(foo) {
 auto_arima_accuracy &lt;- accuracy(arima_forecasts$totaldemandweek, aemo_weekly_ts)
 
 DT::datatable(auto_arima_accuracy)</code></pre>
-<p>preserve841d644eadee7e16</p>
+<div id="htmlwidget-3" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-3">{"x":{"filter":"none","data":[["Training set","Test set"],[-712.361118393416,34952.3775093304],[128882.515030945,98983.5746025704],[90412.4116347383,80851.1345338305],[-0.150369468930537,1.17046704973603],[3.21827310963073,2.79389363115859],[0.775609365677928,0.693587263477342],[0.00201300670209532,-0.161931139692232],[null,0.914353918265204]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>ME<\/th>\n      <th>RMSE<\/th>\n      <th>MAE<\/th>\n      <th>MPE<\/th>\n      <th>MAPE<\/th>\n      <th>MASE<\/th>\n      <th>ACF1<\/th>\n      <th>Theil's U<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5,6,7,8]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="benchmarking" class="section level2">
 <h2>Benchmarking</h2>
@@ -688,7 +691,8 @@ DT::datatable(auto_arima_accuracy)</code></pre>
 })
 
 snaive_accuracy_10_weeks &lt;- accuracy(snaive_forecasts10$totaldemandweek, aemo_weekly_ts)</code></pre>
-<p>preserve79b2d06003d0bce3</p>
+<div id="htmlwidget-4" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-4">{"x":{"filter":"none","data":[["Training set","Test set"],[-110.687725510035,235124.9535],[146031.281235108,254330.398234702],[101067.562680408,235124.9535],[-0.140416408573639,7.9811484798287],[3.62774377264189,7.9811484798287],[0.868259228083434,2.01993008651664],[-0.404704450193805,0.244372253065194],[null,2.30991845159652]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>ME<\/th>\n      <th>RMSE<\/th>\n      <th>MAE<\/th>\n      <th>MPE<\/th>\n      <th>MAPE<\/th>\n      <th>MASE<\/th>\n      <th>ACF1<\/th>\n      <th>Theil's U<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5,6,7,8]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 <p>The above model delivers hands-down the worst performance of all</p>
 <p>And eight weeks hold out…</p>
 <pre class="r"><code>snaive_forecasts_8_weeks &lt;- lapply(aemo_weekly_ts, function(foo) {
@@ -697,7 +701,8 @@ snaive_accuracy_10_weeks &lt;- accuracy(snaive_forecasts10$totaldemandweek, aemo
 })
 
 snaive_accuracy_8_weeks &lt;- accuracy(snaive_forecasts_8_weeks$totaldemandweek, aemo_weekly_ts)</code></pre>
-<p>preservedcc5aec06e8b7d3d</p>
+<div id="htmlwidget-5" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-5">{"x":{"filter":"none","data":[["Training set","Test set"],[55.9749806380965,84028.5631250002],[145952.661041065,128594.573021376],[101038.333323815,99550.3118750001],[-0.134231687063552,2.76049016758683],[3.62663292748941,3.31646223954916],[0.868572966366119,0.855781235136039],[-0.404317015695823,0.0570765440643713],[null,1.06716387261511]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>ME<\/th>\n      <th>RMSE<\/th>\n      <th>MAE<\/th>\n      <th>MPE<\/th>\n      <th>MAPE<\/th>\n      <th>MASE<\/th>\n      <th>ACF1<\/th>\n      <th>Theil's U<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5,6,7,8]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 <p>Four week holdout…</p>
 <pre class="r"><code>tbats_forecasts_4_weeks &lt;- lapply(aemo_weekly_ts, function(foo) {
   subseries &lt;- ts(head(foo, length(foo)-4), start = start(foo), frequency = frequency(foo))
@@ -705,7 +710,8 @@ snaive_accuracy_8_weeks &lt;- accuracy(snaive_forecasts_8_weeks$totaldemandweek,
 })
 
 tbats_accuracy_4_weeks &lt;- accuracy(tbats_forecasts_4_weeks$totaldemandweek, aemo_weekly_ts)</code></pre>
-<p>preserveccfbd9a31431580f</p>
+<div id="htmlwidget-6" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-6">{"x":{"filter":"none","data":[["Training set","Test set"],[3246.52227741711,-13766.268891193],[112369.86530612,80250.403755672],[81245.62936639,75621.6667727346],[-0.0301915079076944,-0.558661177858925],[2.90996510435658,2.62327545674024],[0.699626747704864,0.651197377543068],[0.000159410664197718,0.302966445626307],[null,1.01926614813719]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>ME<\/th>\n      <th>RMSE<\/th>\n      <th>MAE<\/th>\n      <th>MPE<\/th>\n      <th>MAPE<\/th>\n      <th>MASE<\/th>\n      <th>ACF1<\/th>\n      <th>Theil's U<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5,6,7,8]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 <p>And lastly the two week holdout…</p>
 <pre class="r"><code>tbats_forecasts_2_weeks &lt;- lapply(aemo_weekly_ts, function(foo) {
   subseries &lt;- ts(head(foo, length(foo)-2), start = start(foo), frequency = frequency(foo))
@@ -713,7 +719,8 @@ tbats_accuracy_4_weeks &lt;- accuracy(tbats_forecasts_4_weeks$totaldemandweek, a
 })
 
 tbats_accuracy_2_weeks &lt;- accuracy(tbats_forecasts_2_weeks$totaldemandweek, aemo_weekly_ts)</code></pre>
-<p>preserve4aab4572d8a322ea</p>
+<div id="htmlwidget-7" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-7">{"x":{"filter":"none","data":[["Training set","Test set"],[3324.95395263271,-109195.605678708],[112292.629461382,112325.122692901],[81183.9592328419,109195.605678708],[-0.0273438862313657,-3.88411171029028],[2.90751865037945,3.88411171029028],[0.70046572222824,0.942153838254101],[-0.000458606744175731,-0.5],[null,2.19277355703669]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>ME<\/th>\n      <th>RMSE<\/th>\n      <th>MAE<\/th>\n      <th>MPE<\/th>\n      <th>MAPE<\/th>\n      <th>MASE<\/th>\n      <th>ACF1<\/th>\n      <th>Theil's U<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5,6,7,8]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 <pre class="r"><code>aemo_weekly_auto_arima &lt;- auto.arima(aemo_weekly_ts)
 
 aemo_daily_auto_arima &lt;- auto.arima(aemo_daily_ts)
