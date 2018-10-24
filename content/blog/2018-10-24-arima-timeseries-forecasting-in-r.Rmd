@@ -190,7 +190,7 @@ Here we are looking at the strength of one automatically selected model that has
 weekly_arima_diff <- auto.arima(aemo_weekly_ts, d=1)
 
 accuracy_diff_arima_table <- DT::datatable(accuracy(weekly_arima_diff)) %>%
-  frameWidget(height = "100%", width = "100%")
+  frameWidget(height = "100%", width = 2400)
   
 accuracy_diff_arima_table
 ```
@@ -288,7 +288,7 @@ arima_forecasts <- lapply(aemo_weekly_ts, function(foo) {
 auto_arima_accuracy <- accuracy(arima_forecasts$totaldemandweek, aemo_weekly_ts)
 
 auto_arima_accuracy_table <- DT::datatable(auto_arima_accuracy) %>% 
- frameWidget(height = "100%", width = "100%")
+ frameWidget(height = "100%", width = 2400)
 
 auto_arima_accuracy_table
 ```
@@ -311,8 +311,7 @@ snaive_accuracy_10_weeks <- accuracy(snaive_forecasts10$totaldemandweek, aemo_we
 ```
 
 ```{r echo=FALSE}
-DT::datatable(snaive_accuracy_10_weeks) %>% frameWidget(height = "100%", width = "100%")
-
+DT::datatable(snaive_accuracy_10_weeks) %>% frameWidget(height = "100%", width = 2400)
 ```
 
 The above model delivers hands-down the worst performance of all 
@@ -329,7 +328,7 @@ snaive_accuracy_8_weeks <- accuracy(snaive_forecasts_8_weeks$totaldemandweek, ae
 ```
 
 ```{r echo=FALSE}
-DT::datatable(snaive_accuracy_8_weeks) %>% frameWidget(height = "100%", width = "100%")
+DT::datatable(snaive_accuracy_8_weeks) %>% frameWidget(height = "100%", width = 2400)
 ```
 
 Four week holdout...
@@ -344,7 +343,7 @@ tbats_accuracy_4_weeks <- accuracy(tbats_forecasts_4_weeks$totaldemandweek, aemo
 ```
 
 ```{r echo=FALSE}
-DT::datatable(tbats_accuracy_4_weeks) %>% frameWidget(height = "100%", width = "100%")
+DT::datatable(tbats_accuracy_4_weeks) %>% frameWidget(height = "100%", width = 2400)
 ```
 
 And lastly the two week holdout...
@@ -359,7 +358,7 @@ tbats_accuracy_2_weeks <- accuracy(tbats_forecasts_2_weeks$totaldemandweek, aemo
 ```
 
 ```{r echo=FALSE}
-DT::datatable(tbats_accuracy_2_weeks) %>% frameWidget(height = "100%", width = "100%")
+DT::datatable(tbats_accuracy_2_weeks) %>% frameWidget(height = "100%", width = 2400)
 ```
 
 ```{r eval = FALSE}
@@ -367,7 +366,7 @@ aemo_weekly_auto_arima <- auto.arima(aemo_weekly_ts)
 
 aemo_daily_auto_arima <- auto.arima(aemo_daily_ts)
 
-DT::datatable(accuracy(aemo_weekly_auto_arima)) %>% frameWidget(height = "100%", width = "100%")
+DT::datatable(accuracy(aemo_weekly_auto_arima)) %>% frameWidget(height = "100%", width = 2400)
 ```
 
 # Conclusions

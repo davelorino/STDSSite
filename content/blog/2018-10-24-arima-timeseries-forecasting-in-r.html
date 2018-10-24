@@ -182,10 +182,10 @@ aemo_weekly_ts %&gt;% ur.kpss() %&gt;% summary()</code></pre>
 <pre class="r"><code>weekly_arima_diff &lt;- auto.arima(aemo_weekly_ts, d=1)
 
 accuracy_diff_arima_table &lt;- DT::datatable(accuracy(weekly_arima_diff)) %&gt;%
-  frameWidget(height = &quot;100%&quot;, width = &quot;100%&quot;)
+  frameWidget(height = &quot;100%&quot;, width = 2400)
   
 accuracy_diff_arima_table</code></pre>
-<div id="htmlwidget-5" style="width:100%;height:100%;" class="widgetframe html-widget"></div>
+<div id="htmlwidget-5" style="width:2400px;height:100%;" class="widgetframe html-widget"></div>
 <script type="application/json" data-for="htmlwidget-5">{"x":{"url":"/blog/2018-10-24-arima-timeseries-forecasting-in-r_files/figure-html//widgets/widget_unnamed-chunk-13.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="acf-1" class="section level2">
@@ -268,10 +268,10 @@ arima_forecasts &lt;- lapply(aemo_weekly_ts, function(foo) {
 auto_arima_accuracy &lt;- accuracy(arima_forecasts$totaldemandweek, aemo_weekly_ts)
 
 auto_arima_accuracy_table &lt;- DT::datatable(auto_arima_accuracy) %&gt;% 
- frameWidget(height = &quot;100%&quot;, width = &quot;100%&quot;)
+ frameWidget(height = &quot;100%&quot;, width = 2400)
 
 auto_arima_accuracy_table</code></pre>
-<div id="htmlwidget-6" style="width:100%;height:100%;" class="widgetframe html-widget"></div>
+<div id="htmlwidget-6" style="width:2400px;height:100%;" class="widgetframe html-widget"></div>
 <script type="application/json" data-for="htmlwidget-6">{"x":{"url":"/blog/2018-10-24-arima-timeseries-forecasting-in-r_files/figure-html//widgets/widget_unnamed-chunk-19.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="benchmarking" class="section level2">
@@ -286,7 +286,7 @@ auto_arima_accuracy_table</code></pre>
 })
 
 snaive_accuracy_10_weeks &lt;- accuracy(snaive_forecasts10$totaldemandweek, aemo_weekly_ts)</code></pre>
-<div id="htmlwidget-7" style="width:100%;height:100%;" class="widgetframe html-widget"></div>
+<div id="htmlwidget-7" style="width:2400px;height:100%;" class="widgetframe html-widget"></div>
 <script type="application/json" data-for="htmlwidget-7">{"x":{"url":"/blog/2018-10-24-arima-timeseries-forecasting-in-r_files/figure-html//widgets/widget_unnamed-chunk-21.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 <p>The above model delivers hands-down the worst performance of all</p>
 <p>And eight weeks hold out…</p>
@@ -296,7 +296,7 @@ snaive_accuracy_10_weeks &lt;- accuracy(snaive_forecasts10$totaldemandweek, aemo
 })
 
 snaive_accuracy_8_weeks &lt;- accuracy(snaive_forecasts_8_weeks$totaldemandweek, aemo_weekly_ts)</code></pre>
-<div id="htmlwidget-8" style="width:100%;height:100%;" class="widgetframe html-widget"></div>
+<div id="htmlwidget-8" style="width:2400px;height:100%;" class="widgetframe html-widget"></div>
 <script type="application/json" data-for="htmlwidget-8">{"x":{"url":"/blog/2018-10-24-arima-timeseries-forecasting-in-r_files/figure-html//widgets/widget_unnamed-chunk-23.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 <p>Four week holdout…</p>
 <pre class="r"><code>tbats_forecasts_4_weeks &lt;- lapply(aemo_weekly_ts, function(foo) {
@@ -305,7 +305,7 @@ snaive_accuracy_8_weeks &lt;- accuracy(snaive_forecasts_8_weeks$totaldemandweek,
 })
 
 tbats_accuracy_4_weeks &lt;- accuracy(tbats_forecasts_4_weeks$totaldemandweek, aemo_weekly_ts)</code></pre>
-<div id="htmlwidget-9" style="width:100%;height:100%;" class="widgetframe html-widget"></div>
+<div id="htmlwidget-9" style="width:2400px;height:100%;" class="widgetframe html-widget"></div>
 <script type="application/json" data-for="htmlwidget-9">{"x":{"url":"/blog/2018-10-24-arima-timeseries-forecasting-in-r_files/figure-html//widgets/widget_unnamed-chunk-25.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 <p>And lastly the two week holdout…</p>
 <pre class="r"><code>tbats_forecasts_2_weeks &lt;- lapply(aemo_weekly_ts, function(foo) {
@@ -314,13 +314,13 @@ tbats_accuracy_4_weeks &lt;- accuracy(tbats_forecasts_4_weeks$totaldemandweek, a
 })
 
 tbats_accuracy_2_weeks &lt;- accuracy(tbats_forecasts_2_weeks$totaldemandweek, aemo_weekly_ts)</code></pre>
-<div id="htmlwidget-10" style="width:100%;height:100%;" class="widgetframe html-widget"></div>
+<div id="htmlwidget-10" style="width:2400px;height:100%;" class="widgetframe html-widget"></div>
 <script type="application/json" data-for="htmlwidget-10">{"x":{"url":"/blog/2018-10-24-arima-timeseries-forecasting-in-r_files/figure-html//widgets/widget_unnamed-chunk-27.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 <pre class="r"><code>aemo_weekly_auto_arima &lt;- auto.arima(aemo_weekly_ts)
 
 aemo_daily_auto_arima &lt;- auto.arima(aemo_daily_ts)
 
-DT::datatable(accuracy(aemo_weekly_auto_arima)) %&gt;% frameWidget(height = &quot;100%&quot;, width = &quot;100%&quot;)</code></pre>
+DT::datatable(accuracy(aemo_weekly_auto_arima)) %&gt;% frameWidget(height = &quot;100%&quot;, width = 2400)</code></pre>
 </div>
 </div>
 </div>
