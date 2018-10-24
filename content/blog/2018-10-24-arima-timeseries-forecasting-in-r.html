@@ -1,31 +1,24 @@
 ---
 title: 'ARIMA Timeseries Forecasting in R '
-author: Davide Lorino
-img: "images/blog/2018-08/forecast-hex.jpg"
+author: "Davide Lorino"
 date: '2018-10-23'
+img: images/blog/2018-08/forecast-hex.jpg
 slug: arima-timeseries-forecasting-in-r
-categories: []
 tags:
-  - R
-  - Data Science
-  - STDS
+- R
+- Data Science
+- STDS
+categories: []
 ---
 
 <script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
 <script src="/rmarkdown-libs/pymjs/pym.v1.js"></script>
 <script src="/rmarkdown-libs/widgetframe-binding/widgetframe.js"></script>
-<script src="/rmarkdown-libs/jquery/jquery.min.js"></script>
-<link href="/rmarkdown-libs/datatables-css/datatables-crosstalk.css" rel="stylesheet" />
-<script src="/rmarkdown-libs/datatables-binding/datatables.js"></script>
-<link href="/rmarkdown-libs/dt-core/css/jquery.dataTables.min.css" rel="stylesheet" />
-<link href="/rmarkdown-libs/dt-core/css/jquery.dataTables.extra.css" rel="stylesheet" />
-<script src="/rmarkdown-libs/dt-core/js/jquery.dataTables.min.js"></script>
-<link href="/rmarkdown-libs/crosstalk/css/crosstalk.css" rel="stylesheet" />
-<script src="/rmarkdown-libs/crosstalk/js/crosstalk.min.js"></script>
 
 
-<div id="auto-regressive-integration-of-moving-averages" class="section level1">
-<h1>Auto Regressive Integration of Moving Averages</h1>
+<center>
+<b> Auto Regressive Integration of Moving Averages </b>
+</center>
 <p>This report aims to explain the desired outcome of the ‘Auto Regressive Integration of Moving Averages’ (ARIMA) model in it’s application towards forecasting energy demand in Australia, as well as the assumptions and limitations that are present through the use of an ARIMA model. ARIMA models are a widely used industry standard for timeseries forecasting.</p>
 <div id="definition" class="section level2">
 <h2>Definition</h2>
@@ -60,7 +53,6 @@ tags:
 <p>As Hyndman and Athanasopoulos observe, “…obvious seasonality rules out series (d), (h) and (i), while trends and changing levels rule out series (a), (c), (e), (f) and (i). Increasing variance also rules out (i). That leaves only (b) and (g) as stationary series.”</p>
 <p>With this principle, we can observe our daily and weekly timeseries data to determine the level of stationarity.</p>
 </div>
-</div>
 <div id="eda" class="section level1">
 <h1>EDA</h1>
 <p>Features are a set of summary components of timeseries datasets that describe their overall trend, seasonality, spike and entropy. Here we observe the summary features with the <code>tsfeatures</code> package on our daily and weekly observations.</p>
@@ -70,29 +62,23 @@ tags:
 <h3>Daily Data</h3>
 <pre class="r"><code>daily_features &lt;- tsfeatures(aemo_daily_ts)
 
-daily_features</code></pre>
-<pre><code>## # A tibble: 1 x 20
-##   frequency nperiods seasonal_period trend       spike linearity curvature
-##       &lt;dbl&gt;    &lt;dbl&gt;           &lt;dbl&gt; &lt;dbl&gt;       &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;
-## 1       365        1             365 0.328     7.36e-9    -0.622     -33.6
-## # ... with 13 more variables: e_acf1 &lt;dbl&gt;, e_acf10 &lt;dbl&gt;,
-## #   seasonal_strength &lt;dbl&gt;, peak &lt;dbl&gt;, trough &lt;dbl&gt;, entropy &lt;dbl&gt;,
-## #   x_acf1 &lt;dbl&gt;, x_acf10 &lt;dbl&gt;, diff1_acf1 &lt;dbl&gt;, diff1_acf10 &lt;dbl&gt;,
-## #   diff2_acf1 &lt;dbl&gt;, diff2_acf10 &lt;dbl&gt;, seas_acf1 &lt;dbl&gt;</code></pre>
+daily_features_tables &lt;- DT::datatable(daily_features) %&gt;%
+  frameWidget(height = &quot;100%&quot;, width = &quot;100%&quot;)
+
+daily_features_tables</code></pre>
+<div id="htmlwidget-1" style="width:100%;height:100%;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"url":"/blog/2018-10-24-arima-timeseries-forecasting-in-r_files/figure-html//widgets/widget_unnamed-chunk-3.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="weekly-data" class="section level3">
 <h3>Weekly Data</h3>
-<pre class="r"><code>daily_features &lt;- tsfeatures(aemo_daily_ts)
+<pre class="r"><code>weekly_features &lt;- tsfeatures(aemo_weekly_ts)
 
-daily_features</code></pre>
-<pre><code>## # A tibble: 1 x 20
-##   frequency nperiods seasonal_period trend       spike linearity curvature
-##       &lt;dbl&gt;    &lt;dbl&gt;           &lt;dbl&gt; &lt;dbl&gt;       &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;
-## 1       365        1             365 0.328     7.36e-9    -0.622     -33.6
-## # ... with 13 more variables: e_acf1 &lt;dbl&gt;, e_acf10 &lt;dbl&gt;,
-## #   seasonal_strength &lt;dbl&gt;, peak &lt;dbl&gt;, trough &lt;dbl&gt;, entropy &lt;dbl&gt;,
-## #   x_acf1 &lt;dbl&gt;, x_acf10 &lt;dbl&gt;, diff1_acf1 &lt;dbl&gt;, diff1_acf10 &lt;dbl&gt;,
-## #   diff2_acf1 &lt;dbl&gt;, diff2_acf10 &lt;dbl&gt;, seas_acf1 &lt;dbl&gt;</code></pre>
+weekly_features_tables &lt;- DT::datatable(weekly_features) %&gt;%
+  frameWidget(height = &quot;100%&quot;, width = &quot;100%&quot;)
+  
+weekly_features_tables</code></pre>
+<div id="htmlwidget-2" style="width:100%;height:100%;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2">{"x":{"url":"/blog/2018-10-24-arima-timeseries-forecasting-in-r_files/figure-html//widgets/widget_unnamed-chunk-4.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <div id="acf" class="section level2">
@@ -111,13 +97,13 @@ daily_features</code></pre>
 <p>From plotting our timeseries data it is clear that there is a perceptible level of seasonality in the data that we may want to remove in order to derive more accurate forecasts from an ARIMA model.</p>
 <div id="daily-forecast" class="section level3">
 <h3>Daily Forecast</h3>
-<div id="htmlwidget-1" style="width:100%;height:100%;" class="widgetframe html-widget"></div>
-<script type="application/json" data-for="htmlwidget-1">{"x":{"url":"/blog/2018-10-24-arima-timeseries-forecasting-in-r_files/figure-html//widgets/widget_unnamed-chunk-7.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-3" style="width:100%;height:100%;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-3">{"x":{"url":"/blog/2018-10-24-arima-timeseries-forecasting-in-r_files/figure-html//widgets/widget_unnamed-chunk-7.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="weekly-forecast" class="section level3">
 <h3>Weekly Forecast</h3>
-<div id="htmlwidget-2" style="width:100%;height:100%;" class="widgetframe html-widget"></div>
-<script type="application/json" data-for="htmlwidget-2">{"x":{"url":"/blog/2018-10-24-arima-timeseries-forecasting-in-r_files/figure-html//widgets/widget_unnamed-chunk-8.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-4" style="width:100%;height:100%;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-4">{"x":{"url":"/blog/2018-10-24-arima-timeseries-forecasting-in-r_files/figure-html//widgets/widget_unnamed-chunk-8.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </div>
@@ -132,6 +118,14 @@ daily_features</code></pre>
 <pre class="r"><code>fit &lt;- auto.arima(aemo_daily_ts, lambda = BoxCox.lambda(aemo_daily_ts))
 
 checkresiduals(fit)</code></pre>
+<p><img src="/blog/2018-10-24-arima-timeseries-forecasting-in-r_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+<pre><code>## 
+##  Ljung-Box test
+## 
+## data:  Residuals from ARIMA(3,1,3)
+## Q* = 67251, df = 724, p-value &lt; 2.2e-16
+## 
+## Model df: 6.   Total lags used: 730</code></pre>
 </div>
 <div id="weekly-data-1" class="section level3">
 <h3>Weekly Data</h3>
@@ -187,11 +181,12 @@ aemo_weekly_ts %&gt;% ur.kpss() %&gt;% summary()</code></pre>
 <p>Here we are looking at the strength of one automatically selected model that has been differenced for seasonality; typically industry-standard forecasting would implement an ensemble of forecasts that are enhanced by machine learning algorithms such as extreme gradient boosting. One such example was the feature-based + xgBoost model used by Talaga &amp; Hyndman to take second place at the M4 forecasting competition.</p>
 <pre class="r"><code>weekly_arima_diff &lt;- auto.arima(aemo_weekly_ts, d=1)
 
-accuracy(weekly_arima_diff)</code></pre>
-<pre><code>##                     ME     RMSE      MAE        MPE     MAPE      MASE
-## Training set -253.8939 122985.8 86991.06 -0.1367928 3.095789 0.7516299
-##                     ACF1
-## Training set 0.004386754</code></pre>
+accuracy_diff_arima_table &lt;- DT::datatable(accuracy(weekly_arima_diff)) %&gt;%
+  frameWidget(height = &quot;100%&quot;, width = &quot;100%&quot;)
+  
+accuracy_diff_arima_table</code></pre>
+<div id="htmlwidget-5" style="width:100%;height:100%;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-5">{"x":{"url":"/blog/2018-10-24-arima-timeseries-forecasting-in-r_files/figure-html//widgets/widget_unnamed-chunk-13.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="acf-1" class="section level2">
 <h2>ACF</h2>
@@ -272,9 +267,12 @@ arima_forecasts &lt;- lapply(aemo_weekly_ts, function(foo) {
 
 auto_arima_accuracy &lt;- accuracy(arima_forecasts$totaldemandweek, aemo_weekly_ts)
 
-DT::datatable(auto_arima_accuracy)</code></pre>
-<div id="htmlwidget-3" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-3">{"x":{"filter":"none","data":[["Training set","Test set"],[-712.361118393416,34952.3775093304],[128882.515030945,98983.5746025704],[90412.4116347383,80851.1345338305],[-0.150369468930537,1.17046704973603],[3.21827310963073,2.79389363115859],[0.775609365677928,0.693587263477342],[0.00201300670209532,-0.161931139692232],[null,0.914353918265204]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>ME<\/th>\n      <th>RMSE<\/th>\n      <th>MAE<\/th>\n      <th>MPE<\/th>\n      <th>MAPE<\/th>\n      <th>MASE<\/th>\n      <th>ACF1<\/th>\n      <th>Theil's U<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5,6,7,8]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+auto_arima_accuracy_table &lt;- DT::datatable(auto_arima_accuracy) %&gt;% 
+ frameWidget(height = &quot;100%&quot;, width = &quot;100%&quot;)
+
+auto_arima_accuracy_table</code></pre>
+<div id="htmlwidget-6" style="width:100%;height:100%;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-6">{"x":{"url":"/blog/2018-10-24-arima-timeseries-forecasting-in-r_files/figure-html//widgets/widget_unnamed-chunk-19.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="benchmarking" class="section level2">
 <h2>Benchmarking</h2>
@@ -288,8 +286,8 @@ DT::datatable(auto_arima_accuracy)</code></pre>
 })
 
 snaive_accuracy_10_weeks &lt;- accuracy(snaive_forecasts10$totaldemandweek, aemo_weekly_ts)</code></pre>
-<div id="htmlwidget-4" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-4">{"x":{"filter":"none","data":[["Training set","Test set"],[-110.687725510035,235124.9535],[146031.281235108,254330.398234702],[101067.562680408,235124.9535],[-0.140416408573639,7.9811484798287],[3.62774377264189,7.9811484798287],[0.868259228083434,2.01993008651664],[-0.404704450193805,0.244372253065194],[null,2.30991845159652]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>ME<\/th>\n      <th>RMSE<\/th>\n      <th>MAE<\/th>\n      <th>MPE<\/th>\n      <th>MAPE<\/th>\n      <th>MASE<\/th>\n      <th>ACF1<\/th>\n      <th>Theil's U<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5,6,7,8]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-7" style="width:100%;height:100%;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-7">{"x":{"url":"/blog/2018-10-24-arima-timeseries-forecasting-in-r_files/figure-html//widgets/widget_unnamed-chunk-21.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 <p>The above model delivers hands-down the worst performance of all</p>
 <p>And eight weeks hold out…</p>
 <pre class="r"><code>snaive_forecasts_8_weeks &lt;- lapply(aemo_weekly_ts, function(foo) {
@@ -298,8 +296,8 @@ snaive_accuracy_10_weeks &lt;- accuracy(snaive_forecasts10$totaldemandweek, aemo
 })
 
 snaive_accuracy_8_weeks &lt;- accuracy(snaive_forecasts_8_weeks$totaldemandweek, aemo_weekly_ts)</code></pre>
-<div id="htmlwidget-5" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-5">{"x":{"filter":"none","data":[["Training set","Test set"],[55.9749806380965,84028.5631250002],[145952.661041065,128594.573021376],[101038.333323815,99550.3118750001],[-0.134231687063552,2.76049016758683],[3.62663292748941,3.31646223954916],[0.868572966366119,0.855781235136039],[-0.404317015695823,0.0570765440643713],[null,1.06716387261511]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>ME<\/th>\n      <th>RMSE<\/th>\n      <th>MAE<\/th>\n      <th>MPE<\/th>\n      <th>MAPE<\/th>\n      <th>MASE<\/th>\n      <th>ACF1<\/th>\n      <th>Theil's U<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5,6,7,8]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-8" style="width:100%;height:100%;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-8">{"x":{"url":"/blog/2018-10-24-arima-timeseries-forecasting-in-r_files/figure-html//widgets/widget_unnamed-chunk-23.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 <p>Four week holdout…</p>
 <pre class="r"><code>tbats_forecasts_4_weeks &lt;- lapply(aemo_weekly_ts, function(foo) {
   subseries &lt;- ts(head(foo, length(foo)-4), start = start(foo), frequency = frequency(foo))
@@ -307,8 +305,8 @@ snaive_accuracy_8_weeks &lt;- accuracy(snaive_forecasts_8_weeks$totaldemandweek,
 })
 
 tbats_accuracy_4_weeks &lt;- accuracy(tbats_forecasts_4_weeks$totaldemandweek, aemo_weekly_ts)</code></pre>
-<div id="htmlwidget-6" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-6">{"x":{"filter":"none","data":[["Training set","Test set"],[3246.52227741711,-13766.268891193],[112369.86530612,80250.403755672],[81245.62936639,75621.6667727346],[-0.0301915079076944,-0.558661177858925],[2.90996510435658,2.62327545674024],[0.699626747704864,0.651197377543068],[0.000159410664197718,0.302966445626307],[null,1.01926614813719]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>ME<\/th>\n      <th>RMSE<\/th>\n      <th>MAE<\/th>\n      <th>MPE<\/th>\n      <th>MAPE<\/th>\n      <th>MASE<\/th>\n      <th>ACF1<\/th>\n      <th>Theil's U<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5,6,7,8]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-9" style="width:100%;height:100%;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-9">{"x":{"url":"/blog/2018-10-24-arima-timeseries-forecasting-in-r_files/figure-html//widgets/widget_unnamed-chunk-25.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 <p>And lastly the two week holdout…</p>
 <pre class="r"><code>tbats_forecasts_2_weeks &lt;- lapply(aemo_weekly_ts, function(foo) {
   subseries &lt;- ts(head(foo, length(foo)-2), start = start(foo), frequency = frequency(foo))
@@ -316,17 +314,23 @@ tbats_accuracy_4_weeks &lt;- accuracy(tbats_forecasts_4_weeks$totaldemandweek, a
 })
 
 tbats_accuracy_2_weeks &lt;- accuracy(tbats_forecasts_2_weeks$totaldemandweek, aemo_weekly_ts)</code></pre>
-<div id="htmlwidget-7" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-7">{"x":{"filter":"none","data":[["Training set","Test set"],[3324.95395263271,-109195.605678708],[112292.629461382,112325.122692901],[81183.9592328419,109195.605678708],[-0.0273438862313657,-3.88411171029028],[2.90751865037945,3.88411171029028],[0.70046572222824,0.942153838254101],[-0.000458606744175731,-0.5],[null,2.19277355703669]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>ME<\/th>\n      <th>RMSE<\/th>\n      <th>MAE<\/th>\n      <th>MPE<\/th>\n      <th>MAPE<\/th>\n      <th>MASE<\/th>\n      <th>ACF1<\/th>\n      <th>Theil's U<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5,6,7,8]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-10" style="width:100%;height:100%;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-10">{"x":{"url":"/blog/2018-10-24-arima-timeseries-forecasting-in-r_files/figure-html//widgets/widget_unnamed-chunk-27.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 <pre class="r"><code>aemo_weekly_auto_arima &lt;- auto.arima(aemo_weekly_ts)
 
 aemo_daily_auto_arima &lt;- auto.arima(aemo_daily_ts)
 
-DT::datatable(accuracy(aemo_weekly_auto_arima))</code></pre>
+DT::datatable(accuracy(aemo_weekly_auto_arima)) %&gt;% frameWidget(height = &quot;100%&quot;, width = &quot;100%&quot;)</code></pre>
 </div>
 </div>
 </div>
 <div id="conclusions" class="section level1">
 <h1>Conclusions</h1>
-<p>Initially it was tempting to explore the ARIMA model because it offers the tantalizing prospect of being uninfluenced by potentially erroneous variables, and being able to predict future values based off of past values. A timeseries statistician using an ARIMA model needs to be prepared to abandon the notion that there are explanatory variables other than time that will predict the value of a dependent variable. In the case of AEMO energy demand data, I believe that the answer lies somewhere in the grey area; that while we can achieve a reasonable degree of accuracy (or a reasonable low Mean Absolute Standard Error), I intend to continue exploring these methods and beyond. My next exploration of statistical methods will involve looking a possible ways to use an ARIMAX model; essentially an ARIMA model that also factors in multiple explanatory/independent variables alongside the timeseries forecasting of the ARIMA model. Because of the intuitive and rational sense behind the idea that energy demand is likely a function of time as well as various other explanatory variables (as we and also Hyndman have found, temperature data can play a significant role in energy demand) I believe that an intelligent ARIMA model that factors in the linear relationships of independent and dependent variables will achieve a greater level of prediction accuracy than the ARIMA models explored in this submission.</p>
+<ul>
+<li>It is tempting to explore the ARIMA model because it offers the tantalizing prospect of being uninfluenced by potentially erroneous variables, and its able to predict future values based off of past values.</li>
+<li>A timeseries statistician using an ARIMA model needs to be prepared to abandon the notion that there are explanatory variables other than time that will predict the value of a dependent variable.</li>
+<li>In the case of AEMO energy demand data, I believe that the answer lies somewhere in the grey area; that while we can achieve a reasonable degree of accuracy (or a reasonable low Mean Absolute Standard Error), I intend to continue exploring these methods and beyond.</li>
+<li>My next exploration of statistical methods will involve looking a possible ways to use an ARIMAX model; essentially an ARIMA model that also factors in multiple explanatory/independent variables alongside the timeseries forecasting of the ARIMA model.</li>
+<li>There is an intuitive and rational logic behind the idea that energy demand is a function of time as well as various other explanatory variables (as we and also Hyndman et al have found, temperature data can play a significant role in energy demand). * An ARIMA model that factors in the linear relationships of independent and dependent variables will achieve a greater level of prediction accuracy than a generalized automatically selected ARIMA model.</li>
+</ul>
 </div>
